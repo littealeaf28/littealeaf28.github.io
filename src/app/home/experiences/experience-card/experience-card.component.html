@@ -1,0 +1,16 @@
+<div class="experience-card">
+  <div
+    class="image-container"
+    [class]="experience.image.class"
+  >
+    <img
+      [src]="experience.image.path"
+      [alt]="experience.image.alt"
+    >
+  </div>
+  <h1>{{ experience.company }}</h1>
+  <h3>{{ experience.position }}</h3>
+  <p><strong>{{ experience.duration }}</strong></p>
+  <div [innerHTML]="experience.description"></div>
+  <app-skills-hotbar [skills]="experience.skills"></app-skills-hotbar>
+</div>

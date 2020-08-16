@@ -1,0 +1,97 @@
+div.experience-card {
+  display: grid;
+  text-align: left;
+  grid-template-columns: 300px minmax(0, 1fr);
+  grid-template-rows: repeat(3, max-content) min-content;
+  grid-column-gap: 24px;
+  grid-row-gap: 6px;
+
+  margin: 12px 0;
+  max-width: 100%;
+
+  div.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1;
+    grid-row: 1 / 5;
+
+    width: 300px;
+    height: 280px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 4px rgba(#000000, 0.25);
+
+    img {
+      width: 280px;
+    }
+
+    &.studio-reach {
+      background: #ffffff;
+      border: 2px solid #74C1D9;
+    }
+
+    &.bookmarkd {
+      background: #096F37;
+      border: 2px solid #0FCA64;
+    }
+  }
+
+  h1 {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 34px;
+    font-weight: normal;
+    margin: 0;
+    color: #82ADEE;
+  }
+
+  h3 {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    margin: 0;
+    color: #000000;
+  }
+
+  ::ng-deep p {
+    strong {
+      font-weight: bold;
+      font-size: 22px;
+      margin: 0;
+    }
+
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    margin: 2px 0;
+    color: #000000;
+  }
+
+  ::ng-deep a {
+    text-decoration: none;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &.ayhr-link {
+      color: #da3823;
+
+      &:hover {
+        color: #FF7373;
+      }
+    }
+
+    &.bookmarkd-link {
+      color: #0FCA64;
+
+      &:hover {
+        color: #096F37;
+      }
+    }
+  }
+
+  app-skills-hotbar {
+    grid-column: 2;
+  }
+}

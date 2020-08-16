@@ -1,0 +1,32 @@
+div.skills-container {
+  overflow: hidden;
+  height: 44px;
+
+  ul {
+    display: grid;
+    column-gap: 18px;
+    grid-auto-columns: max-content;
+    list-style: none;
+    margin: 4px 0;
+    padding: 0;
+
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+
+    li {
+      grid-row: 1;
+
+      min-width: 160px;
+      padding: 6px;
+      border-radius: 14px;
+      border: 1px solid #82ADEE;
+
+      font-family: 'Advent Pro', sans-serif;
+      font-weight: normal;
+      font-size: 22px;
+      text-align: center;
+      background: #3B3D3A;
+      color: #82ADEE;
+    }
+  }
+}
