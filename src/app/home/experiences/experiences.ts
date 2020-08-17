@@ -22,12 +22,12 @@ export const Experiences: Experience[] = [
     position: 'Software Developer',
     duration: 'June 2020 - Now',
     description: '<p>- Implementing user stories for <a href="https://are-you-house-ready-dev.web.app/" target="_blank" class="ayhr-link">“Are You House Ready”</a>\n' +
-      'project in Angular9 and Firebase and writing end-to-end and unit tests in Cypress and Jasmine for them</p>' +
+      'project in Angular 9 and Firebase and writing end-to-end and unit tests in Cypress and Jasmine for them</p>' +
       '<p>- Helped develop a new layout for real estate vendor cards/pages, integrate\n' +
       'a blog page as updated by an ETL job, and improve site’s SEO, among other features</p>' +
       '<p>- Engages in daily standups, iteration planning meetings, retrospectives, and pair\n' +
       'programming sessions as part of an Agile team with a kanban workflow based in Jira</p>',
-    skills: ['Angular9', 'Firebase']
+    skills: ['TypeScript', 'Angular 9', 'Firebase', 'Cypress', 'Jasmine', 'Jira']
   },
   {
     image: {
@@ -47,6 +47,6 @@ export const Experiences: Experience[] = [
       'via CodeCommit, CodeDeploy + CodePipeline, and sets up domain name and SSL certificate with Route 53 and Amazon Certificate Manager</p>' +
       '<p>- Implemented a minimalistic user interface through React for displaying user information and providing\n' +
       'access to appropriate functionality/services</p>',
-    skills: ['Angular9', 'Firebase']
+    skills: ['React', 'Node', 'Express', 'AWS']
   }
 ];
