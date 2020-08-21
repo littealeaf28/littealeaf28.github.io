@@ -31,6 +31,22 @@ export const Experiences: Experience[] = [
   },
   {
     image: {
+      path: 'assets/logos/uf.png',
+      alt: 'UF Logo',
+      class: 'uf'
+    },
+    company: 'UF CISE',
+    position: 'Applications of Discrete Structures Teaching Assistant',
+    duration: 'January 2020 - Now',
+    description: '<p>- Prepares powerpoint presentations and example problems for brief lecture reviews over core concepts during weekly discussions</p>' +
+      '<p>- Addresses student questions and concerns during weekly office hours</p>' +
+      '<p>- Engages in weekly conferences with the professor and other fellow TAs to plan out the logistics of the course,\n' +
+      'such as times to grade and course content being reviewed</p>' +
+      '<p>- Develops rubrics for grading questions with other TAs</p>',
+    skills: []
+  },
+  {
+    image: {
       path: 'assets/logos/bookmarkd.png',
       alt: 'Bookmark\'d Logo',
       class: 'bookmarkd'
@@ -40,7 +56,7 @@ export const Experiences: Experience[] = [
     duration: 'October 2019 - July 2020',
     description: '<p>- Visit the website now in testing: <a href="https://bookmarkdofficial.com/" target="_blank" class="bookmarkd-link">"BookMark\'d"</a></p>' +
       '<p>- Developed microservices as part of a REST API using Node + Express\n' +
-      '(e.g. user authentication and authorization, product searching, and payment processing) and documents in Confluence\n' +
+      '(e.g. user authentication and authorization, product searching, and payment processing) and documents in Confluence</p>' +
       '<p>- Leverages a variety of 3rd party APIs and software (Passport.js, Elasticsearch, Square, Amazon SES, etc.)\n' +
       'and manages database of user and products through MongoDB</p>' +
       '<p>- Managed web app infrastructure through AWS services: runs app on EC2 instances, develops a pipeline for CI/CD\n' +

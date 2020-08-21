@@ -35,6 +35,15 @@ div.experience-card {
       background: #096F37;
       border: 2px solid #0FCA64;
     }
+
+    &.uf {
+      img {
+        width: 220px;
+      }
+
+      background: #ffffff;
+      border: 2px solid #00529B;
+    }
   }
 
   h1 {
