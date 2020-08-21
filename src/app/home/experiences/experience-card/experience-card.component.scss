@@ -1,13 +1,12 @@
 div.experience-card {
   display: grid;
   text-align: left;
-  grid-template-columns: 300px minmax(0, 1fr);
-  grid-template-rows: repeat(3, max-content) min-content;
+  grid-template-columns: 300px minmax(0, 100%);
+  grid-template-rows: repeat(3, min-content) max-content;
   grid-column-gap: 24px;
   grid-row-gap: 6px;
 
-  margin: 12px 0;
-  max-width: 100%;
+  margin: 30px 0;
 
   div.image-container {
     display: flex;
@@ -16,29 +15,33 @@ div.experience-card {
     grid-column: 1;
     grid-row: 1 / 5;
 
-    width: 300px;
-    height: 280px;
-    border-radius: 30px;
+    width: 280px;
+    height: 260px;
+    border-radius: 24px;
     box-sizing: border-box;
     box-shadow: 0 4px 4px rgba(#000000, 0.25);
 
-    img {
-      width: 280px;
-    }
-
     &.studio-reach {
+      img {
+        width: 260px;
+      }
+
       background: #ffffff;
       border: 2px solid #74C1D9;
     }
 
     &.bookmarkd {
+      img {
+        width: 250px;
+      }
+
       background: #096F37;
       border: 2px solid #0FCA64;
     }
 
     &.uf {
       img {
-        width: 220px;
+        width: 200px;
       }
 
       background: #ffffff;
@@ -62,45 +65,69 @@ div.experience-card {
     color: #000000;
   }
 
-  ::ng-deep p {
-    strong {
-      font-weight: bold;
-      font-size: 22px;
-      margin: 0;
-    }
-
-    font-family: 'Advent Pro', sans-serif;
-    font-weight: normal;
+  strong {
+    font-weight: bold;
     font-size: 22px;
-    margin: 2px 0;
+    margin: 0;
+    font-family: 'Advent Pro', sans-serif;
     color: #000000;
   }
 
-  ::ng-deep a {
-    text-decoration: none;
+  ul {
+    margin: 0;
+    list-style: url('/../../../../../assets/icons/arrow-right.svg');
 
-    &:hover {
-      cursor: pointer;
+    ::ng-deep li {
+      font-family: 'Advent Pro', sans-serif;
+      font-weight: normal;
+      font-size: 22px;
+      color: #000000;
     }
 
-    &.ayhr-link {
-      color: #da3823;
+    ::ng-deep a {
+      text-decoration: none;
 
       &:hover {
-        color: #FF7373;
+        cursor: pointer;
       }
-    }
 
-    &.bookmarkd-link {
-      color: #0FCA64;
+      &.ayhr-link {
+        color: #da3823;
 
-      &:hover {
-        color: #096F37;
+        &:hover {
+          color: #FF7373;
+        }
+      }
+
+      &.bookmarkd-link {
+        color: #0FCA64;
+
+        &:hover {
+          color: #096F37;
+        }
       }
     }
   }
 
   app-skills-hotbar {
     grid-column: 2;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  div.experience-card {
+    grid-template-columns: minmax(0, 100%);
+    justify-items: center;
+    //max-width: 100%;
+    //grid-template-rows: max-content;
+
+    div.image-container {
+      grid-row: 1
+    }
+
+    app-skills-hotbar {
+      width: 100%;
+      grid-column: 1;
+    }
   }
 }

@@ -10,8 +10,8 @@
   </div>
   <h1>{{ experience.company }}</h1>
   <h3>{{ experience.position }}</h3>
-  <p><strong>{{ experience.duration }}</strong></p>
-  <div [innerHTML]="experience.description"></div>
+  <strong>{{ experience.duration }}</strong>
+  <ul [innerHTML]="experience.description"></ul>
   <app-skills-hotbar
     *ngIf="experience.skills.length > 0"
     [skills]="experience.skills"
