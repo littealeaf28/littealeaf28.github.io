@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class SkillsHotbarComponent implements OnInit {
   @Input() skills: string[];
+  @Input() isLightMode: boolean;
 
   constructor() { }
 

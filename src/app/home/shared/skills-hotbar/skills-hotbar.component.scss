@@ -27,6 +27,11 @@ div.skills-container {
       text-align: center;
       background: #3B3D3A;
       color: #82ADEE;
+
+      &.light-mode {
+        border: 1px solid #41DC1A;
+        color: #41DC1A;
+      }
     }
   }
 }

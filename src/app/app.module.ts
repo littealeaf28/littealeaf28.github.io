@@ -7,7 +7,10 @@ import { HomeComponent } from './home/home.component';
 import { ExperiencesComponent } from './home/experiences/experiences.component';
 import { AngularSvgIconModule } from 'angular-svg-icon';
 import { ExperienceCardComponent } from './home/experiences/experience-card/experience-card.component';
-import { SkillsHotbarComponent } from './home/experiences/experience-card/skills-hotbar/skills-hotbar.component';
+import { SkillsHotbarComponent } from './home/shared/skills-hotbar/skills-hotbar.component';
+import { ProjectsComponent } from './home/projects/projects.component';
+import { ProjectDisplayComponent } from './home/projects/project-display/project-display.component';
+import { ProjectCardComponent } from './home/projects/project-card/project-card.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { SkillsHotbarComponent } from './home/experiences/experience-card/skills
     HomeComponent,
     ExperiencesComponent,
     ExperienceCardComponent,
-    SkillsHotbarComponent
+    SkillsHotbarComponent,
+    ProjectsComponent,
+    ProjectDisplayComponent,
+    ProjectCardComponent
   ],
   imports: [
     BrowserModule,

@@ -118,11 +118,13 @@ div.experience-card {
   div.experience-card {
     grid-template-columns: minmax(0, 100%);
     justify-items: center;
-    //max-width: 100%;
-    //grid-template-rows: max-content;
 
     div.image-container {
       grid-row: 1
+    }
+
+    h3 {
+      text-align: center;
     }
 
     app-skills-hotbar {

@@ -51,7 +51,7 @@ export const Experiences: Experience[] = [
       alt: 'Bookmark\'d Logo',
       class: 'bookmarkd'
     },
-    company: 'Bookmark\'d',
+    company: 'BookMark\'d',
     position: 'Full-stack Web Developer',
     duration: 'October 2019 - July 2020',
     description: '<li>Visit the website now in testing: <a href="https://bookmarkdofficial.com/" target="_blank" class="bookmarkd-link">"BookMark\'d"</a></li>' +

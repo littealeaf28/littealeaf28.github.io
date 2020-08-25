@@ -1,0 +1,10 @@
+<div *ngIf="project">
+  <h1>{{ project.name }}</h1>
+  <h3>{{ project.duration }}</h3>
+  <ul [innerHTML]="project.description"></ul>
+  <app-skills-hotbar
+    *ngIf="project.skills.length > 0"
+    [skills]="project.skills"
+    [isLightMode]="true"
+  ></app-skills-hotbar>
+</div>
