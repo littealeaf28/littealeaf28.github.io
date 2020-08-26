@@ -63,6 +63,6 @@ export const Experiences: Experience[] = [
       'via CodeCommit, CodeDeploy + CodePipeline, and sets up domain name and SSL certificate with Route 53 and Amazon Certificate Manager</li>' +
       '<li>Implemented a minimalistic user interface through React for displaying user information and providing\n' +
       'access to appropriate functionality/services</li>',
-    skills: ['React', 'Node', 'Express', 'AWS']
+    skills: ['React', 'Node.js', 'Express.js', 'AWS', 'Confluence']
   }
 ];

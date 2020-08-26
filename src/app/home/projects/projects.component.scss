@@ -19,13 +19,13 @@ section {
     margin: 30px auto;
 
     display: grid;
-    text-align: left;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 100%));
     column-gap: 30px;
     row-gap: 30px;
 
     app-project-display {
       grid-column: span 3;
+      text-align: left;
 
       &.follow-item-0 {
         grid-row: 2;
@@ -45,7 +45,7 @@ section {
 @media all and (max-width: 1200px) {
   section {
     div.project-container {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(2, minmax(0, 100%));
 
       app-project-display {
         grid-column: span 2;
@@ -69,7 +69,7 @@ section {
 @media all and (max-width: 750px) {
   section {
     div.project-container {
-      grid-template-columns: 1fr;
+      grid-template-columns: minmax(0, 100%);
 
       app-project-display {
         grid-column: 1;
