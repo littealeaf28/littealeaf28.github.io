@@ -37,7 +37,7 @@ export const Projects: Project[] = [
       '<li>Allows individual user to keep track of own calendar (unlike When2meet) and easily use it when setting up group calendars\n' +
       'for determining free times to schedule meetings for</li>' +
       '<li>Facilitates such design through Angular 9 as the frontend, Firebase for hosting and database management, and Figma for creating page designs and logo</li>',
-    skills: ['TypeScript', 'Angular 9', 'Firebase', 'Figma']
+    skills: ['TypeScript', 'Angular 9', 'Firebase', 'Figma', 'Trello']
   },
   {
     image: {
@@ -52,7 +52,7 @@ export const Projects: Project[] = [
       '<li>Uses Selenium to scrape movie titles from IMDB site and manages them in a PostgreSQL database\n</li>' +
       '<li>Designed as a means to expand my experiences in data science, particularly with familiarizing myself with web scraping and\n' +
       'managing large quantities of data in a relational database</li>',
-    skills: ['Python', 'Selenium', 'PRAW']
+    skills: ['Python', 'Selenium', 'PRAW', 'Cloud SQL', 'PostgreSQL', 'Jira']
   },
   // {
   //   image: {

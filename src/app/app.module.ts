@@ -11,6 +11,8 @@ import { SkillsHotbarComponent } from './home/shared/skills-hotbar/skills-hotbar
 import { ProjectsComponent } from './home/projects/projects.component';
 import { ProjectDisplayComponent } from './home/projects/project-display/project-display.component';
 import { ProjectCardComponent } from './home/projects/project-card/project-card.component';
+import { ResumeComponent } from './resume/resume.component';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
 
 @NgModule({
   declarations: [
@@ -21,12 +23,14 @@ import { ProjectCardComponent } from './home/projects/project-card/project-card.
     SkillsHotbarComponent,
     ProjectsComponent,
     ProjectDisplayComponent,
-    ProjectCardComponent
+    ProjectCardComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AngularSvgIconModule,
+    PdfViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
