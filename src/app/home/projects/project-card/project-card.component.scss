@@ -41,5 +41,10 @@ div.project-card {
 
   &:hover {
     cursor: pointer;
+    box-shadow: none;
+  }
+
+  &.selected {
+    border: 3px solid #41DC1A;
   }
 }

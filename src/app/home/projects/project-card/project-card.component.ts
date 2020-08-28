@@ -8,6 +8,7 @@ import { Project } from '../project';
 })
 export class ProjectCardComponent implements OnInit {
   @Input() project: Project;
+  @Input() selected: boolean;
 
   constructor() { }
 
