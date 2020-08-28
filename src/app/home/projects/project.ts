@@ -10,6 +10,11 @@ export interface Project {
   skills: string[];
 }
 
+export interface ProjectIndex {
+  project: Project;
+  index: number;
+}
+
 export const Projects: Project[] = [
   {
     image: {
