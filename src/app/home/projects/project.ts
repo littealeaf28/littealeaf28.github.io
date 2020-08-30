@@ -32,13 +32,14 @@ export const Projects: Project[] = [
   },
   {
     image: {
-      path: 'assets/logos/no-image-available.png',
-      alt: 'No Image Available',
-      class: 'no-image-available'
+      path: 'assets/logos/miri-logo.png',
+      alt: 'Miri Logo',
+      class: 'miri'
     },
-    name: 'TimeTracker',
+    name: 'Miri',
     duration: 'August 2020',
-    description: '<li>Implementing a web app that aims to optimize the way groups schedule meetings that works for everyone</li>' +
+    description: '<li>See what we\'re up to for <a target=_blank href="https://timetracker-ca7f3.web.app/signin" class="miri-link">Miri</a></li>' +
+      '<li>Implementing a web app that aims to optimize the way groups schedule meetings that works for everyone</li>' +
       '<li>Allows individual user to keep track of own calendar (unlike When2meet) and easily use it when setting up group calendars\n' +
       'for determining free times to schedule meetings for</li>' +
       '<li>Facilitates such design through Angular 9 as the frontend, Firebase for hosting and database management, and Figma for creating page designs and logo</li>',

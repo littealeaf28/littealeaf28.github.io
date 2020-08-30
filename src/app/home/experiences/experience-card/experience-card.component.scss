@@ -82,28 +82,28 @@ div.experience-card {
       font-weight: normal;
       font-size: 22px;
       color: #000000;
-    }
 
-    ::ng-deep a {
-      text-decoration: none;
-
-      &:hover {
-        cursor: pointer;
-      }
-
-      &.ayhr-link {
-        color: #da3823;
+      ::ng-deep a {
+        text-decoration: none;
 
         &:hover {
-          color: #FF7373;
+          cursor: pointer;
         }
-      }
 
-      &.bookmarkd-link {
-        color: #0FCA64;
+        &.ayhr-link {
+          color: #da3823;
 
-        &:hover {
-          color: #096F37;
+          &:hover {
+            color: #FF7373;
+          }
+        }
+
+        &.bookmarkd-link {
+          color: #0FCA64;
+
+          &:hover {
+            color: #096F37;
+          }
         }
       }
     }

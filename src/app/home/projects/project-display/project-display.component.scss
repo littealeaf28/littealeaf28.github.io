@@ -29,6 +29,22 @@ div {
       font-weight: normal;
       font-size: 22px;
       color: #000000;
+
+      ::ng-deep a {
+        text-decoration: none;
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        &.miri-link {
+          color: #73BCFF;
+
+          &:hover {
+            color: #5fa0f6;
+          }
+        }
+      }
     }
   }
 }
