@@ -356,7 +356,7 @@ const Experiences = [
         description: '<li>Implementing user stories for <a href="https://are-you-house-ready-dev.web.app/" target="_blank" class="ayhr-link">“Are You House Ready”</a>\n' +
             'project in Angular 9 and Firebase and writing end-to-end and unit tests in Cypress and Jasmine for them</li>' +
             '<li>Helped develop a new layout for real estate vendor cards/pages, integrate\n' +
-            'a blog page as updated by an ETL job, and improve site’s SEO, among other features</li>' +
+            'a blog page as updated by an cron/ETL job, and improve site’s SEO, among other features</li>' +
             '<li>Engages in daily standups, iteration planning meetings, retrospectives, and pair\n' +
             'programming sessions as part of an Agile team with a kanban workflow based in Jira</li>',
         skills: ['TypeScript', 'Angular 9', 'Firebase', 'Cypress', 'Jasmine', 'Jira']
@@ -579,12 +579,13 @@ ProjectDisplayComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵ
 /*!******************************************!*\
   !*** ./src/app/home/projects/project.ts ***!
   \******************************************/
-/*! exports provided: Projects */
+/*! exports provided: Projects, ClassProjects */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Projects", function() { return Projects; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ClassProjects", function() { return ClassProjects; });
 const Projects = [
     {
         image: {
@@ -607,13 +608,14 @@ const Projects = [
             class: 'miri'
         },
         name: 'Miri',
-        duration: 'August 2020',
+        duration: 'August 2020 - Now',
         description: '<li>See what we\'re up to for <a target=_blank href="https://timetracker-ca7f3.web.app/signin" class="miri-link">Miri</a></li>' +
             '<li>Implementing a web app that aims to optimize the way groups schedule meetings that works for everyone</li>' +
             '<li>Allows individual user to keep track of own calendar (unlike When2meet) and easily use it when setting up group calendars\n' +
             'for determining free times to schedule meetings for</li>' +
-            '<li>Facilitates such design through Angular 9 as the frontend, Firebase for hosting and database management, and Figma for creating page designs and logo</li>',
-        skills: ['TypeScript', 'Angular 9', 'Firebase', 'Figma', 'Trello']
+            '<li>Facilitates such design through Angular 9 as the frontend, Firebase for hosting and database management, and Figma for creating page designs and logo</li>' +
+            '<li>Sets up a GitLab CI/CD pipeline for efficient deployments on commits to master branch and for running e2e tests on every commit</li>',
+        skills: ['TypeScript', 'Angular 9', 'Firebase', 'Cypress', 'GitLab', 'Figma', 'Trello']
     },
     {
         image: {
@@ -622,14 +624,55 @@ const Projects = [
             class: 'no-image-available'
         },
         name: 'r/movie Tracker',
-        duration: 'August 2020',
+        duration: 'August 2020 - Now',
         description: '<li>Developing a web app that displays the frequency with which certain movies are mentioned in the r/movie\n' +
             'subreddit over time by pulling posts from the subreddit each day via PRAW and determining the number of times a given movie is mentioned</li>' +
-            '<li>Uses Selenium to scrape movie titles from IMDB site and manages them in a PostgreSQL database\n</li>' +
+            '<li>Uses BeautifulSoup/Requests libraries (Selenium) to scrape movie titles from IMDB site and manages them in a PostgreSQL database\n</li>' +
             '<li>Designed as a means to expand my experiences in data science, particularly with familiarizing myself with web scraping and\n' +
             'managing large quantities of data in a relational database</li>',
-        skills: ['Python', 'Selenium', 'PRAW', 'Cloud SQL', 'PostgreSQL', 'Jira']
+        skills: ['Python', 'Selenium', 'PRAW', 'Cloud Functions', 'Cloud SQL', 'PostgreSQL', 'Jira']
     },
+];
+const ClassProjects = [
+    {
+        image: {
+            path: 'assets/logos/no-image-available.png',
+            alt: 'No Image Available',
+            class: 'no-image-available'
+        },
+        name: 'Minesweeper',
+        duration: 'October 2019 - Now',
+        description: '<li>A rendition of the Tic Tac Toe in an Android app format, playable between two people over a single device</li>' +
+            '<li>Incorporates Avatar theme, a 5 by 5 grid board, and additional moves specific to each element (based on the Avatar theme)\n' +
+            'for a more engaging game of Tic Tac Toe\n</li>',
+        skills: ['C++', 'SFML']
+    },
+    {
+        image: {
+            path: 'assets/logos/no-image-available.png',
+            alt: 'No Image Available',
+            class: 'no-image-available'
+        },
+        name: 'CPU (Lab 6)',
+        duration: 'October 2019 - Now',
+        description: '<li>A rendition of the Tic Tac Toe in an Android app format, playable between two people over a single device</li>' +
+            '<li>Incorporates Avatar theme, a 5 by 5 grid board, and additional moves specific to each element (based on the Avatar theme)\n' +
+            'for a more engaging game of Tic Tac Toe\n</li>',
+        skills: ['Quartus', 'VHDL']
+    },
+    {
+        image: {
+            path: 'assets/logos/no-image-available.png',
+            alt: 'No Image Available',
+            class: 'no-image-available'
+        },
+        name: 'Amplifier (Circuits)',
+        duration: 'October 2019 - Now',
+        description: '<li>A rendition of the Tic Tac Toe in an Android app format, playable between two people over a single device</li>' +
+            '<li>Incorporates Avatar theme, a 5 by 5 grid board, and additional moves specific to each element (based on the Avatar theme)\n' +
+            'for a more engaging game of Tic Tac Toe\n</li>',
+        skills: ['C++', 'SFML']
+    }
 ];
 
 
