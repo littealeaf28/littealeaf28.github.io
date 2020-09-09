@@ -24,7 +24,7 @@ export const Experiences: Experience[] = [
     description: '<li>Implementing user stories for <a href="https://are-you-house-ready-dev.web.app/" target="_blank" class="ayhr-link">“Are You House Ready”</a>\n' +
       'project in Angular 9 and Firebase and writing end-to-end and unit tests in Cypress and Jasmine for them</li>' +
       '<li>Helped develop a new layout for real estate vendor cards/pages, integrate\n' +
-      'a blog page as updated by an ETL job, and improve site’s SEO, among other features</li>' +
+      'a blog page as updated by an cron/ETL job, and improve site’s SEO, among other features</li>' +
       '<li>Engages in daily standups, iteration planning meetings, retrospectives, and pair\n' +
       'programming sessions as part of an Agile team with a kanban workflow based in Jira</li>',
     skills: ['TypeScript', 'Angular 9', 'Firebase', 'Cypress', 'Jasmine', 'Jira']
