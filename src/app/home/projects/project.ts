@@ -56,10 +56,10 @@ export const Projects: Project[] = [
     duration: 'August 2020 - Now',
     description: '<li>Developing a web app that displays the frequency with which certain movies are mentioned in the r/movie\n' +
       'subreddit over time by pulling posts from the subreddit each day via PRAW and determining the number of times a given movie is mentioned</li>' +
-      '<li>Uses BeautifulSoup/Requests libraries (Selenium) to scrape movie titles from IMDB site and manages them in a PostgreSQL database\n</li>' +
+      '<li>Uses BeautifulSoup/Requests libraries (Selenium) to scrape movie titles from IMDB site and manages them in a Firestore database\n</li>' +
       '<li>Designed as a means to expand my experiences in data science, particularly with familiarizing myself with web scraping and\n' +
       'managing large quantities of data in a relational database</li>',
-    skills: ['Python', 'Selenium', 'PRAW', 'Cloud Functions', 'Cloud SQL', 'PostgreSQL', 'Jira']
+    skills: ['Python', 'PRAW', 'Cloud Functions', 'Firestore', 'Jira']
   },
   // {
   //   image: {

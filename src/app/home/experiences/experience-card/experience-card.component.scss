@@ -47,6 +47,24 @@ div.experience-card {
       background: #ffffff;
       border: 2px solid #00529B;
     }
+
+    &.no-image-available {
+      img {
+        width: 200px;
+      }
+
+      background: #ffffff;
+      //border: 2px solid #00529B;
+    }
+
+    &.ssd {
+      img {
+        width: 250px;
+      }
+
+      background: #ffffff;
+      border: 2px solid #9fcaf8;
+    }
   }
 
   h1 {
@@ -95,6 +113,14 @@ div.experience-card {
 
           &:hover {
             color: #FF7373;
+          }
+        }
+
+        &.powerpoint-link {
+          color: #3e85ea;
+
+          &:hover {
+            color: #5dacee;
           }
         }
 
