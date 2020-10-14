@@ -373,9 +373,10 @@ const Experiences = [
         description: '<li>Prepares <a href="https://drive.google.com/drive/folders/1QM9RS64zQOC49FDpPT9DpOLxPaHUzl9U?usp=sharing" target="_blank" class="powerpoint-link">powerpoint presentations</a>\n' +
             'and example problems for brief lecture reviews over core concepts during weekly discussions</li>' +
             '<li>Addresses student questions and concerns during weekly office hours</li>' +
-            '<li>Engages in weekly conferences with the professor and other fellow TAs to plan out the logistics of the course,\n' +
+            '<li>Engages in weekly meetings with the professor and other fellow TAs to plan out the logistics of the course,\n' +
             'such as times to grade and course content being reviewed</li>' +
-            '<li>Develops rubrics for grading questions with other TAs</li>',
+            '<li>Develops rubrics for grading questions with other TAs</li>' +
+            '<li>Writes a script to automate the process of taking attendance for the class (see below)</li>',
         skills: []
     },
     {
@@ -626,17 +627,18 @@ __webpack_require__.r(__webpack_exports__);
 const Projects = [
     {
         image: {
-            path: 'assets/logos/crypto-image.png',
-            alt: 'Crypto Image Lock',
-            class: 'crypto-image'
+            path: 'assets/logos/no-image-available.png',
+            alt: 'No Image Available',
+            class: 'no-image-available'
         },
-        name: 'CryptoImage',
-        duration: 'March 2020',
-        description: '<li>A 2020 SwampHacks project that either encodes a message in an image or decodes a message within an image by\n' +
-            'adjusting the RGB values of select pixels to the message’s ASCII values or vice versa</li>' +
-            '<li>Designed as a web app using React for taking in and displaying images and messages and Flask for processing image data\n' +
-            'and performing the encoding and decoding</li>',
-        skills: ['JavaScript', 'React', 'Flask']
+        name: 'TA Attendance Grader',
+        duration: 'October 2020',
+        description: '<li>Develops a script that automates the process of taking student attendance for discussions held over Zoom\n' +
+            'for Applications of Discrete Structures course</li>' +
+            '<li>Uses the Pandas library to extract necessary information (i.e. students who attended long enough in the discussion)\n' +
+            'from CSV file corresponding to the discussion provided by Zoom</li>' +
+            '<li>Interacts with Canvas API through Requests library to make necessary grade changes with associated attendance assignment for the students</li>',
+        skills: ['Python', 'Pandas', 'Canvas API']
     },
     {
         image: {
@@ -668,6 +670,20 @@ const Projects = [
             '<li>Designed as a means to expand my experiences in data science, particularly with familiarizing myself with web scraping and\n' +
             'managing large quantities of data in a relational database</li>',
         skills: ['Python', 'PRAW', 'Cloud Functions', 'Firestore', 'Jira']
+    },
+    {
+        image: {
+            path: 'assets/logos/crypto-image.png',
+            alt: 'Crypto Image Lock',
+            class: 'crypto-image'
+        },
+        name: 'CryptoImage',
+        duration: 'March 2020',
+        description: '<li>A 2020 SwampHacks project that either encodes a message in an image or decodes a message within an image by\n' +
+            'adjusting the RGB values of select pixels to the message’s ASCII values or vice versa</li>' +
+            '<li>Designed as a web app using React for taking in and displaying images and messages and Flask for processing image data\n' +
+            'and performing the encoding and decoding</li>',
+        skills: ['JavaScript', 'React', 'Flask']
     },
 ];
 const ClassProjects = [

@@ -41,9 +41,10 @@ export const Experiences: Experience[] = [
     description: '<li>Prepares <a href="https://drive.google.com/drive/folders/1QM9RS64zQOC49FDpPT9DpOLxPaHUzl9U?usp=sharing" target="_blank" class="powerpoint-link">powerpoint presentations</a>\n' +
       'and example problems for brief lecture reviews over core concepts during weekly discussions</li>' +
       '<li>Addresses student questions and concerns during weekly office hours</li>' +
-      '<li>Engages in weekly conferences with the professor and other fellow TAs to plan out the logistics of the course,\n' +
+      '<li>Engages in weekly meetings with the professor and other fellow TAs to plan out the logistics of the course,\n' +
       'such as times to grade and course content being reviewed</li>' +
-      '<li>Develops rubrics for grading questions with other TAs</li>',
+      '<li>Develops rubrics for grading questions with other TAs</li>' +
+      '<li>Writes a script to automate the process of taking attendance for the class (see below)</li>',
     skills: []
   },
   {
