@@ -558,28 +558,50 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function ProjectDisplayComponent_div_0_app_skills_hotbar_6_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-skills-hotbar", 3);
+function ProjectDisplayComponent_div_0_ng_container_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
 } if (rf & 2) {
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("skills", ctx_r1.project.skills)("isLightMode", true);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("href", ctx_r1.project.link, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r1.project.name);
+} }
+function ProjectDisplayComponent_div_0_ng_template_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h1");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r3.project.name);
+} }
+function ProjectDisplayComponent_div_0_app_skills_hotbar_7_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-skills-hotbar", 6);
+} if (rf & 2) {
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("skills", ctx_r4.project.skills)("isLightMode", true);
 } }
 function ProjectDisplayComponent_div_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ProjectDisplayComponent_div_0_ng_container_1_Template, 3, 2, "ng-container", 1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ProjectDisplayComponent_div_0_ng_template_2_Template, 2, 1, "ng-template", null, 2, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h3");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h3");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "ul", 1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, ProjectDisplayComponent_div_0_app_skills_hotbar_6_Template, 1, 2, "app-skills-hotbar", 2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "ul", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, ProjectDisplayComponent_div_0_app_skills_hotbar_7_Template, 1, 2, "app-skills-hotbar", 4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
+    const _r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](3);
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r0.project.name);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx_r0.project.link)("ngIfElse", _r2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r0.project.duration);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("innerHTML", ctx_r0.project.description, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeHtml"]);
@@ -594,11 +616,11 @@ class ProjectDisplayComponent {
     }
 }
 ProjectDisplayComponent.ɵfac = function ProjectDisplayComponent_Factory(t) { return new (t || ProjectDisplayComponent)(); };
-ProjectDisplayComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectDisplayComponent, selectors: [["app-project-display"]], inputs: { project: "project" }, decls: 1, vars: 1, consts: [[4, "ngIf"], [3, "innerHTML"], [3, "skills", "isLightMode", 4, "ngIf"], [3, "skills", "isLightMode"]], template: function ProjectDisplayComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, ProjectDisplayComponent_div_0_Template, 7, 4, "div", 0);
+ProjectDisplayComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProjectDisplayComponent, selectors: [["app-project-display"]], inputs: { project: "project" }, decls: 1, vars: 1, consts: [[4, "ngIf"], [4, "ngIf", "ngIfElse"], ["noLink", ""], [3, "innerHTML"], [3, "skills", "isLightMode", 4, "ngIf"], ["target", "_blank", 3, "href"], [3, "skills", "isLightMode"]], template: function ProjectDisplayComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, ProjectDisplayComponent_div_0_Template, 8, 5, "div", 0);
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.project);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _shared_skills_hotbar_skills_hotbar_component__WEBPACK_IMPORTED_MODULE_2__["SkillsHotbarComponent"]], styles: ["div[_ngcontent-%COMP%] {\n  text-align: left;\n  border-top: 2px solid #41DC1A;\n  border-bottom: 2px solid #41DC1A;\n  padding: 24px 0;\n}\ndiv[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-family: \"Amaranth\", sans-serif;\n  font-size: 32px;\n  font-weight: normal;\n  margin: 0;\n  color: #41DC1A;\n}\ndiv[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%] {\n  font-family: \"Amaranth\", sans-serif;\n  font-size: 26px;\n  font-weight: normal;\n  margin: 0;\n  color: #000000;\n}\ndiv[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%] {\n  margin: 0 0 4px 0;\n  list-style: url(\"/../../../../assets/icons/arrow-right.svg\");\n}\ndiv[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li {\n  font-family: \"Advent Pro\", sans-serif;\n  font-weight: normal;\n  font-size: 22px;\n  color: #000000;\n}\ndiv[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a {\n  text-decoration: none;\n}\ndiv[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a:hover {\n  cursor: pointer;\n}\ndiv[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.miri-link {\n  color: #73BCFF;\n}\ndiv[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.miri-link:hover {\n  color: #5fa0f6;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9wcm9qZWN0cy9wcm9qZWN0LWRpc3BsYXkvcHJvamVjdC1kaXNwbGF5LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsZ0JBQUE7RUFDQSw2QkFBQTtFQUNBLGdDQUFBO0VBQ0EsZUFBQTtBQUNGO0FBQ0U7RUFDRSxtQ0FBQTtFQUNBLGVBQUE7RUFDQSxtQkFBQTtFQUNBLFNBQUE7RUFDQSxjQUFBO0FBQ0o7QUFFRTtFQUNFLG1DQUFBO0VBQ0EsZUFBQTtFQUNBLG1CQUFBO0VBQ0EsU0FBQTtFQUNBLGNBQUE7QUFBSjtBQUdFO0VBQ0UsaUJBQUE7RUFDQSw0REFBQTtBQURKO0FBR0k7RUFDRSxxQ0FBQTtFQUNBLG1CQUFBO0VBQ0EsZUFBQTtFQUNBLGNBQUE7QUFETjtBQUdNO0VBQ0UscUJBQUE7QUFEUjtBQUdRO0VBQ0UsZUFBQTtBQURWO0FBSVE7RUFDRSxjQUFBO0FBRlY7QUFJVTtFQUNFLGNBQUE7QUFGWiIsImZpbGUiOiJzcmMvYXBwL2hvbWUvcHJvamVjdHMvcHJvamVjdC1kaXNwbGF5L3Byb2plY3QtZGlzcGxheS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImRpdiB7XHJcbiAgdGV4dC1hbGlnbjogbGVmdDtcclxuICBib3JkZXItdG9wOiAycHggc29saWQgIzQxREMxQTtcclxuICBib3JkZXItYm90dG9tOiAycHggc29saWQgIzQxREMxQTtcclxuICBwYWRkaW5nOiAyNHB4IDA7XHJcblxyXG4gIGgxIHtcclxuICAgIGZvbnQtZmFtaWx5OiAnQW1hcmFudGgnLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC1zaXplOiAzMnB4O1xyXG4gICAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIGNvbG9yOiAjNDFEQzFBO1xyXG4gIH1cclxuXHJcbiAgaDMge1xyXG4gICAgZm9udC1mYW1pbHk6ICdBbWFyYW50aCcsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXNpemU6IDI2cHg7XHJcbiAgICBmb250LXdlaWdodDogbm9ybWFsO1xyXG4gICAgbWFyZ2luOiAwO1xyXG4gICAgY29sb3I6ICMwMDAwMDA7XHJcbiAgfVxyXG5cclxuICB1bCB7XHJcbiAgICBtYXJnaW46IDAgMCA0cHggMDtcclxuICAgIGxpc3Qtc3R5bGU6IHVybCgnLy4uLy4uLy4uLy4uL2Fzc2V0cy9pY29ucy9hcnJvdy1yaWdodC5zdmcnKTtcclxuXHJcbiAgICA6Om5nLWRlZXAgbGkge1xyXG4gICAgICBmb250LWZhbWlseTogJ0FkdmVudCBQcm8nLCBzYW5zLXNlcmlmO1xyXG4gICAgICBmb250LXdlaWdodDogbm9ybWFsO1xyXG4gICAgICBmb250LXNpemU6IDIycHg7XHJcbiAgICAgIGNvbG9yOiAjMDAwMDAwO1xyXG5cclxuICAgICAgOjpuZy1kZWVwIGEge1xyXG4gICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuXHJcbiAgICAgICAgJjpob3ZlciB7XHJcbiAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICAmLm1pcmktbGluayB7XHJcbiAgICAgICAgICBjb2xvcjogIzczQkNGRjtcclxuXHJcbiAgICAgICAgICAmOmhvdmVyIHtcclxuICAgICAgICAgICAgY29sb3I6ICM1ZmEwZjY7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgfVxyXG4gICAgICB9XHJcbiAgICB9XHJcbiAgfVxyXG59XHJcbiJdfQ== */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _shared_skills_hotbar_skills_hotbar_component__WEBPACK_IMPORTED_MODULE_2__["SkillsHotbarComponent"]], styles: ["div[_ngcontent-%COMP%] {\n  text-align: left;\n  border-top: 2px solid #41DC1A;\n  border-bottom: 2px solid #41DC1A;\n  padding: 24px 0;\n}\ndiv[_ngcontent-%COMP%]   a[_ngcontent-%COMP%], div[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-family: \"Amaranth\", sans-serif;\n  font-size: 32px;\n  font-weight: normal;\n  margin: 0;\n  color: #41DC1A;\n  text-decoration: none;\n}\ndiv[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]:hover {\n  color: #7de067;\n}\ndiv[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%] {\n  font-family: \"Amaranth\", sans-serif;\n  font-size: 26px;\n  font-weight: normal;\n  margin: 0;\n  color: #000000;\n}\ndiv[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%] {\n  margin: 0 0 4px 0;\n  list-style: url(\"/../../../../assets/icons/arrow-right.svg\");\n}\ndiv[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li {\n  font-family: \"Advent Pro\", sans-serif;\n  font-weight: normal;\n  font-size: 22px;\n  color: #000000;\n}\ndiv[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a {\n  text-decoration: none;\n}\ndiv[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a:hover {\n  cursor: pointer;\n}\ndiv[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.miri-link {\n  color: #73BCFF;\n}\ndiv[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.miri-link:hover {\n  color: #5fa0f6;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9wcm9qZWN0cy9wcm9qZWN0LWRpc3BsYXkvcHJvamVjdC1kaXNwbGF5LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsZ0JBQUE7RUFDQSw2QkFBQTtFQUNBLGdDQUFBO0VBQ0EsZUFBQTtBQUNGO0FBQ0U7RUFDRSxtQ0FBQTtFQUNBLGVBQUE7RUFDQSxtQkFBQTtFQUNBLFNBQUE7RUFDQSxjQUFBO0VBQ0EscUJBQUE7QUFDSjtBQUVFO0VBQ0UsY0FBQTtBQUFKO0FBR0U7RUFDRSxtQ0FBQTtFQUNBLGVBQUE7RUFDQSxtQkFBQTtFQUNBLFNBQUE7RUFDQSxjQUFBO0FBREo7QUFJRTtFQUNFLGlCQUFBO0VBQ0EsNERBQUE7QUFGSjtBQUlJO0VBQ0UscUNBQUE7RUFDQSxtQkFBQTtFQUNBLGVBQUE7RUFDQSxjQUFBO0FBRk47QUFJTTtFQUNFLHFCQUFBO0FBRlI7QUFJUTtFQUNFLGVBQUE7QUFGVjtBQUtRO0VBQ0UsY0FBQTtBQUhWO0FBS1U7RUFDRSxjQUFBO0FBSFoiLCJmaWxlIjoic3JjL2FwcC9ob21lL3Byb2plY3RzL3Byb2plY3QtZGlzcGxheS9wcm9qZWN0LWRpc3BsYXkuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJkaXYge1xyXG4gIHRleHQtYWxpZ246IGxlZnQ7XHJcbiAgYm9yZGVyLXRvcDogMnB4IHNvbGlkICM0MURDMUE7XHJcbiAgYm9yZGVyLWJvdHRvbTogMnB4IHNvbGlkICM0MURDMUE7XHJcbiAgcGFkZGluZzogMjRweCAwO1xyXG5cclxuICBhLCBoMSB7XHJcbiAgICBmb250LWZhbWlseTogJ0FtYXJhbnRoJywgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtc2l6ZTogMzJweDtcclxuICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XHJcbiAgICBtYXJnaW46IDA7XHJcbiAgICBjb2xvcjogIzQxREMxQTtcclxuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICB9XHJcblxyXG4gIGE6aG92ZXIge1xyXG4gICAgY29sb3I6ICM3ZGUwNjc7XHJcbiAgfVxyXG5cclxuICBoMyB7XHJcbiAgICBmb250LWZhbWlseTogJ0FtYXJhbnRoJywgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtc2l6ZTogMjZweDtcclxuICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XHJcbiAgICBtYXJnaW46IDA7XHJcbiAgICBjb2xvcjogIzAwMDAwMDtcclxuICB9XHJcblxyXG4gIHVsIHtcclxuICAgIG1hcmdpbjogMCAwIDRweCAwO1xyXG4gICAgbGlzdC1zdHlsZTogdXJsKCcvLi4vLi4vLi4vLi4vYXNzZXRzL2ljb25zL2Fycm93LXJpZ2h0LnN2ZycpO1xyXG5cclxuICAgIDo6bmctZGVlcCBsaSB7XHJcbiAgICAgIGZvbnQtZmFtaWx5OiAnQWR2ZW50IFBybycsIHNhbnMtc2VyaWY7XHJcbiAgICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XHJcbiAgICAgIGZvbnQtc2l6ZTogMjJweDtcclxuICAgICAgY29sb3I6ICMwMDAwMDA7XHJcblxyXG4gICAgICA6Om5nLWRlZXAgYSB7XHJcbiAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG5cclxuICAgICAgICAmOmhvdmVyIHtcclxuICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgICYubWlyaS1saW5rIHtcclxuICAgICAgICAgIGNvbG9yOiAjNzNCQ0ZGO1xyXG5cclxuICAgICAgICAgICY6aG92ZXIge1xyXG4gICAgICAgICAgICBjb2xvcjogIzVmYTBmNjtcclxuICAgICAgICAgIH1cclxuICAgICAgICB9XHJcbiAgICAgIH1cclxuICAgIH1cclxuICB9XHJcbn1cclxuIl19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ProjectDisplayComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -632,6 +654,7 @@ const Projects = [
             class: 'no-image-available'
         },
         name: 'TA Attendance Grader',
+        link: null,
         duration: 'October 2020',
         description: '<li>Develops a script that automates the process of taking student attendance for discussions held over Zoom\n' +
             'for Applications of Discrete Structures course</li>' +
@@ -647,6 +670,7 @@ const Projects = [
             class: 'miri'
         },
         name: 'Miri',
+        link: 'https://github.com/meimunchi/timetracker',
         duration: 'August 2020 - Now',
         description: '<li>See what we\'re up to for <a target=_blank href="https://timetracker-ca7f3.web.app/signin" class="miri-link">Miri</a></li>' +
             '<li>Implementing a web app that aims to optimize the way groups schedule meetings that works for everyone</li>' +
@@ -663,6 +687,7 @@ const Projects = [
             class: 'no-image-available'
         },
         name: 'r/movie Tracker',
+        link: 'https://github.com/littealeaf28/movie-tracker',
         duration: 'August 2020 - Now',
         description: '<li>Developing a web app that displays the frequency with which certain movies are mentioned in the r/movie\n' +
             'subreddit over time by pulling posts from the subreddit each day via PRAW and determining the number of times a given movie is mentioned</li>' +
@@ -678,6 +703,7 @@ const Projects = [
             class: 'crypto-image'
         },
         name: 'CryptoImage',
+        link: 'https://github.com/littealeaf28/cryptoimage',
         duration: 'March 2020',
         description: '<li>A 2020 SwampHacks project that either encodes a message in an image or decodes a message within an image by\n' +
             'adjusting the RGB values of select pixels to the message’s ASCII values or vice versa</li>' +
@@ -694,6 +720,7 @@ const ClassProjects = [
             class: 'no-image-available'
         },
         name: 'Minesweeper',
+        link: null,
         duration: 'October 2019 - Now',
         description: '<li>A rendition of the Tic Tac Toe in an Android app format, playable between two people over a single device</li>' +
             '<li>Incorporates Avatar theme, a 5 by 5 grid board, and additional moves specific to each element (based on the Avatar theme)\n' +
@@ -707,6 +734,7 @@ const ClassProjects = [
             class: 'no-image-available'
         },
         name: 'CPU (Lab 6)',
+        link: null,
         duration: 'October 2019 - Now',
         description: '<li>A rendition of the Tic Tac Toe in an Android app format, playable between two people over a single device</li>' +
             '<li>Incorporates Avatar theme, a 5 by 5 grid board, and additional moves specific to each element (based on the Avatar theme)\n' +
@@ -720,6 +748,7 @@ const ClassProjects = [
             class: 'no-image-available'
         },
         name: 'Amplifier (Circuits)',
+        link: null,
         duration: 'October 2019 - Now',
         description: '<li>A rendition of the Tic Tac Toe in an Android app format, playable between two people over a single device</li>' +
             '<li>Incorporates Avatar theme, a 5 by 5 grid board, and additional moves specific to each element (based on the Avatar theme)\n' +

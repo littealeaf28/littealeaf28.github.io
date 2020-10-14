@@ -5,6 +5,7 @@ export interface Project {
     class: string
   };
   name: string;
+  link: string | null;
   duration: string;
   description: string;
   skills: string[];
@@ -23,6 +24,7 @@ export const Projects: Project[] = [
       class: 'no-image-available'
     },
     name: 'TA Attendance Grader',
+    link: null,
     duration: 'October 2020',
     description: '<li>Develops a script that automates the process of taking student attendance for discussions held over Zoom\n' +
       'for Applications of Discrete Structures course</li>' +
@@ -38,6 +40,7 @@ export const Projects: Project[] = [
       class: 'miri'
     },
     name: 'Miri',
+    link: 'https://github.com/meimunchi/timetracker',
     duration: 'August 2020 - Now',
     description: '<li>See what we\'re up to for <a target=_blank href="https://timetracker-ca7f3.web.app/signin" class="miri-link">Miri</a></li>' +
       '<li>Implementing a web app that aims to optimize the way groups schedule meetings that works for everyone</li>' +
@@ -54,6 +57,7 @@ export const Projects: Project[] = [
       class: 'no-image-available'
     },
     name: 'r/movie Tracker',
+    link: 'https://github.com/littealeaf28/movie-tracker',
     duration: 'August 2020 - Now',
     description: '<li>Developing a web app that displays the frequency with which certain movies are mentioned in the r/movie\n' +
       'subreddit over time by pulling posts from the subreddit each day via PRAW and determining the number of times a given movie is mentioned</li>' +
@@ -69,6 +73,7 @@ export const Projects: Project[] = [
       class: 'crypto-image'
     },
     name: 'CryptoImage',
+    link: 'https://github.com/littealeaf28/cryptoimage',
     duration: 'March 2020',
     description: '<li>A 2020 SwampHacks project that either encodes a message in an image or decodes a message within an image by\n' +
       'adjusting the RGB values of select pixels to the message’s ASCII values or vice versa</li>' +
@@ -99,6 +104,7 @@ export const ClassProjects: Project[] = [
       class: 'no-image-available'
     },
     name: 'Minesweeper',
+    link: null,
     duration: 'October 2019 - Now',
     description: '<li>A rendition of the Tic Tac Toe in an Android app format, playable between two people over a single device</li>' +
       '<li>Incorporates Avatar theme, a 5 by 5 grid board, and additional moves specific to each element (based on the Avatar theme)\n' +
@@ -112,6 +118,7 @@ export const ClassProjects: Project[] = [
       class: 'no-image-available'
     },
     name: 'CPU (Lab 6)',
+    link: null,
     duration: 'October 2019 - Now',
     description: '<li>A rendition of the Tic Tac Toe in an Android app format, playable between two people over a single device</li>' +
       '<li>Incorporates Avatar theme, a 5 by 5 grid board, and additional moves specific to each element (based on the Avatar theme)\n' +
@@ -125,6 +132,7 @@ export const ClassProjects: Project[] = [
       class: 'no-image-available'
     },
     name: 'Amplifier (Circuits)',
+    link: null,
     duration: 'October 2019 - Now',
     description: '<li>A rendition of the Tic Tac Toe in an Android app format, playable between two people over a single device</li>' +
       '<li>Incorporates Avatar theme, a 5 by 5 grid board, and additional moves specific to each element (based on the Avatar theme)\n' +

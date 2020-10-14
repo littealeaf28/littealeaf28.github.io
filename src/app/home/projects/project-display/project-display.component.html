@@ -1,5 +1,10 @@
 <div *ngIf="project">
-  <h1>{{ project.name }}</h1>
+  <ng-container *ngIf="project.link; else noLink">
+    <a [href]="project.link" target="_blank">{{ project.name }}</a>
+  </ng-container>
+  <ng-template #noLink>
+    <h1>{{ project.name }}</h1>
+  </ng-template>
   <h3>{{ project.duration }}</h3>
   <ul [innerHTML]="project.description"></ul>
   <app-skills-hotbar
