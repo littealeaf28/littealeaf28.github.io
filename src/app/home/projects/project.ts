@@ -26,11 +26,8 @@ export const Projects: Project[] = [
     name: 'TA Attendance Grader',
     link: null,
     duration: 'October 2020',
-    description: '<li>Develops a script that automates the process of taking student attendance for discussions held over Zoom\n' +
-      'for Applications of Discrete Structures course</li>' +
-      '<li>Uses the Pandas library to extract necessary information (i.e. students who attended long enough in the discussion)\n' +
-      'from CSV file corresponding to the discussion provided by Zoom</li>' +
-      '<li>Interacts with Canvas API through Requests library to make necessary grade changes with associated attendance assignment for the students</li>',
+    description: '<li>Develop script that automates attendance for 300-400 students in Zoom discussions for “Applications of Discrete Structures”, increasing efficiency</li>' +
+      '<li>Utilize Pandas and Canvas API to extract info from Zoom CSV files and make grade changes</li>',
     skills: ['Python', 'Pandas', 'Canvas API']
   },
   {
@@ -50,22 +47,6 @@ export const Projects: Project[] = [
       '<li>Sets up a GitLab CI/CD pipeline for efficient deployments on commits to master branch and for running e2e tests on every commit</li>',
     skills: ['TypeScript', 'Angular 9', 'Firebase', 'Cypress', 'GitLab', 'Figma']
   },
-  // {
-  //   image: {
-  //     path: 'assets/logos/no-image-available.png',
-  //     alt: 'No Image Available',
-  //     class: 'no-image-available'
-  //   },
-  //   name: 'r/movie Tracker',
-  //   link: 'https://github.com/littealeaf28/movie-tracker',
-  //   duration: 'August 2020 - Now',
-  //   description: '<li>Developing a web app that displays the frequency with which certain movies are mentioned in the r/movie\n' +
-  //     'subreddit over time by pulling posts from the subreddit each day via PRAW and determining the number of times a given movie is mentioned</li>' +
-  //     '<li>Uses BeautifulSoup/Requests libraries (Selenium) to scrape movie titles from IMDB site and manages them in a Firestore database\n</li>' +
-  //     '<li>Designed as a means to expand my experiences in data science, particularly with familiarizing myself with web scraping and\n' +
-  //     'managing large quantities of data in a relational database</li>',
-  //   skills: ['Python', 'PRAW', 'Cloud Functions', 'Firestore', 'Jira']
-  // },
   {
     image: {
       path: 'assets/logos/crypto-image.png',
@@ -81,17 +62,4 @@ export const Projects: Project[] = [
       'and performing the encoding and decoding</li>',
     skills: ['JavaScript', 'React', 'Flask']
   }
-  // {
-  //   image: {
-  //     path: 'assets/logos/no-image-available.png',
-  //     alt: 'No Image Available',
-  //     class: 'no-image-available'
-  //   },
-  //   name: 'Four Elements in a Row',
-  //   duration: 'October 2019 - Now',
-  //   description: '<li>A rendition of the Tic Tac Toe in an Android app format, playable between two people over a single device</li>' +
-  //     '<li>Incorporates Avatar theme, a 5 by 5 grid board, and additional moves specific to each element (based on the Avatar theme)\n' +
-  //     'for a more engaging game of Tic Tac Toe\n</li>',
-  //   skills: ['Java', 'Android Studio', 'GIMP']
-  // }
 ];

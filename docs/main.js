@@ -257,7 +257,7 @@ ExperienceCardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵ
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("innerHTML", ctx.experience.description, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeHtml"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.experience.skills.length > 0);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _shared_skills_hotbar_skills_hotbar_component__WEBPACK_IMPORTED_MODULE_2__["SkillsHotbarComponent"]], styles: ["div.experience-card[_ngcontent-%COMP%] {\n  display: grid;\n  text-align: left;\n  grid-template-columns: 300px minmax(0, 100%);\n  grid-template-rows: repeat(3, -webkit-min-content) -webkit-max-content;\n  grid-template-rows: repeat(3, min-content) max-content;\n  grid-column-gap: 24px;\n  grid-row-gap: 6px;\n  margin: 30px 0;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  grid-column: 1;\n  grid-row: 1/5;\n  width: 280px;\n  height: 260px;\n  border-radius: 24px;\n  box-sizing: border-box;\n  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.studio-reach[_ngcontent-%COMP%] {\n  background: #ffffff;\n  border: 2px solid #74C1D9;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.studio-reach[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 260px;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.bookmarkd[_ngcontent-%COMP%] {\n  background: #096F37;\n  border: 2px solid #0FCA64;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.bookmarkd[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 250px;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.uf[_ngcontent-%COMP%] {\n  background: #ffffff;\n  border: 2px solid #00529B;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.uf[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 200px;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.no-image-available[_ngcontent-%COMP%] {\n  background: #ffffff;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.no-image-available[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 200px;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.ssd[_ngcontent-%COMP%] {\n  background: #ffffff;\n  border: 2px solid #9fcaf8;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.ssd[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 250px;\n}\ndiv.experience-card[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-family: \"Amaranth\", sans-serif;\n  font-size: 34px;\n  font-weight: normal;\n  margin: 0;\n  color: #82ADEE;\n}\ndiv.experience-card[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%] {\n  font-family: \"Amaranth\", sans-serif;\n  font-size: 28px;\n  font-weight: normal;\n  margin: 0;\n  color: #000000;\n}\ndiv.experience-card[_ngcontent-%COMP%]   strong[_ngcontent-%COMP%] {\n  font-weight: bold;\n  font-size: 22px;\n  margin: 0;\n  font-family: \"Advent Pro\", sans-serif;\n  color: #000000;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%] {\n  margin: 0;\n  list-style: url(\"/../../../../../assets/icons/arrow-right.svg\");\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li {\n  font-family: \"Advent Pro\", sans-serif;\n  font-weight: normal;\n  font-size: 22px;\n  color: #000000;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a {\n  text-decoration: none;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a:hover {\n  cursor: pointer;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.ayhr-link {\n  color: #da3823;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.ayhr-link:hover {\n  color: #FF7373;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.powerpoint-link {\n  color: #3e85ea;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.powerpoint-link:hover {\n  color: #5dacee;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.bookmarkd-link {\n  color: #0FCA64;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.bookmarkd-link:hover {\n  color: #096F37;\n}\ndiv.experience-card[_ngcontent-%COMP%]   app-skills-hotbar[_ngcontent-%COMP%] {\n  grid-column: 2;\n}\n@media all and (max-width: 1000px) {\n  div.experience-card[_ngcontent-%COMP%] {\n    grid-template-columns: minmax(0, 100%);\n    justify-items: center;\n  }\n  div.experience-card[_ngcontent-%COMP%]   div.image-container[_ngcontent-%COMP%] {\n    grid-row: 1;\n  }\n  div.experience-card[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%] {\n    text-align: center;\n  }\n  div.experience-card[_ngcontent-%COMP%]   app-skills-hotbar[_ngcontent-%COMP%] {\n    width: 100%;\n    grid-column: 1;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9leHBlcmllbmNlcy9leHBlcmllbmNlLWNhcmQvZXhwZXJpZW5jZS1jYXJkLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBQTtFQUNBLGdCQUFBO0VBQ0EsNENBQUE7RUFDQSxzRUFBQTtFQUFBLHNEQUFBO0VBQ0EscUJBQUE7RUFDQSxpQkFBQTtFQUVBLGNBQUE7QUFBRjtBQUVFO0VBQ0UsYUFBQTtFQUNBLG1CQUFBO0VBQ0EsdUJBQUE7RUFDQSxjQUFBO0VBQ0EsYUFBQTtFQUVBLFlBQUE7RUFDQSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSxzQkFBQTtFQUNBLHlDQUFBO0FBREo7QUFHSTtFQUtFLG1CQUFBO0VBQ0EseUJBQUE7QUFMTjtBQUFNO0VBQ0UsWUFBQTtBQUVSO0FBS0k7RUFLRSxtQkFBQTtFQUNBLHlCQUFBO0FBUE47QUFFTTtFQUNFLFlBQUE7QUFBUjtBQU9JO0VBS0UsbUJBQUE7RUFDQSx5QkFBQTtBQVROO0FBSU07RUFDRSxZQUFBO0FBRlI7QUFTSTtFQUtFLG1CQUFBO0FBWE47QUFPTTtFQUNFLFlBQUE7QUFMUjtBQVlJO0VBS0UsbUJBQUE7RUFDQSx5QkFBQTtBQWROO0FBU007RUFDRSxZQUFBO0FBUFI7QUFlRTtFQUNFLG1DQUFBO0VBQ0EsZUFBQTtFQUNBLG1CQUFBO0VBQ0EsU0FBQTtFQUNBLGNBQUE7QUFiSjtBQWdCRTtFQUNFLG1DQUFBO0VBQ0EsZUFBQTtFQUNBLG1CQUFBO0VBQ0EsU0FBQTtFQUNBLGNBQUE7QUFkSjtBQWlCRTtFQUNFLGlCQUFBO0VBQ0EsZUFBQTtFQUNBLFNBQUE7RUFDQSxxQ0FBQTtFQUNBLGNBQUE7QUFmSjtBQWtCRTtFQUNFLFNBQUE7RUFDQSwrREFBQTtBQWhCSjtBQWtCSTtFQUNFLHFDQUFBO0VBQ0EsbUJBQUE7RUFDQSxlQUFBO0VBQ0EsY0FBQTtBQWhCTjtBQWtCTTtFQUNFLHFCQUFBO0FBaEJSO0FBa0JRO0VBQ0UsZUFBQTtBQWhCVjtBQW1CUTtFQUNFLGNBQUE7QUFqQlY7QUFtQlU7RUFDRSxjQUFBO0FBakJaO0FBcUJRO0VBQ0UsY0FBQTtBQW5CVjtBQXFCVTtFQUNFLGNBQUE7QUFuQlo7QUF1QlE7RUFDRSxjQUFBO0FBckJWO0FBdUJVO0VBQ0UsY0FBQTtBQXJCWjtBQTRCRTtFQUNFLGNBQUE7QUExQko7QUE4QkE7RUFDRTtJQUNFLHNDQUFBO0lBQ0EscUJBQUE7RUEzQkY7RUE2QkU7SUFDRSxXQUFBO0VBM0JKO0VBOEJFO0lBQ0Usa0JBQUE7RUE1Qko7RUErQkU7SUFDRSxXQUFBO0lBQ0EsY0FBQTtFQTdCSjtBQUNGIiwiZmlsZSI6InNyYy9hcHAvaG9tZS9leHBlcmllbmNlcy9leHBlcmllbmNlLWNhcmQvZXhwZXJpZW5jZS1jYXJkLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiZGl2LmV4cGVyaWVuY2UtY2FyZCB7XHJcbiAgZGlzcGxheTogZ3JpZDtcclxuICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG4gIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMzAwcHggbWlubWF4KDAsIDEwMCUpO1xyXG4gIGdyaWQtdGVtcGxhdGUtcm93czogcmVwZWF0KDMsIG1pbi1jb250ZW50KSBtYXgtY29udGVudDtcclxuICBncmlkLWNvbHVtbi1nYXA6IDI0cHg7XHJcbiAgZ3JpZC1yb3ctZ2FwOiA2cHg7XHJcblxyXG4gIG1hcmdpbjogMzBweCAwO1xyXG5cclxuICBkaXYuaW1hZ2UtY29udGFpbmVyIHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICBncmlkLWNvbHVtbjogMTtcclxuICAgIGdyaWQtcm93OiAxIC8gNTtcclxuXHJcbiAgICB3aWR0aDogMjgwcHg7XHJcbiAgICBoZWlnaHQ6IDI2MHB4O1xyXG4gICAgYm9yZGVyLXJhZGl1czogMjRweDtcclxuICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbiAgICBib3gtc2hhZG93OiAwIDRweCA0cHggcmdiYSgjMDAwMDAwLCAwLjI1KTtcclxuXHJcbiAgICAmLnN0dWRpby1yZWFjaCB7XHJcbiAgICAgIGltZyB7XHJcbiAgICAgICAgd2lkdGg6IDI2MHB4O1xyXG4gICAgICB9XHJcblxyXG4gICAgICBiYWNrZ3JvdW5kOiAjZmZmZmZmO1xyXG4gICAgICBib3JkZXI6IDJweCBzb2xpZCAjNzRDMUQ5O1xyXG4gICAgfVxyXG5cclxuICAgICYuYm9va21hcmtkIHtcclxuICAgICAgaW1nIHtcclxuICAgICAgICB3aWR0aDogMjUwcHg7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIGJhY2tncm91bmQ6ICMwOTZGMzc7XHJcbiAgICAgIGJvcmRlcjogMnB4IHNvbGlkICMwRkNBNjQ7XHJcbiAgICB9XHJcblxyXG4gICAgJi51ZiB7XHJcbiAgICAgIGltZyB7XHJcbiAgICAgICAgd2lkdGg6IDIwMHB4O1xyXG4gICAgICB9XHJcblxyXG4gICAgICBiYWNrZ3JvdW5kOiAjZmZmZmZmO1xyXG4gICAgICBib3JkZXI6IDJweCBzb2xpZCAjMDA1MjlCO1xyXG4gICAgfVxyXG5cclxuICAgICYubm8taW1hZ2UtYXZhaWxhYmxlIHtcclxuICAgICAgaW1nIHtcclxuICAgICAgICB3aWR0aDogMjAwcHg7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIGJhY2tncm91bmQ6ICNmZmZmZmY7XHJcbiAgICAgIC8vYm9yZGVyOiAycHggc29saWQgIzAwNTI5QjtcclxuICAgIH1cclxuXHJcbiAgICAmLnNzZCB7XHJcbiAgICAgIGltZyB7XHJcbiAgICAgICAgd2lkdGg6IDI1MHB4O1xyXG4gICAgICB9XHJcblxyXG4gICAgICBiYWNrZ3JvdW5kOiAjZmZmZmZmO1xyXG4gICAgICBib3JkZXI6IDJweCBzb2xpZCAjOWZjYWY4O1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgaDEge1xyXG4gICAgZm9udC1mYW1pbHk6ICdBbWFyYW50aCcsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXNpemU6IDM0cHg7XHJcbiAgICBmb250LXdlaWdodDogbm9ybWFsO1xyXG4gICAgbWFyZ2luOiAwO1xyXG4gICAgY29sb3I6ICM4MkFERUU7XHJcbiAgfVxyXG5cclxuICBoMyB7XHJcbiAgICBmb250LWZhbWlseTogJ0FtYXJhbnRoJywgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtc2l6ZTogMjhweDtcclxuICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XHJcbiAgICBtYXJnaW46IDA7XHJcbiAgICBjb2xvcjogIzAwMDAwMDtcclxuICB9XHJcblxyXG4gIHN0cm9uZyB7XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgIGZvbnQtc2l6ZTogMjJweDtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIGZvbnQtZmFtaWx5OiAnQWR2ZW50IFBybycsIHNhbnMtc2VyaWY7XHJcbiAgICBjb2xvcjogIzAwMDAwMDtcclxuICB9XHJcblxyXG4gIHVsIHtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIGxpc3Qtc3R5bGU6IHVybCgnLy4uLy4uLy4uLy4uLy4uL2Fzc2V0cy9pY29ucy9hcnJvdy1yaWdodC5zdmcnKTtcclxuXHJcbiAgICA6Om5nLWRlZXAgbGkge1xyXG4gICAgICBmb250LWZhbWlseTogJ0FkdmVudCBQcm8nLCBzYW5zLXNlcmlmO1xyXG4gICAgICBmb250LXdlaWdodDogbm9ybWFsO1xyXG4gICAgICBmb250LXNpemU6IDIycHg7XHJcbiAgICAgIGNvbG9yOiAjMDAwMDAwO1xyXG5cclxuICAgICAgOjpuZy1kZWVwIGEge1xyXG4gICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuXHJcbiAgICAgICAgJjpob3ZlciB7XHJcbiAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICAmLmF5aHItbGluayB7XHJcbiAgICAgICAgICBjb2xvcjogI2RhMzgyMztcclxuXHJcbiAgICAgICAgICAmOmhvdmVyIHtcclxuICAgICAgICAgICAgY29sb3I6ICNGRjczNzM7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICAmLnBvd2VycG9pbnQtbGluayB7XHJcbiAgICAgICAgICBjb2xvcjogIzNlODVlYTtcclxuXHJcbiAgICAgICAgICAmOmhvdmVyIHtcclxuICAgICAgICAgICAgY29sb3I6ICM1ZGFjZWU7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICAmLmJvb2ttYXJrZC1saW5rIHtcclxuICAgICAgICAgIGNvbG9yOiAjMEZDQTY0O1xyXG5cclxuICAgICAgICAgICY6aG92ZXIge1xyXG4gICAgICAgICAgICBjb2xvcjogIzA5NkYzNztcclxuICAgICAgICAgIH1cclxuICAgICAgICB9XHJcbiAgICAgIH1cclxuICAgIH1cclxuICB9XHJcblxyXG4gIGFwcC1za2lsbHMtaG90YmFyIHtcclxuICAgIGdyaWQtY29sdW1uOiAyO1xyXG4gIH1cclxufVxyXG5cclxuQG1lZGlhIGFsbCBhbmQgKG1heC13aWR0aDogMTAwMHB4KSB7XHJcbiAgZGl2LmV4cGVyaWVuY2UtY2FyZCB7XHJcbiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IG1pbm1heCgwLCAxMDAlKTtcclxuICAgIGp1c3RpZnktaXRlbXM6IGNlbnRlcjtcclxuXHJcbiAgICBkaXYuaW1hZ2UtY29udGFpbmVyIHtcclxuICAgICAgZ3JpZC1yb3c6IDFcclxuICAgIH1cclxuXHJcbiAgICBoMyB7XHJcbiAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIH1cclxuXHJcbiAgICBhcHAtc2tpbGxzLWhvdGJhciB7XHJcbiAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICBncmlkLWNvbHVtbjogMTtcclxuICAgIH1cclxuICB9XHJcbn1cclxuIl19 */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _shared_skills_hotbar_skills_hotbar_component__WEBPACK_IMPORTED_MODULE_2__["SkillsHotbarComponent"]], styles: ["div.experience-card[_ngcontent-%COMP%] {\n  display: grid;\n  text-align: left;\n  grid-template-columns: 300px minmax(0, 100%);\n  grid-template-rows: repeat(3, -webkit-min-content) -webkit-max-content;\n  grid-template-rows: repeat(3, min-content) max-content;\n  grid-column-gap: 24px;\n  grid-row-gap: 6px;\n  margin: 30px 0;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  grid-column: 1;\n  grid-row: 1/5;\n  width: 280px;\n  height: 260px;\n  border-radius: 24px;\n  box-sizing: border-box;\n  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.jpmchase[_ngcontent-%COMP%] {\n  background: #ffffff;\n  border: 2px solid #00477b;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.jpmchase[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 240px;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.studio-reach[_ngcontent-%COMP%] {\n  background: #ffffff;\n  border: 2px solid #74C1D9;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.studio-reach[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 260px;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.bookmarkd[_ngcontent-%COMP%] {\n  background: #096F37;\n  border: 2px solid #0FCA64;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.bookmarkd[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 250px;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.uf[_ngcontent-%COMP%] {\n  background: #ffffff;\n  border: 2px solid #00529B;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.uf[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 200px;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.no-image-available[_ngcontent-%COMP%] {\n  background: #ffffff;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.no-image-available[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 200px;\n}\ndiv.experience-card[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-family: \"Amaranth\", sans-serif;\n  font-size: 34px;\n  font-weight: normal;\n  margin: 0;\n  color: #82ADEE;\n}\ndiv.experience-card[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%] {\n  font-family: \"Amaranth\", sans-serif;\n  font-size: 28px;\n  font-weight: normal;\n  margin: 0;\n  color: #000000;\n}\ndiv.experience-card[_ngcontent-%COMP%]   strong[_ngcontent-%COMP%] {\n  font-weight: bold;\n  font-size: 22px;\n  margin: 0;\n  font-family: \"Advent Pro\", sans-serif;\n  color: #000000;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%] {\n  margin: 0;\n  list-style: url(\"/assets/icons/arrow-right.svg\");\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li {\n  font-family: \"Advent Pro\", sans-serif;\n  font-weight: normal;\n  font-size: 22px;\n  color: #000000;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a {\n  text-decoration: none;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a:hover {\n  cursor: pointer;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.ayhr-link {\n  color: #da3823;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.ayhr-link:hover {\n  color: #FF7373;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.powerpoint-link {\n  color: #3e85ea;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.powerpoint-link:hover {\n  color: #5dacee;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.bookmarkd-link {\n  color: #0FCA64;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.bookmarkd-link:hover {\n  color: #096F37;\n}\ndiv.experience-card[_ngcontent-%COMP%]   app-skills-hotbar[_ngcontent-%COMP%] {\n  grid-column: 2;\n}\n@media all and (max-width: 1000px) {\n  div.experience-card[_ngcontent-%COMP%] {\n    grid-template-columns: minmax(0, 100%);\n    justify-items: center;\n  }\n  div.experience-card[_ngcontent-%COMP%]   div.image-container[_ngcontent-%COMP%] {\n    grid-row: 1;\n  }\n  div.experience-card[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%], div.experience-card[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%] {\n    text-align: center;\n  }\n  div.experience-card[_ngcontent-%COMP%]   app-skills-hotbar[_ngcontent-%COMP%] {\n    width: 100%;\n    grid-column: 1;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9leHBlcmllbmNlcy9leHBlcmllbmNlLWNhcmQvZXhwZXJpZW5jZS1jYXJkLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBQTtFQUNBLGdCQUFBO0VBQ0EsNENBQUE7RUFDQSxzRUFBQTtFQUFBLHNEQUFBO0VBQ0EscUJBQUE7RUFDQSxpQkFBQTtFQUVBLGNBQUE7QUFBRjtBQUVFO0VBQ0UsYUFBQTtFQUNBLG1CQUFBO0VBQ0EsdUJBQUE7RUFDQSxjQUFBO0VBQ0EsYUFBQTtFQUVBLFlBQUE7RUFDQSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSxzQkFBQTtFQUNBLHlDQUFBO0FBREo7QUFHSTtFQUtFLG1CQUFBO0VBQ0EseUJBQUE7QUFMTjtBQUFNO0VBQ0UsWUFBQTtBQUVSO0FBS0k7RUFLRSxtQkFBQTtFQUNBLHlCQUFBO0FBUE47QUFFTTtFQUNFLFlBQUE7QUFBUjtBQU9JO0VBS0UsbUJBQUE7RUFDQSx5QkFBQTtBQVROO0FBSU07RUFDRSxZQUFBO0FBRlI7QUFTSTtFQUtFLG1CQUFBO0VBQ0EseUJBQUE7QUFYTjtBQU1NO0VBQ0UsWUFBQTtBQUpSO0FBV0k7RUFLRSxtQkFBQTtBQWJOO0FBU007RUFDRSxZQUFBO0FBUFI7QUFlRTtFQUNFLG1DQUFBO0VBQ0EsZUFBQTtFQUNBLG1CQUFBO0VBQ0EsU0FBQTtFQUNBLGNBQUE7QUFiSjtBQWdCRTtFQUNFLG1DQUFBO0VBQ0EsZUFBQTtFQUNBLG1CQUFBO0VBQ0EsU0FBQTtFQUNBLGNBQUE7QUFkSjtBQWlCRTtFQUNFLGlCQUFBO0VBQ0EsZUFBQTtFQUNBLFNBQUE7RUFDQSxxQ0FBQTtFQUNBLGNBQUE7QUFmSjtBQWtCRTtFQUNFLFNBQUE7RUFDQSxnREFBQTtBQWhCSjtBQWtCSTtFQUNFLHFDQUFBO0VBQ0EsbUJBQUE7RUFDQSxlQUFBO0VBQ0EsY0FBQTtBQWhCTjtBQWtCTTtFQUNFLHFCQUFBO0FBaEJSO0FBa0JRO0VBQ0UsZUFBQTtBQWhCVjtBQW1CUTtFQUNFLGNBQUE7QUFqQlY7QUFtQlU7RUFDRSxjQUFBO0FBakJaO0FBcUJRO0VBQ0UsY0FBQTtBQW5CVjtBQXFCVTtFQUNFLGNBQUE7QUFuQlo7QUF1QlE7RUFDRSxjQUFBO0FBckJWO0FBdUJVO0VBQ0UsY0FBQTtBQXJCWjtBQTRCRTtFQUNFLGNBQUE7QUExQko7QUE4QkE7RUFDRTtJQUNFLHNDQUFBO0lBQ0EscUJBQUE7RUEzQkY7RUE2QkU7SUFDRSxXQUFBO0VBM0JKO0VBOEJFO0lBQ0Usa0JBQUE7RUE1Qko7RUErQkU7SUFDRSxXQUFBO0lBQ0EsY0FBQTtFQTdCSjtBQUNGIiwiZmlsZSI6InNyYy9hcHAvaG9tZS9leHBlcmllbmNlcy9leHBlcmllbmNlLWNhcmQvZXhwZXJpZW5jZS1jYXJkLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiZGl2LmV4cGVyaWVuY2UtY2FyZCB7XHJcbiAgZGlzcGxheTogZ3JpZDtcclxuICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG4gIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMzAwcHggbWlubWF4KDAsIDEwMCUpO1xyXG4gIGdyaWQtdGVtcGxhdGUtcm93czogcmVwZWF0KDMsIG1pbi1jb250ZW50KSBtYXgtY29udGVudDtcclxuICBncmlkLWNvbHVtbi1nYXA6IDI0cHg7XHJcbiAgZ3JpZC1yb3ctZ2FwOiA2cHg7XHJcblxyXG4gIG1hcmdpbjogMzBweCAwO1xyXG5cclxuICBkaXYuaW1hZ2UtY29udGFpbmVyIHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICBncmlkLWNvbHVtbjogMTtcclxuICAgIGdyaWQtcm93OiAxIC8gNTtcclxuXHJcbiAgICB3aWR0aDogMjgwcHg7XHJcbiAgICBoZWlnaHQ6IDI2MHB4O1xyXG4gICAgYm9yZGVyLXJhZGl1czogMjRweDtcclxuICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbiAgICBib3gtc2hhZG93OiAwIDRweCA0cHggcmdiYSgjMDAwMDAwLCAwLjI1KTtcclxuXHJcbiAgICAmLmpwbWNoYXNlIHtcclxuICAgICAgaW1nIHtcclxuICAgICAgICB3aWR0aDogMjQwcHg7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIGJhY2tncm91bmQ6ICNmZmZmZmY7XHJcbiAgICAgIGJvcmRlcjogMnB4IHNvbGlkICMwMDQ3N2I7XHJcbiAgICB9XHJcblxyXG4gICAgJi5zdHVkaW8tcmVhY2gge1xyXG4gICAgICBpbWcge1xyXG4gICAgICAgIHdpZHRoOiAyNjBweDtcclxuICAgICAgfVxyXG5cclxuICAgICAgYmFja2dyb3VuZDogI2ZmZmZmZjtcclxuICAgICAgYm9yZGVyOiAycHggc29saWQgIzc0QzFEOTtcclxuICAgIH1cclxuXHJcbiAgICAmLmJvb2ttYXJrZCB7XHJcbiAgICAgIGltZyB7XHJcbiAgICAgICAgd2lkdGg6IDI1MHB4O1xyXG4gICAgICB9XHJcblxyXG4gICAgICBiYWNrZ3JvdW5kOiAjMDk2RjM3O1xyXG4gICAgICBib3JkZXI6IDJweCBzb2xpZCAjMEZDQTY0O1xyXG4gICAgfVxyXG5cclxuICAgICYudWYge1xyXG4gICAgICBpbWcge1xyXG4gICAgICAgIHdpZHRoOiAyMDBweDtcclxuICAgICAgfVxyXG5cclxuICAgICAgYmFja2dyb3VuZDogI2ZmZmZmZjtcclxuICAgICAgYm9yZGVyOiAycHggc29saWQgIzAwNTI5QjtcclxuICAgIH1cclxuXHJcbiAgICAmLm5vLWltYWdlLWF2YWlsYWJsZSB7XHJcbiAgICAgIGltZyB7XHJcbiAgICAgICAgd2lkdGg6IDIwMHB4O1xyXG4gICAgICB9XHJcblxyXG4gICAgICBiYWNrZ3JvdW5kOiAjZmZmZmZmO1xyXG4gICAgICAvL2JvcmRlcjogMnB4IHNvbGlkICMwMDUyOUI7XHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICBoMSB7XHJcbiAgICBmb250LWZhbWlseTogJ0FtYXJhbnRoJywgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtc2l6ZTogMzRweDtcclxuICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XHJcbiAgICBtYXJnaW46IDA7XHJcbiAgICBjb2xvcjogIzgyQURFRTtcclxuICB9XHJcblxyXG4gIGgzIHtcclxuICAgIGZvbnQtZmFtaWx5OiAnQW1hcmFudGgnLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC1zaXplOiAyOHB4O1xyXG4gICAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIGNvbG9yOiAjMDAwMDAwO1xyXG4gIH1cclxuXHJcbiAgc3Ryb25nIHtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgZm9udC1zaXplOiAyMnB4O1xyXG4gICAgbWFyZ2luOiAwO1xyXG4gICAgZm9udC1mYW1pbHk6ICdBZHZlbnQgUHJvJywgc2Fucy1zZXJpZjtcclxuICAgIGNvbG9yOiAjMDAwMDAwO1xyXG4gIH1cclxuXHJcbiAgdWwge1xyXG4gICAgbWFyZ2luOiAwO1xyXG4gICAgbGlzdC1zdHlsZTogdXJsKCcvYXNzZXRzL2ljb25zL2Fycm93LXJpZ2h0LnN2ZycpO1xyXG5cclxuICAgIDo6bmctZGVlcCBsaSB7XHJcbiAgICAgIGZvbnQtZmFtaWx5OiAnQWR2ZW50IFBybycsIHNhbnMtc2VyaWY7XHJcbiAgICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XHJcbiAgICAgIGZvbnQtc2l6ZTogMjJweDtcclxuICAgICAgY29sb3I6ICMwMDAwMDA7XHJcblxyXG4gICAgICA6Om5nLWRlZXAgYSB7XHJcbiAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG5cclxuICAgICAgICAmOmhvdmVyIHtcclxuICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgICYuYXloci1saW5rIHtcclxuICAgICAgICAgIGNvbG9yOiAjZGEzODIzO1xyXG5cclxuICAgICAgICAgICY6aG92ZXIge1xyXG4gICAgICAgICAgICBjb2xvcjogI0ZGNzM3MztcclxuICAgICAgICAgIH1cclxuICAgICAgICB9XHJcblxyXG4gICAgICAgICYucG93ZXJwb2ludC1saW5rIHtcclxuICAgICAgICAgIGNvbG9yOiAjM2U4NWVhO1xyXG5cclxuICAgICAgICAgICY6aG92ZXIge1xyXG4gICAgICAgICAgICBjb2xvcjogIzVkYWNlZTtcclxuICAgICAgICAgIH1cclxuICAgICAgICB9XHJcblxyXG4gICAgICAgICYuYm9va21hcmtkLWxpbmsge1xyXG4gICAgICAgICAgY29sb3I6ICMwRkNBNjQ7XHJcblxyXG4gICAgICAgICAgJjpob3ZlciB7XHJcbiAgICAgICAgICAgIGNvbG9yOiAjMDk2RjM3O1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgYXBwLXNraWxscy1ob3RiYXIge1xyXG4gICAgZ3JpZC1jb2x1bW46IDI7XHJcbiAgfVxyXG59XHJcblxyXG5AbWVkaWEgYWxsIGFuZCAobWF4LXdpZHRoOiAxMDAwcHgpIHtcclxuICBkaXYuZXhwZXJpZW5jZS1jYXJkIHtcclxuICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogbWlubWF4KDAsIDEwMCUpO1xyXG4gICAganVzdGlmeS1pdGVtczogY2VudGVyO1xyXG5cclxuICAgIGRpdi5pbWFnZS1jb250YWluZXIge1xyXG4gICAgICBncmlkLXJvdzogMVxyXG4gICAgfVxyXG5cclxuICAgIGgxLCBoMyB7XHJcbiAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIH1cclxuXHJcbiAgICBhcHAtc2tpbGxzLWhvdGJhciB7XHJcbiAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICBncmlkLWNvbHVtbjogMTtcclxuICAgIH1cclxuICB9XHJcbn1cclxuIl19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ExperienceCardComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -346,20 +346,37 @@ __webpack_require__.r(__webpack_exports__);
 const Experiences = [
     {
         image: {
+            path: 'assets/logos/jpmchase.png',
+            alt: 'JPMorgan Chase & Co. Logo',
+            class: 'jpmchase'
+        },
+        company: 'JPMorgan Chase & Co.',
+        position: 'Software Engineer Program Intern | Intern Team Dev Lead',
+        duration: 'June 2021 - August 2021',
+        description: '<li>Implement and deploy features for a Spring Boot, Angular web app that enables internal\n' +
+            'and external users to self service for aggregated data rather than go through operations (OPS) team</li>' +
+            '<ul><li>Shaves minutes OPS team spends for each of the ~1100 failed data points/month</li>' +
+            '<li>Will save OPS team time by eliminating the ~480 calls/month regarding the data</li></ul>' +
+            '<li>Lead intern team to ensure project milestones are met and coached members by explaining relevant\n' +
+            'technologies and concepts (e.g. Git, JUnit testing)</li>' +
+            '<li>Develop and document a package individually that abstracts, updates, and consolidates fragmented\n' +
+            'and nearly deprecated use of the Elasticsearch client</li>',
+        skills: ['TypeScript', 'Java', 'Angular', 'Spring Boot', 'Elasticsearch', 'JUnit', 'Mockito', 'Splunk', 'Confluence', 'Jira']
+    },
+    {
+        image: {
             path: 'assets/logos/studio-reach.png',
             alt: 'Studio Reach Logo',
             class: 'studio-reach'
         },
         company: 'Studio Reach',
         position: 'Software Developer Part-time',
-        duration: 'June 2020 - Now',
-        description: '<li>Implementing user stories for <a href="https://are-you-house-ready-dev.web.app/" target="_blank" class="ayhr-link">“Are You House Ready”</a>\n' +
-            'project in Angular 9 and Firebase and writing end-to-end and unit tests in Cypress and Jasmine for them</li>' +
-            '<li>Developed new layout for real estate vendor cards/pages, checkup questionnaire for\n' +
-            'guiding new users, among other features</li>' +
-            '<li>Engages in daily standups, iteration planning meetings, retrospectives, and pair\n' +
-            'programming sessions as part of an Agile team with a kanban workflow based in Jira</li>',
-        skills: ['TypeScript', 'Angular 9', 'Firebase', 'Cypress', 'Jasmine', 'Jira', 'RxJS']
+        duration: 'June 2020 - March 2021',
+        description: '<li>Expand a Firebase, Angular web app - <a href="https://are-you-house-ready-dev.web.app/" target="_blank" class="ayhr-link">“Are You House Ready”</a> -\n' +
+            'for connecting clients to real estate vendors in order to improve low site traffic</li>' +
+            '<li>Developed a questionnaire for guiding new users, new layouts for vendor cards/pages, etc.</li>' +
+            '<li>Engage in daily standups, pair programming, etc. as part of an agile team with kanban workflow</li>',
+        skills: ['TypeScript', 'Angular', 'Firebase', 'Firestore', 'GitLab CI/CD', 'Cypress', 'Jasmine', 'Jira']
     },
     {
         image: {
@@ -367,15 +384,14 @@ const Experiences = [
             alt: 'UF Logo',
             class: 'uf'
         },
-        company: 'UF CISE',
-        position: 'Applications of Discrete Structures Teaching Assistant',
+        company: 'UF Computer & Information Science & Engineering',
+        position: 'Teaching Assistant',
         duration: 'January 2020 - Now',
-        description: '<li>Prepares powerpoint presentations\n' +
-            'and example problems for brief lecture reviews over core concepts during weekly discussions for 20-30 students</li>' +
-            '<li>Provides 3 hours/week of office hours in order to help address student questions and concerns\n</li>' +
-            '<li>Engages in weekly meetings with the professor and other fellow TAs to plan out the logistics of the course,\n' +
-            'such as times to grade and course content being reviewed</li>',
-        skills: []
+        description: '<li>Refactor and extend existing OpenGL code scaffolds for “Computer Graphics” projects to fit new\n' +
+            'requirements and eases work for students, including additional resources and links </li>' +
+            '<li>Prepare presentations and example problems for lecture reviews over core concepts during discussions for\n' +
+            '20-30 students for “Application of Discrete Structures</li>',
+        skills: ['C++', 'CMake', 'OpenGL']
     },
     {
         image: {
@@ -383,29 +399,15 @@ const Experiences = [
             alt: 'UF Logo',
             class: 'uf'
         },
-        company: 'UF CISE',
-        position: 'Computer Graphics Grading Assistant',
-        duration: 'January 2021 - Now',
-        description: '<li>Refactors and extends preexisting OpenGL code scaffolds for projects to fit new requirements\n' +
-            'from professor and enable easier workflow for students, including additional resources and links</li>' +
-            '<li>Devises rubric for grading projects based on coordination with professor</li>',
-        skills: ['C++', 'OpenGL']
-    },
-    {
-        image: {
-            path: 'assets/logos/uf.png',
-            alt: 'UF Logo',
-            class: 'uf'
-        },
-        company: 'UF CISE SurfLab',
+        company: 'UF SurfLab',
         position: 'Research Assistant',
-        duration: 'January 2021 - Now',
-        description: '<li>Implementing radius estimation of vessels of a MRI/CT scan displayed\n' +
-            'in VR for “VascularVR” project using Unity\n</li>' +
-            '<li>Completed in Blender based on nearest neighbor heuristic using Blender API and sklearn</li>' +
-            '<li>Develops interface that allows user to execute commands for “Interactive Modeling” Rhino plugin\n' +
-            'while in VR through Microsoft Foundational Class library\n</li>',
-        skills: ['C#', 'Unity', 'Python', 'Blender', 'C++', 'MFC']
+        duration: 'October 2019 - Now',
+        description: '<li>Contribute to a Unity VR app for converting MRI/CT scans to simulation-ready ready pieces\n' +
+            'of anatomy for surgeons to train and learn surgery with using VR</li>' +
+            '<li>Develop prototypes on core feature design decisions\n</li>' +
+            '<ul><li>Implement smart thickness estimation for vessels using Blender API and sklearn</li>' +
+            '<li>Write scripts for examining image data to investigate extent of preprocessing needed</li></ul>',
+        skills: ['C#', 'Python', 'C++', 'Unity', 'CMake', 'OpenVDB', 'sklearn', 'Blender']
     },
     {
         image: {
@@ -416,13 +418,9 @@ const Experiences = [
         company: 'BookMark\'d',
         position: 'Full-stack Web Developer',
         duration: 'October 2019 - July 2020',
-        description: '<li>Implemented a web app to facilitate buying/selling of college resources between\n' +
-            'college students through React frontend\n</li>' +
-            '<li>Developed microservices as part of a REST API using Node + Express\n' +
-            '(e.g. real-time chat, product search, and payment processing) and documents in Confluence\n</li>' +
-            '<li>Managed web app infrastructure via AWS - runs app on EC2 instances, develops a pipeline\n' +
-            'for CI/CD, and sets up domain name and SSL certificate - and DBMS via Elasticsearch and MongoDB </li>',
-        skills: ['React', 'Node.js', 'Express.js', 'AWS', 'Elasticsearch', 'Passport.js', 'Confluence']
+        description: '<li>Implement a React, Node web app for college student ecommerce; microservices include real-time chat, product search, and payment processing</li>' +
+            '<li>Run app on an AWS EC2 instance, add CI/CD pipeline, and set up domain name & SSL certificate</li>',
+        skills: ['React', 'Node', 'Express', 'Elasticsearch', 'Passport.js', 'Stripe API', 'Confluence', 'AWS', 'EC2', 'Code Commit', 'Code Deploy', 'Route 53', 'AWS Certificate Manager']
     }
 ];
 
@@ -456,7 +454,7 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "body");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "section");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Hey. How've you been?");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Hey. How have you been?");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "I'm Tianrui.");
@@ -644,11 +642,8 @@ const Projects = [
         name: 'TA Attendance Grader',
         link: null,
         duration: 'October 2020',
-        description: '<li>Develops a script that automates the process of taking student attendance for discussions held over Zoom\n' +
-            'for Applications of Discrete Structures course</li>' +
-            '<li>Uses the Pandas library to extract necessary information (i.e. students who attended long enough in the discussion)\n' +
-            'from CSV file corresponding to the discussion provided by Zoom</li>' +
-            '<li>Interacts with Canvas API through Requests library to make necessary grade changes with associated attendance assignment for the students</li>',
+        description: '<li>Develop script that automates attendance for 300-400 students in Zoom discussions for “Applications of Discrete Structures”, increasing efficiency</li>' +
+            '<li>Utilize Pandas and Canvas API to extract info from Zoom CSV files and make grade changes</li>',
         skills: ['Python', 'Pandas', 'Canvas API']
     },
     {
@@ -874,7 +869,7 @@ class ResumeComponent {
     }
 }
 ResumeComponent.ɵfac = function ResumeComponent_Factory(t) { return new (t || ResumeComponent)(); };
-ResumeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ResumeComponent, selectors: [["app-resume"]], decls: 5, vars: 0, consts: [["href", "assets/resume.pdf", "download", ""], ["src", "assets/resume.pdf"]], template: function ResumeComponent_Template(rf, ctx) { if (rf & 1) {
+ResumeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ResumeComponent, selectors: [["app-resume"]], decls: 5, vars: 0, consts: [["href", "assets/Li, Tianrui Resume.pdf", "download", ""], ["src", "assets/Li, Tianrui Resume.pdf"]], template: function ResumeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Resume optimal viewing of my resume ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "a", 0);
@@ -956,7 +951,7 @@ _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__["platformBrowser"]().boot
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\TeaLeaf\Projects\personal-website\littealeaf28.github.io\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! D:\Projects\littealeaf28.github.io\src\main.ts */"./src/main.ts");
 
 
 /***/ }),

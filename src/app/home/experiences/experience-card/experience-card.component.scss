@@ -21,6 +21,15 @@ div.experience-card {
     box-sizing: border-box;
     box-shadow: 0 4px 4px rgba(#000000, 0.25);
 
+    &.jpmchase {
+      img {
+        width: 240px;
+      }
+
+      background: #ffffff;
+      border: 2px solid #00477b;
+    }
+
     &.studio-reach {
       img {
         width: 260px;
@@ -56,15 +65,6 @@ div.experience-card {
       background: #ffffff;
       //border: 2px solid #00529B;
     }
-
-    &.ssd {
-      img {
-        width: 250px;
-      }
-
-      background: #ffffff;
-      border: 2px solid #9fcaf8;
-    }
   }
 
   h1 {
@@ -93,7 +93,7 @@ div.experience-card {
 
   ul {
     margin: 0;
-    list-style: url('/../../../../../assets/icons/arrow-right.svg');
+    list-style: url('/assets/icons/arrow-right.svg');
 
     ::ng-deep li {
       font-family: 'Advent Pro', sans-serif;
@@ -149,7 +149,7 @@ div.experience-card {
       grid-row: 1
     }
 
-    h3 {
+    h1, h3 {
       text-align: center;
     }
 
