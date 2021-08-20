@@ -2,7 +2,7 @@ div.experience-card {
   display: grid;
   text-align: left;
   grid-template-columns: 300px minmax(0, 100%);
-  grid-template-rows: repeat(3, min-content) max-content;
+  grid-template-rows: repeat(3, minmax(0, min-content)) minmax(0, max-content) minmax(0, min-content);
   grid-column-gap: 24px;
   grid-row-gap: 6px;
 

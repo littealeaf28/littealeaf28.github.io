@@ -84,10 +84,11 @@ export const Experiences: Experience[] = [
       class: 'bookmarkd'
     },
     company: 'BookMark\'d',
-    position: 'Full-stack Web Developer',
+    position: 'Software Developer Part-time',
     duration: 'October 2019 - July 2020',
-    description: '<li>Implement a React, Node web app for college student ecommerce; microservices include real-time chat, product search, and payment processing</li>' +
-      '<li>Run app on an AWS EC2 instance, add CI/CD pipeline, and set up domain name & SSL certificate</li>',
-    skills: ['React', 'Node', 'Express', 'Elasticsearch', 'Passport.js', 'Stripe API', 'Confluence', 'AWS', 'EC2', 'Code Commit', 'Code Deploy', 'Route 53', 'AWS Certificate Manager']
+    description: '<li>Implement a React, Node web app for college student ecommerce</li>' +
+      '<li>Developed microservices as part of a REST API including real-time chat, product search, and payment processing</li>' +
+      '<li>Run app on an AWS EC2 instance, add CI/CD pipeline, and set up domain name & SSL certificate and manage data through MongoDB and Elasticsearch</li>',
+    skills: ['React', 'Node', 'Express', 'Elasticsearch', 'MongoDB', 'Passport.js', 'Stripe API', 'Confluence', 'AWS', 'EC2', 'Code Commit', 'Code Deploy', 'Route 53', 'AWS Certificate Manager']
   }
 ];
