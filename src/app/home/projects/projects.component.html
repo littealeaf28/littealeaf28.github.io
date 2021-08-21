@@ -1,6 +1,6 @@
 <section>
   <h1>Project Platter</h1>
-  <h3>What's been on my mind</h3>
+  <h3>What's been cooking in my mind</h3>
   <div class="project-container">
     <app-project-card
       *ngFor="let project of projects; index as i"
@@ -8,7 +8,6 @@
       [selected]="i === selectProjectIndex.index"
       (click)="select(project)"
     ></app-project-card>
-    <!--      [project]="selectProjectIndex.project"-->
     <app-project-display
       [project]="selectProjectIndex.project"
       [class]="'follow-item-' + selectProjectIndex.index"

@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: 'AIzaSyBXd_uyBgk4x4kn7gudocxtURX7Vr9CTSY',
+    authDomain: 'littealeaf.firebaseapp.com',
+    projectId: 'littealeaf',
+    storageBucket: 'littealeaf.appspot.com',
+    messagingSenderId: '175995909337',
+    appId: '1:175995909337:web:ca8fdbf9200cb914893ac8',
+    measurementId: 'G-V6FNRP18FW'
+  }
 };
 
 /*
