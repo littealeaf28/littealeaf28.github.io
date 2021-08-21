@@ -1,7 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Topic} from './topics';
 import {AngularFirestore} from '@angular/fire/firestore';
-import {from, Observable} from 'rxjs';
 
 @Component({
   selector: 'app-topic-bulletin',
