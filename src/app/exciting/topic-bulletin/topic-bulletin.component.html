@@ -2,6 +2,10 @@
   <h1>Exciting Things!</h1>
   <h3>What's been on my mind...</h3>
   <div class="topics-container">
-    <div *ngFor="let topic of topics">{{topic.name}} <span>{{topic.date}}</span></div>
+    <a
+      *ngFor="let topic of topics"
+      [href]="'https://www.google.com/search?q=' + topic.name"
+      target="_blank"
+    >{{topic.name}} <span>{{topic.date}}</span></a>
   </div>
 </section>

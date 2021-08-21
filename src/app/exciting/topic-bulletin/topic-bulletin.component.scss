@@ -21,12 +21,15 @@ section {
     margin: auto;
     padding: 8px;
 
-    div {
+    a {
       display: inline-block;
 
       font-family: 'Advent Pro', sans-serif;
       font-weight: bold;
       font-size: 20px;
+
+      color: #3B3D3A;
+      text-decoration: none;
 
       background-color: rgba(#82ADEE, 0.08);
       border-radius: 12px;
