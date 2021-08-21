@@ -24,7 +24,7 @@ export const Experiences: Experience[] = [
     description: '<li>Implement and deploy features for a Spring Boot, Angular web app that enables internal\n' +
       'and external users to self service for aggregated data rather than go through operations (OPS) team</li>' +
       '<ul><li>Shaves minutes OPS team spends for each of the ~1100 failed data points/month</li>' +
-      '<li>Will save OPS team time by eliminating the ~480 calls/month regarding the data</li></ul>' +
+      '<li>Will save OPS team time by eliminating the ~480 calls received/month regarding the data</li></ul>' +
       '<li>Lead intern team to ensure project milestones are met and coached members by explaining relevant\n' +
       'technologies and concepts (e.g. Git, JUnit testing)</li>' +
       '<li>Develop and document a package individually that abstracts, updates, and consolidates fragmented\n' +
