@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {AngularFireStorage} from '@angular/fire/storage';
 
 @Component({
   selector: 'app-resume',
@@ -6,8 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./resume.component.scss']
 })
 export class ResumeComponent implements OnInit {
+  resumeUrl: string = null;
 
-  constructor() { }
+  constructor(private storage: AngularFireStorage) {
+    this.storage.ref('Li, Tianrui Resume.pdf').getDownloadURL()
+      .subscribe(url => this.resumeUrl = url);
+  }
 
   ngOnInit(): void {
   }

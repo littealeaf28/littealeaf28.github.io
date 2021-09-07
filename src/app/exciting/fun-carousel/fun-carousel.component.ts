@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {AngularFireStorage} from '@angular/fire/storage';
 
 @Component({
   selector: 'app-cool-carousel',
@@ -6,8 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fun-carousel.component.scss']
 })
 export class FunCarouselComponent implements OnInit {
-
-  constructor() { }
+  constructor(private storage: AngularFireStorage) { }
 
   ngOnInit(): void {
   }

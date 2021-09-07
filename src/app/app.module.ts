@@ -18,7 +18,8 @@ import {FunCarouselComponent} from './exciting/fun-carousel/fun-carousel.compone
 import {TopicBulletinComponent} from './exciting/topic-bulletin/topic-bulletin.component';
 import {environment} from '../environments/environment';
 import {AngularFireModule} from '@angular/fire';
-import {NgbCarousel, NgbCarouselModule, NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {NgbCarouselModule} from '@ng-bootstrap/ng-bootstrap';
+import {AngularFireStorageModule, BUCKET} from '@angular/fire/storage';
 
 @NgModule({
   declarations: [
@@ -41,9 +42,12 @@ import {NgbCarousel, NgbCarouselModule, NgbModule} from '@ng-bootstrap/ng-bootst
     AngularSvgIconModule,
     PdfViewerModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFireStorageModule,
     NgbCarouselModule
   ],
-  providers: [],
+  providers: [
+    { provide: BUCKET, useValue: 'littealeaf.appspot.com' }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
