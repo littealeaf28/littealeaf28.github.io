@@ -18,6 +18,7 @@ import {FunCarouselComponent} from './exciting/fun-carousel/fun-carousel.compone
 import {TopicBulletinComponent} from './exciting/topic-bulletin/topic-bulletin.component';
 import {environment} from '../environments/environment';
 import {AngularFireModule} from '@angular/fire';
+import {NgbCarousel, NgbCarouselModule, NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import {AngularFireModule} from '@angular/fire';
     AppRoutingModule,
     AngularSvgIconModule,
     PdfViewerModule,
-    AngularFireModule.initializeApp(environment.firebaseConfig)
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    NgbCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
