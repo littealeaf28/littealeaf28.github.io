@@ -20,6 +20,7 @@ import {environment} from '../environments/environment';
 import {AngularFireModule} from '@angular/fire';
 import {NgbCarouselModule} from '@ng-bootstrap/ng-bootstrap';
 import {AngularFireStorageModule, BUCKET} from '@angular/fire/storage';
+import {AngularFireAnalyticsModule, UserTrackingService} from '@angular/fire/analytics';
 
 @NgModule({
   declarations: [
@@ -43,10 +44,12 @@ import {AngularFireStorageModule, BUCKET} from '@angular/fire/storage';
     PdfViewerModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireStorageModule,
+    AngularFireAnalyticsModule,
     NgbCarouselModule
   ],
   providers: [
-    { provide: BUCKET, useValue: 'littealeaf.appspot.com' }
+    { provide: BUCKET, useValue: 'littealeaf.appspot.com' },
+    UserTrackingService
   ],
   bootstrap: [AppComponent]
 })
