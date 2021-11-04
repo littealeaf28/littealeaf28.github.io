@@ -9,7 +9,7 @@ import {AngularFireAnalytics} from '@angular/fire/analytics';
 export class HomeComponent implements OnInit {
 
   constructor(analytics: AngularFireAnalytics) {
-    analytics.logEvent('Home visited');
+    analytics.logEvent('home_visited');
   }
 
   ngOnInit(): void {
