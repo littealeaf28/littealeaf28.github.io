@@ -57,6 +57,15 @@ div.experience-card {
       border: 2px solid #00529B;
     }
 
+    &.surflab {
+      img {
+        width: 200px;
+      }
+
+      background: #ffffff;
+      border: 2px solid #d8a20e;
+    }
+
     &.no-image-available {
       img {
         width: 200px;

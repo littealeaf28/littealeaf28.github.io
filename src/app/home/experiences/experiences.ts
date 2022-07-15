@@ -19,17 +19,15 @@ export const Experiences: Experience[] = [
       class: 'jpmchase'
     },
     company: 'JPMorgan Chase & Co.',
-    position: 'Software Engineer Program Intern | Intern Team Dev Lead',
+    position: 'Software Engineer Program Intern',
     duration: 'June 2021 - August 2021',
-    description: '<li>Implement and deploy features for a Spring Boot, Angular web app that enables internal\n' +
-      'and external users to self service for aggregated data rather than go through operations (OPS) team</li>' +
-      '<li>Improve efficiency for OPS teams by reducing time spent on ~1100 failed data points/month and\n' +
-      'potentially eliminating ~480 data inquiries/month</li>' +
-      '<li>Lead intern team to ensure project milestones are met and help explain relevant\n' +
-      'technologies and concepts (e.g. Git, JUnit testing)</li>' +
-      '<li>Individually develop and document a package that abstracts, updates, and consolidates fragmented\n' +
-      'use of the Elasticsearch client</li>',
-    skills: ['TypeScript', 'Java', 'Angular', 'Spring Boot', 'Elasticsearch', 'OracleSQL', 'JUnit', 'Mockito', 'Splunk', 'Confluence', 'Jira']
+    description: '<li>Deployed data visualization features to a web app to reduce the number of manual data inquiries\n' +
+      'directed towards operations team by internal (~1100/month) and external clients (~480/month)</li>' +
+      '<li>Developed a pipeline of ETL jobs on a cron scheduler to migrate several thousand daily data points\n' + 
+      'across Splunk and SQL databases into an Elasticsearch instance</li>' +
+      '<li>Developed and documented an extensible package in collaboration with a full time developer to\n' +
+      'standardize and update team’s fragmented use of Elasticsearch</li>',
+    skills: ['TypeScript', 'Java', 'Angular', 'Spring Boot', 'Elasticsearch', 'OracleSQL', 'JUnit', 'Splunk', 'Confluence', 'Jira']
   },
   {
     image: {
@@ -40,10 +38,10 @@ export const Experiences: Experience[] = [
     company: 'Studio Reach',
     position: 'Software Developer Part-time',
     duration: 'June 2020 - March 2021',
-    description: '<li>Expand a Firebase, Angular web app - <a href="https://are-you-house-ready-dev.web.app/" target="_blank" class="ayhr-link">“Are You House Ready”</a> -\n' +
-      'for connecting clients to real estate vendors in order to improve low site traffic</li>' +
-      '<li>Develop a questionnaire for guiding new users, new layouts for vendor cards/pages, etc.</li>' +
-      '<li>Engage in daily standups, pair programming, etc. as part of an agile team with kanban workflow</li>',
+    description: '<li>Developed features to modernize the UI/UX of a web MVP to appeal to users with the aim of increasing low traffic</li>' +
+      '<li>Implemented unit and automated e2e tests and debugged issues with CI/CD pipeline to ensure app robustness</li>' +
+      '<li>Utilized NgRx for managing state management for complex user logic. Implemented a tree-based questionnaire for guiding\n' +
+      'new users that relied on NgRx and LocalStorage to track user decisions and history</li>',
     skills: ['TypeScript', 'Angular', 'Firebase', 'Firestore', 'GitLab CI/CD', 'Cypress', 'Jasmine', 'Jira']
   },
   {
@@ -54,29 +52,29 @@ export const Experiences: Experience[] = [
     },
     company: 'UF Computer & Information Science & Engineering',
     position: 'Teaching Assistant',
-    duration: 'January 2020 - Present',
-    description: '<li><strong>Courses</strong>: "Operating Systems" (08/2021 - Present), "Applications of Discrete Structures" (01/2020 - 05/2021),\n' +
+    duration: 'January 2020 - May 2022',
+    description: '<li><strong>Courses</strong>: "Data Science" (01/2022 - 05/2022), "Operating Systems" (08/2021 - 12/2021), "Discrete Structures" (01/2020 - 05/2021),\n' +
       '"Computer Graphics" (01/2021 - 05/2021)</li>' +
-      '<li>Refactor and extend existing OpenGL code scaffolds for “Computer Graphics” projects to fit new\n' +
-      'requirements and eases learning experience for students, including additional resources and links </li>' +
-      '<li>Prepare presentations and example problems for lecture reviews for “Application of Discrete Structures" discussions\n' +
+      '<li>Simplified and extended scaffold code for "Computer Graphics" projects, as coordinated with the professor, to improve student understanding of OpenGL\n' +
+      'and to integrate changes in requirements</li>' +
+      '<li>Prepare presentations and example problems for lecture reviews for “Discrete Structures" discussions\n' +
       'for 20-30 students</li>',
-    skills: ['C++', 'CMake', 'OpenGL']
+    skills: ['C++', 'CMake', 'OpenGL', 'Python', 'Jupyter Notebook', 'sklearn']
   },
   {
     image: {
-      path: 'assets/logos/uf.png',
+      path: 'assets/logos/surflab_logo.gif',
       alt: 'UF Logo',
-      class: 'uf'
+      class: 'surflab'
     },
     company: 'UF SurfLab',
-    position: 'Research Assistant',
+    position: 'Research Assistant (VascularVR)',
     duration: 'October 2019 - Present',
-    description: '<li>Contribute to a Unity VR app for converting MRI/CT scans to simulation-ready ready pieces\n' +
-      'of anatomy for surgeons to train and learn surgery with using VR</li>' +
-      '<li>Develop prototypes on core feature design decisions\n</li>' +
-      '<ul><li>Implement smart thickness estimation for vessels using Blender API and sklearn</li>' +
-      '<li>Write scripts for examining DICOM (medical image) data to investigate extent of preprocessing needed</li></ul>',
+    description: '<li>Spearhead development of a VR platform over Unity for surgeons to efficiently convert MRI/CT scans to 3D simulations\n' +
+      'of body parts for surgery education</li>' +
+      '<li>Prototyped and implemented performant erasing tool for surgeons to capture relevant parts of scans</li>' +
+      '<li>Prototyped and developed 3D curve vessels and automatic smart fitting of the vessels to the voxel scans to facilitate\n' +
+      'partial automation</li>',
     skills: ['C#', 'Python', 'C++', 'Unity', 'CMake', 'OpenVDB', 'sklearn', 'Blender']
   },
   {
@@ -88,9 +86,9 @@ export const Experiences: Experience[] = [
     company: 'BookMark\'d',
     position: 'Software Developer Part-time',
     duration: 'October 2019 - July 2020',
-    description: '<li>Implement a React, Node web app for college student ecommerce, including\n' +
+    description: '<li>Implemented a web app MVP for college student ecommerce, including\n' +
       'real-time chat stored in MongoDB, product search via Elasticsearch, and payment processing through Stripe</li>' +
-      '<li>Utilizes AWS to run app on an EC2 instance, add CI/CD pipeline using\n' +
+      '<li>Utilized AWS to run the app on an EC2 instance, added CI/CD pipeline using\n' +
       'CodePipeline (Code Commit, Code Deploy), and set up site’s domain name & SSL certificate</li>',
     skills: ['React', 'Node', 'Express', 'Elasticsearch', 'MongoDB', 'Passport.js', 'Stripe API', 'Confluence', 'AWS',
       'EC2', 'CodePipeline', 'Route 53', 'AWS Certificate Manager']
