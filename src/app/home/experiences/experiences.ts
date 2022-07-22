@@ -75,7 +75,7 @@ export const Experiences: Experience[] = [
       '<li>Prototyped and implemented performant erasing tool for surgeons to capture relevant parts of scans</li>' +
       '<li>Prototyped and developed 3D curve vessels and automatic smart fitting of the vessels to the voxel scans to facilitate\n' +
       'partial automation</li>',
-    skills: ['C#', 'Python', 'C++', 'Unity', 'CMake', 'OpenVDB', 'sklearn', 'Blender']
+    skills: ['C#', 'Python', 'C++', 'Unity', 'CMake', 'sklearn', 'Blender']
   },
   {
     image: {

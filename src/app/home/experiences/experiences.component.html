@@ -2,9 +2,14 @@
   <h1>Portfolio</h1>
   <h3>What I've been up to...</h3>
   <div class="experience-container">
-    <app-experience-card
-      *ngFor="let experience of experiences"
-      [experience]="experience">
-    </app-experience-card>
+    <mat-tab-group mat-align-tabs="center">
+      <mat-tab label="Software Dev">
+        <app-experience-card
+          *ngFor="let experience of experiences"
+          [experience]="experience">
+        </app-experience-card>
+      </mat-tab>
+      <mat-tab label="Graphics"></mat-tab>
+    </mat-tab-group>
   </div>
 </section>

@@ -11,8 +11,6 @@ import {SkillsHotbarComponent} from './home/shared/skills-hotbar/skills-hotbar.c
 import {ProjectsComponent} from './home/projects/projects.component';
 import {ProjectDisplayComponent} from './home/projects/project-display/project-display.component';
 import {ProjectCardComponent} from './home/projects/project-card/project-card.component';
-import {ResumeComponent} from './resume/resume.component';
-import {PdfViewerModule} from 'ng2-pdf-viewer';
 import {ExcitingComponent} from './exciting/exciting.component';
 import {FunCarouselComponent} from './exciting/fun-carousel/fun-carousel.component';
 import {TopicBulletinComponent} from './exciting/topic-bulletin/topic-bulletin.component';
@@ -21,6 +19,8 @@ import {AngularFireModule} from '@angular/fire';
 import {NgbCarouselModule} from '@ng-bootstrap/ng-bootstrap';
 import {AngularFireStorageModule, BUCKET} from '@angular/fire/storage';
 import {AngularFireAnalyticsModule, UserTrackingService} from '@angular/fire/analytics';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatTabsModule} from '@angular/material/tabs'
 
 @NgModule({
   declarations: [
@@ -32,7 +32,6 @@ import {AngularFireAnalyticsModule, UserTrackingService} from '@angular/fire/ana
     ProjectsComponent,
     ProjectDisplayComponent,
     ProjectCardComponent,
-    ResumeComponent,
     ExcitingComponent,
     FunCarouselComponent,
     TopicBulletinComponent
@@ -41,11 +40,12 @@ import {AngularFireAnalyticsModule, UserTrackingService} from '@angular/fire/ana
     BrowserModule,
     AppRoutingModule,
     AngularSvgIconModule,
-    PdfViewerModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireStorageModule,
     AngularFireAnalyticsModule,
-    NgbCarouselModule
+    NgbCarouselModule,
+    BrowserAnimationsModule,
+    MatTabsModule,
   ],
   providers: [
     { provide: BUCKET, useValue: 'littealeaf.appspot.com' },
