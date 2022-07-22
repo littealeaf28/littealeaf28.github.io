@@ -11,7 +11,7 @@ export interface Experience {
   skills: string[];
 }
 
-export const Experiences: Experience[] = [
+export const softwareDevExperiences: Experience[] = [
   {
     image: {
       path: 'assets/logos/jpmchase.png',
@@ -93,4 +93,22 @@ export const Experiences: Experience[] = [
     skills: ['React', 'Node', 'Express', 'Elasticsearch', 'MongoDB', 'Passport.js', 'Stripe API', 'Confluence', 'AWS',
       'EC2', 'CodePipeline', 'Route 53', 'AWS Certificate Manager']
   }
+];
+
+export const graphicsExperiences: Experience[] = [
+  {
+    image: {
+      path: 'assets/logos/surflab_logo.gif',
+      alt: 'UF Logo',
+      class: 'surflab'
+    },
+    company: 'UF SurfLab',
+    position: 'Research Assistant (AdaptNet)',
+    duration: 'November 2021 - Present',
+    description: '<li>Aids in implementing a remeshing algorithm that enables users to convert dense 3D meshes into\n' +
+      'a corresponding spline surface with fewer degrees of freedom for ease of modeling and manipulation</li>' +
+      '<li>Develops a Docker development environment such that the script can be used across different OS environments</li>' +
+      '<li>Researches adjusting the spline’s control points such that the surface  is fit as closely as possible to the target mesh</li>',
+    skills: ['Python', 'Docker', 'PyTorch', 'PyTorch3D', 'Git']
+  },
 ];

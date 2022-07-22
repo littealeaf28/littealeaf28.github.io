@@ -5,11 +5,16 @@
     <mat-tab-group mat-align-tabs="center">
       <mat-tab label="Software Dev">
         <app-experience-card
-          *ngFor="let experience of experiences"
+          *ngFor="let experience of softwareDevExperiences"
           [experience]="experience">
         </app-experience-card>
       </mat-tab>
-      <mat-tab label="Graphics"></mat-tab>
+      <mat-tab label="Graphics">
+        <app-experience-card
+          *ngFor="let experience of graphicsExperiences"
+          [experience]="experience">
+        </app-experience-card>
+      </mat-tab>
     </mat-tab-group>
   </div>
 </section>

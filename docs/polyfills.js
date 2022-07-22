@@ -3241,7 +3241,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 6:
+/***/ 1:
 /*!********************************!*\
   !*** multi ./src/polyfills.ts ***!
   \********************************/
@@ -3253,5 +3253,5 @@ module.exports = __webpack_require__(/*! C:\Users\Tianrui\Projects\littealeaf28.
 
 /***/ })
 
-},[[6,"runtime"]]]);
+},[[1,"runtime"]]]);
 //# sourceMappingURL=polyfills.js.map
