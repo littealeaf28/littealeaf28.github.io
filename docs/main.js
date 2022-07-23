@@ -534,27 +534,35 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function ExperiencesComponent_app_experience_card_8_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-experience-card", 5);
-} if (rf & 2) {
-    const experience_r2 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experience", experience_r2);
-} }
-function ExperiencesComponent_app_experience_card_10_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-experience-card", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-experience-card", 6);
 } if (rf & 2) {
     const experience_r3 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experience", experience_r3);
+} }
+function ExperiencesComponent_app_experience_card_10_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-experience-card", 6);
+} if (rf & 2) {
+    const experience_r4 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experience", experience_r4);
+} }
+function ExperiencesComponent_app_experience_card_12_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-experience-card", 6);
+} if (rf & 2) {
+    const experience_r5 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experience", experience_r5);
 } }
 class ExperiencesComponent {
     constructor() {
         this.softwareDevExperiences = _experiences__WEBPACK_IMPORTED_MODULE_1__["softwareDevExperiences"];
         this.graphicsExperiences = _experiences__WEBPACK_IMPORTED_MODULE_1__["graphicsExperiences"];
+        this.networksExperiences = _experiences__WEBPACK_IMPORTED_MODULE_1__["networksExperiences"];
+        this.miscExperiences = _experiences__WEBPACK_IMPORTED_MODULE_1__["miscExperiences"];
     }
     ngOnInit() {
     }
 }
 ExperiencesComponent.ɵfac = function ExperiencesComponent_Factory(t) { return new (t || ExperiencesComponent)(); };
-ExperiencesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ExperiencesComponent, selectors: [["app-experiences"]], decls: 11, vars: 2, consts: [[1, "experience-container"], ["mat-align-tabs", "center"], ["label", "Software Dev"], [3, "experience", 4, "ngFor", "ngForOf"], ["label", "Graphics"], [3, "experience"]], template: function ExperiencesComponent_Template(rf, ctx) { if (rf & 1) {
+ExperiencesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ExperiencesComponent, selectors: [["app-experiences"]], decls: 13, vars: 3, consts: [[1, "experience-container"], ["mat-align-tabs", "center"], ["label", "Software Dev"], [3, "experience", 4, "ngFor", "ngForOf"], ["label", "Graphics"], ["label", "Misc."], [3, "experience"]], template: function ExperiencesComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Portfolio");
@@ -570,6 +578,9 @@ ExperiencesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "mat-tab", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, ExperiencesComponent_app_experience_card_10_Template, 1, 1, "app-experience-card", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "mat-tab", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](12, ExperiencesComponent_app_experience_card_12_Template, 1, 1, "app-experience-card", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -578,6 +589,8 @@ ExperiencesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.softwareDevExperiences);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.graphicsExperiences);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.miscExperiences);
     } }, directives: [_angular_material_tabs__WEBPACK_IMPORTED_MODULE_2__["MatTabGroup"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_2__["MatTab"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _experience_card_experience_card_component__WEBPACK_IMPORTED_MODULE_4__["ExperienceCardComponent"]], styles: ["section[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-family: \"Amaranth\", sans-serif;\n  font-size: 38px;\n  font-weight: normal;\n  margin: 16px 0 2px 0;\n}\nsection[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%] {\n  font-family: \"Advent Pro\", sans-serif;\n  font-weight: normal;\n  font-size: 24px;\n  margin: auto;\n  color: #82ADEE;\n}\nsection[_ngcontent-%COMP%]   div.experience-container[_ngcontent-%COMP%] {\n  max-width: 80%;\n  margin: 6px auto;\n}\nsection[_ngcontent-%COMP%]   div.experience-container[_ngcontent-%COMP%]     .mat-ink-bar {\n  background-color: #82ADEE;\n}\nsection[_ngcontent-%COMP%]   div.experience-container[_ngcontent-%COMP%]     div.mat-tab-label-content {\n  font-family: \"Amaranth\", sans-serif;\n  font-size: 20px;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9leHBlcmllbmNlcy9leHBlcmllbmNlcy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDRTtFQUNFLG1DQUFBO0VBQ0EsZUFBQTtFQUNBLG1CQUFBO0VBQ0Esb0JBQUE7QUFBSjtBQUdFO0VBQ0UscUNBQUE7RUFDQSxtQkFBQTtFQUNBLGVBQUE7RUFDQSxZQUFBO0VBQ0EsY0FBQTtBQURKO0FBSUU7RUFDRSxjQUFBO0VBQ0EsZ0JBQUE7QUFGSjtBQUlJO0VBQ0UseUJBQUE7QUFGTjtBQUtJO0VBQ0UsbUNBQUE7RUFDQSxlQUFBO0VBQ0EsaUJBQUE7QUFITiIsImZpbGUiOiJzcmMvYXBwL2hvbWUvZXhwZXJpZW5jZXMvZXhwZXJpZW5jZXMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJzZWN0aW9uIHtcclxuICBoMSB7XHJcbiAgICBmb250LWZhbWlseTogJ0FtYXJhbnRoJywgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtc2l6ZTogMzhweDtcclxuICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XHJcbiAgICBtYXJnaW46IDE2cHggMCAycHggMDtcclxuICB9XHJcblxyXG4gIGgzIHtcclxuICAgIGZvbnQtZmFtaWx5OiAnQWR2ZW50IFBybycsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXdlaWdodDogbm9ybWFsO1xyXG4gICAgZm9udC1zaXplOiAyNHB4O1xyXG4gICAgbWFyZ2luOiBhdXRvO1xyXG4gICAgY29sb3I6ICM4MkFERUU7XHJcbiAgfVxyXG5cclxuICBkaXYuZXhwZXJpZW5jZS1jb250YWluZXIge1xyXG4gICAgbWF4LXdpZHRoOiA4MCU7XHJcbiAgICBtYXJnaW46IDZweCBhdXRvO1xyXG5cclxuICAgIDo6bmctZGVlcCAubWF0LWluay1iYXIge1xyXG4gICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjODJBREVFO1xyXG4gICAgfVxyXG5cclxuICAgIDo6bmctZGVlcCBkaXYubWF0LXRhYi1sYWJlbC1jb250ZW50IHtcclxuICAgICAgZm9udC1mYW1pbHk6ICdBbWFyYW50aCcsIHNhbnMtc2VyaWY7XHJcbiAgICAgIGZvbnQtc2l6ZTogMjBweDtcclxuICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICB9XHJcbiAgfVxyXG59XHJcbiJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ExperiencesComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
@@ -595,13 +608,15 @@ ExperiencesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
 /*!*************************************************!*\
   !*** ./src/app/home/experiences/experiences.ts ***!
   \*************************************************/
-/*! exports provided: softwareDevExperiences, graphicsExperiences */
+/*! exports provided: softwareDevExperiences, graphicsExperiences, networksExperiences, miscExperiences */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "softwareDevExperiences", function() { return softwareDevExperiences; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "graphicsExperiences", function() { return graphicsExperiences; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "networksExperiences", function() { return networksExperiences; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "miscExperiences", function() { return miscExperiences; });
 const softwareDevExperiences = [
     {
         image: {
@@ -634,23 +649,6 @@ const softwareDevExperiences = [
             '<li>Utilized NgRx for managing state management for complex user logic. Implemented a tree-based questionnaire for guiding\n' +
             'new users that relied on NgRx and LocalStorage to track user decisions and history</li>',
         skills: ['TypeScript', 'Angular', 'Firebase', 'Firestore', 'GitLab CI/CD', 'Cypress', 'Jasmine', 'Jira']
-    },
-    {
-        image: {
-            path: 'assets/logos/uf.png',
-            alt: 'UF Logo',
-            class: 'uf'
-        },
-        company: 'UF Computer & Information Science & Engineering',
-        position: 'Teaching Assistant',
-        duration: 'January 2020 - May 2022',
-        description: '<li><strong>Courses</strong>: "Data Science" (01/2022 - 05/2022), "Operating Systems" (08/2021 - 12/2021), "Discrete Structures" (01/2020 - 05/2021),\n' +
-            '"Computer Graphics" (01/2021 - 05/2021)</li>' +
-            '<li>Simplified and extended scaffold code for "Computer Graphics" projects, as coordinated with the professor, to improve student understanding of OpenGL\n' +
-            'and to integrate changes in requirements</li>' +
-            '<li>Prepare presentations and example problems for lecture reviews for “Discrete Structures" discussions\n' +
-            'for 20-30 students</li>',
-        skills: ['C++', 'CMake', 'OpenGL', 'Python', 'Jupyter Notebook', 'sklearn']
     },
     {
         image: {
@@ -700,6 +698,43 @@ const graphicsExperiences = [
             '<li>Develops a Docker development environment such that the script can be used across different OS environments</li>' +
             '<li>Researches adjusting the spline’s control points such that the surface  is fit as closely as possible to the target mesh</li>',
         skills: ['Python', 'Docker', 'PyTorch', 'PyTorch3D', 'Git']
+    },
+];
+const networksExperiences = [
+    {
+        image: {
+            path: 'assets/logos/surflab_logo.gif',
+            alt: 'UF Logo',
+            class: 'surflab'
+        },
+        company: 'UF SurfLab',
+        position: 'Research Assistant (AdaptNet)',
+        duration: 'November 2021 - Present',
+        description: '<li>Aids in implementing a remeshing algorithm that enables users to convert dense 3D meshes into\n' +
+            'a corresponding spline surface with fewer degrees of freedom for ease of modeling and manipulation</li>' +
+            '<li>Develops a Docker development environment such that the script can be used across different OS environments</li>' +
+            '<li>Researches adjusting the spline’s control points such that the surface  is fit as closely as possible to the target mesh</li>',
+        skills: ['Python', 'Docker', 'PyTorch', 'PyTorch3D', 'Git']
+    },
+];
+const miscExperiences = [
+    {
+        image: {
+            path: 'assets/logos/uf.png',
+            alt: 'UF Logo',
+            class: 'uf'
+        },
+        company: 'UF Computer & Information Science & Engineering',
+        position: 'Teaching Assistant',
+        duration: 'January 2020 - May 2022',
+        description: '<li><strong>Courses</strong>: "Data Science" (01/2022 - 05/2022), "Operating Systems" (08/2021 - 12/2021), "Discrete Structures" (01/2020 - 05/2021),\n' +
+            '"Computer Graphics" (01/2021 - 05/2021)</li>' +
+            '<li>Simplified and extended scaffold code for "Computer Graphics" projects, as coordinated with the professor, to improve student understanding of OpenGL\n' +
+            'and to integrate changes in requirements</li>' +
+            '<li>Prepare presentations and example problems for lecture reviews for “Discrete Structures" discussions\n' +
+            'for 20-30 students</li>' +
+            '<li>Developed script to automate tracking attendance for 300-400 students in Zoom discussions for “Discrete Structures”</li>',
+        skills: ['C++', 'CMake', 'OpenGL', 'Python', 'Jupyter Notebook', 'sklearn', 'Pandas', 'Canvas API']
     },
 ];
 

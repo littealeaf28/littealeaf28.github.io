@@ -15,6 +15,18 @@
           [experience]="experience">
         </app-experience-card>
       </mat-tab>
+      <!-- <mat-tab label="Networks + Distributed Systems">
+        <app-experience-card
+          *ngFor="let experience of networksExperiences"
+          [experience]="experience">
+        </app-experience-card>
+      </mat-tab> -->
+      <mat-tab label="Misc.">
+        <app-experience-card
+          *ngFor="let experience of miscExperiences"
+          [experience]="experience">
+        </app-experience-card>
+      </mat-tab>
     </mat-tab-group>
   </div>
 </section>

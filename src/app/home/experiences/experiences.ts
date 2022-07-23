@@ -46,23 +46,6 @@ export const softwareDevExperiences: Experience[] = [
   },
   {
     image: {
-      path: 'assets/logos/uf.png',
-      alt: 'UF Logo',
-      class: 'uf'
-    },
-    company: 'UF Computer & Information Science & Engineering',
-    position: 'Teaching Assistant',
-    duration: 'January 2020 - May 2022',
-    description: '<li><strong>Courses</strong>: "Data Science" (01/2022 - 05/2022), "Operating Systems" (08/2021 - 12/2021), "Discrete Structures" (01/2020 - 05/2021),\n' +
-      '"Computer Graphics" (01/2021 - 05/2021)</li>' +
-      '<li>Simplified and extended scaffold code for "Computer Graphics" projects, as coordinated with the professor, to improve student understanding of OpenGL\n' +
-      'and to integrate changes in requirements</li>' +
-      '<li>Prepare presentations and example problems for lecture reviews for “Discrete Structures" discussions\n' +
-      'for 20-30 students</li>',
-    skills: ['C++', 'CMake', 'OpenGL', 'Python', 'Jupyter Notebook', 'sklearn']
-  },
-  {
-    image: {
       path: 'assets/logos/surflab_logo.gif',
       alt: 'UF Logo',
       class: 'surflab'
@@ -112,3 +95,42 @@ export const graphicsExperiences: Experience[] = [
     skills: ['Python', 'Docker', 'PyTorch', 'PyTorch3D', 'Git']
   },
 ];
+
+export const networksExperiences: Experience[] = [
+  {
+    image: {
+      path: 'assets/logos/surflab_logo.gif',
+      alt: 'UF Logo',
+      class: 'surflab'
+    },
+    company: 'UF SurfLab',
+    position: 'Research Assistant (AdaptNet)',
+    duration: 'November 2021 - Present',
+    description: '<li>Aids in implementing a remeshing algorithm that enables users to convert dense 3D meshes into\n' +
+      'a corresponding spline surface with fewer degrees of freedom for ease of modeling and manipulation</li>' +
+      '<li>Develops a Docker development environment such that the script can be used across different OS environments</li>' +
+      '<li>Researches adjusting the spline’s control points such that the surface  is fit as closely as possible to the target mesh</li>',
+    skills: ['Python', 'Docker', 'PyTorch', 'PyTorch3D', 'Git']
+  },
+];
+
+export const miscExperiences: Experience[] = [
+  {
+    image: {
+      path: 'assets/logos/uf.png',
+      alt: 'UF Logo',
+      class: 'uf'
+    },
+    company: 'UF Computer & Information Science & Engineering',
+    position: 'Teaching Assistant',
+    duration: 'January 2020 - May 2022',
+    description: '<li><strong>Courses</strong>: "Data Science" (01/2022 - 05/2022), "Operating Systems" (08/2021 - 12/2021), "Discrete Structures" (01/2020 - 05/2021),\n' +
+      '"Computer Graphics" (01/2021 - 05/2021)</li>' +
+      '<li>Simplified and extended scaffold code for "Computer Graphics" projects, as coordinated with the professor, to improve student understanding of OpenGL\n' +
+      'and to integrate changes in requirements</li>' +
+      '<li>Prepare presentations and example problems for lecture reviews for “Discrete Structures" discussions\n' +
+      'for 20-30 students</li>' +
+      '<li>Developed script to automate tracking attendance for 300-400 students in Zoom discussions for “Discrete Structures”</li>',
+    skills: ['C++', 'CMake', 'OpenGL', 'Python', 'Jupyter Notebook', 'sklearn', 'Pandas', 'Canvas API']
+  },
+]
