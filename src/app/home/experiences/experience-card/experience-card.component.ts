@@ -8,6 +8,7 @@ import { Experience } from '../experiences';
 })
 export class ExperienceCardComponent implements OnInit {
   @Input() experience: Experience;
+  @Input() isLast: boolean;
 
   constructor() { }
 

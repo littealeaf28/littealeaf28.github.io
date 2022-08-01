@@ -1,20 +1,14 @@
-<div class="experience-card">
-  <div
-    class="image-container"
-    [class]="experience.image.class"
-  >
-    <img
-      [src]="experience.image.path"
-      [alt]="experience.image.alt"
-    >
-  </div>
-  <h1>{{ experience.company }}</h1>
-  <h3>{{ experience.position }}</h3>
-  <strong>{{ experience.duration }}</strong>
-  <ul [innerHTML]="experience.description"></ul>
-  <app-skills-hotbar
-    *ngIf="experience.skills.length > 0"
-    [skills]="experience.skills"
-    [isLightMode]="false"
-  ></app-skills-hotbar>
+<div
+  class="experience-card"
+  [ngClass]="{'image-card': experience.image}"
+  [class.is-last]="isLast"
+>
+  <app-experience-image
+    *ngIf="experience.image"
+    [experienceImage]="experience.image"
+  ></app-experience-image>
+  <app-experience-text
+    [experienceText]="experience.text"
+    [isCentered]="!experience.image"
+  ></app-experience-text>
 </div>

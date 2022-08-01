@@ -20,7 +20,9 @@ import {NgbCarouselModule} from '@ng-bootstrap/ng-bootstrap';
 import {AngularFireStorageModule, BUCKET} from '@angular/fire/storage';
 import {AngularFireAnalyticsModule, UserTrackingService} from '@angular/fire/analytics';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatTabsModule} from '@angular/material/tabs'
+import {MatTabsModule} from '@angular/material/tabs';
+import { ExperienceTextComponent } from './home/experiences/experience-card/experience-text/experience-text.component';
+import { ExperienceImageComponent } from './home/experiences/experience-card/experience-image/experience-image.component'
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import {MatTabsModule} from '@angular/material/tabs'
     ProjectCardComponent,
     ExcitingComponent,
     FunCarouselComponent,
-    TopicBulletinComponent
+    TopicBulletinComponent,
+    ExperienceTextComponent,
+    ExperienceImageComponent
   ],
   imports: [
     BrowserModule,

@@ -134,6 +134,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_fire_analytics__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/fire/analytics */ "./node_modules/@angular/fire/__ivy_ngcc__/fesm2015/angular-fire-analytics.js");
 /* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js");
 /* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/material/tabs */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/tabs.js");
+/* harmony import */ var _home_experiences_experience_card_experience_text_experience_text_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./home/experiences/experience-card/experience-text/experience-text.component */ "./src/app/home/experiences/experience-card/experience-text/experience-text.component.ts");
+/* harmony import */ var _home_experiences_experience_card_experience_image_experience_image_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./home/experiences/experience-card/experience-image/experience-image.component */ "./src/app/home/experiences/experience-card/experience-image/experience-image.component.ts");
+
+
 
 
 
@@ -185,7 +189,9 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
         _home_projects_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_11__["ProjectCardComponent"],
         _exciting_exciting_component__WEBPACK_IMPORTED_MODULE_12__["ExcitingComponent"],
         _exciting_fun_carousel_fun_carousel_component__WEBPACK_IMPORTED_MODULE_13__["FunCarouselComponent"],
-        _exciting_topic_bulletin_topic_bulletin_component__WEBPACK_IMPORTED_MODULE_14__["TopicBulletinComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _exciting_topic_bulletin_topic_bulletin_component__WEBPACK_IMPORTED_MODULE_14__["TopicBulletinComponent"],
+        _home_experiences_experience_card_experience_text_experience_text_component__WEBPACK_IMPORTED_MODULE_22__["ExperienceTextComponent"],
+        _home_experiences_experience_card_experience_image_experience_image_component__WEBPACK_IMPORTED_MODULE_23__["ExperienceImageComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
         _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"],
         angular_svg_icon__WEBPACK_IMPORTED_MODULE_6__["AngularSvgIconModule"], _angular_fire__WEBPACK_IMPORTED_MODULE_16__["AngularFireModule"], _angular_fire_storage__WEBPACK_IMPORTED_MODULE_18__["AngularFireStorageModule"],
         _angular_fire_analytics__WEBPACK_IMPORTED_MODULE_19__["AngularFireAnalyticsModule"],
@@ -206,7 +212,9 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _home_projects_project_card_project_card_component__WEBPACK_IMPORTED_MODULE_11__["ProjectCardComponent"],
                     _exciting_exciting_component__WEBPACK_IMPORTED_MODULE_12__["ExcitingComponent"],
                     _exciting_fun_carousel_fun_carousel_component__WEBPACK_IMPORTED_MODULE_13__["FunCarouselComponent"],
-                    _exciting_topic_bulletin_topic_bulletin_component__WEBPACK_IMPORTED_MODULE_14__["TopicBulletinComponent"]
+                    _exciting_topic_bulletin_topic_bulletin_component__WEBPACK_IMPORTED_MODULE_14__["TopicBulletinComponent"],
+                    _home_experiences_experience_card_experience_text_experience_text_component__WEBPACK_IMPORTED_MODULE_22__["ExperienceTextComponent"],
+                    _home_experiences_experience_card_experience_image_experience_image_component__WEBPACK_IMPORTED_MODULE_23__["ExperienceImageComponent"]
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
@@ -448,56 +456,39 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ExperienceCardComponent", function() { return ExperienceCardComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
-/* harmony import */ var _shared_skills_hotbar_skills_hotbar_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../shared/skills-hotbar/skills-hotbar.component */ "./src/app/home/shared/skills-hotbar/skills-hotbar.component.ts");
+/* harmony import */ var _experience_text_experience_text_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./experience-text/experience-text.component */ "./src/app/home/experiences/experience-card/experience-text/experience-text.component.ts");
+/* harmony import */ var _experience_image_experience_image_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./experience-image/experience-image.component */ "./src/app/home/experiences/experience-card/experience-image/experience-image.component.ts");
 
 
 
 
-function ExperienceCardComponent_app_skills_hotbar_10_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-skills-hotbar", 5);
+
+function ExperienceCardComponent_app_experience_image_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-experience-image", 3);
 } if (rf & 2) {
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("skills", ctx_r0.experience.skills)("isLightMode", false);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experienceImage", ctx_r0.experience.image);
 } }
+const _c0 = function (a0) { return { "image-card": a0 }; };
 class ExperienceCardComponent {
     constructor() { }
     ngOnInit() {
     }
 }
 ExperienceCardComponent.ɵfac = function ExperienceCardComponent_Factory(t) { return new (t || ExperienceCardComponent)(); };
-ExperienceCardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ExperienceCardComponent, selectors: [["app-experience-card"]], inputs: { experience: "experience" }, decls: 11, vars: 9, consts: [[1, "experience-card"], [1, "image-container"], [3, "src", "alt"], [3, "innerHTML"], [3, "skills", "isLightMode", 4, "ngIf"], [3, "skills", "isLightMode"]], template: function ExperienceCardComponent_Template(rf, ctx) { if (rf & 1) {
+ExperienceCardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ExperienceCardComponent, selectors: [["app-experience-card"]], inputs: { experience: "experience", isLast: "isLast" }, decls: 3, vars: 8, consts: [[1, "experience-card", 3, "ngClass"], [3, "experienceImage", 4, "ngIf"], [3, "experienceText", "isCentered"], [3, "experienceImage"]], template: function ExperienceCardComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "ul", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, ExperienceCardComponent_app_skills_hotbar_10_Template, 1, 2, "app-skills-hotbar", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ExperienceCardComponent_app_experience_image_1_Template, 1, 1, "app-experience-image", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-experience-text", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("is-last", ctx.isLast);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](6, _c0, ctx.experience.image));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"](ctx.experience.image.class);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.experience.image);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", ctx.experience.image.path, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"])("alt", ctx.experience.image.alt);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.experience.company);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.experience.position);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.experience.duration);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("innerHTML", ctx.experience.description, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeHtml"]);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.experience.skills.length > 0);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _shared_skills_hotbar_skills_hotbar_component__WEBPACK_IMPORTED_MODULE_2__["SkillsHotbarComponent"]], styles: ["div.experience-card[_ngcontent-%COMP%] {\n  display: grid;\n  text-align: left;\n  grid-template-columns: 300px minmax(0, 100%);\n  grid-template-rows: repeat(3, minmax(0, -webkit-min-content)) minmax(0, -webkit-max-content) minmax(0, -webkit-min-content);\n  grid-template-rows: repeat(3, minmax(0, min-content)) minmax(0, max-content) minmax(0, min-content);\n  grid-column-gap: 24px;\n  grid-row-gap: 6px;\n  margin: 30px 0;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  grid-column: 1;\n  grid-row: 1/5;\n  width: 280px;\n  height: 260px;\n  border-radius: 24px;\n  box-sizing: border-box;\n  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.jpmchase[_ngcontent-%COMP%] {\n  background: #ffffff;\n  border: 2px solid #00477b;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.jpmchase[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 240px;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.studio-reach[_ngcontent-%COMP%] {\n  background: #ffffff;\n  border: 2px solid #74C1D9;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.studio-reach[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 260px;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.bookmarkd[_ngcontent-%COMP%] {\n  background: #096F37;\n  border: 2px solid #0FCA64;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.bookmarkd[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 250px;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.uf[_ngcontent-%COMP%] {\n  background: #ffffff;\n  border: 2px solid #00529B;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.uf[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 200px;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.surflab[_ngcontent-%COMP%] {\n  background: #ffffff;\n  border: 2px solid #d8a20e;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.surflab[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 200px;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.no-image-available[_ngcontent-%COMP%] {\n  background: #ffffff;\n}\ndiv.experience-card[_ngcontent-%COMP%]   div.image-container.no-image-available[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 200px;\n}\ndiv.experience-card[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-family: \"Amaranth\", sans-serif;\n  font-size: 34px;\n  font-weight: normal;\n  margin: 0;\n  color: #82ADEE;\n}\ndiv.experience-card[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%] {\n  font-family: \"Amaranth\", sans-serif;\n  font-size: 28px;\n  font-weight: normal;\n  margin: 0;\n  color: #000000;\n}\ndiv.experience-card[_ngcontent-%COMP%]   strong[_ngcontent-%COMP%] {\n  font-weight: bold;\n  font-size: 22px;\n  margin: 0;\n  font-family: \"Advent Pro\", sans-serif;\n  color: #000000;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%] {\n  margin: 0;\n  list-style: url(\"/assets/icons/arrow-right.svg\");\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li {\n  font-family: \"Advent Pro\", sans-serif;\n  font-weight: normal;\n  font-size: 22px;\n  color: #000000;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a {\n  text-decoration: none;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a:hover {\n  cursor: pointer;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.ayhr-link {\n  color: #da3823;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.ayhr-link:hover {\n  color: #FF7373;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.powerpoint-link {\n  color: #3e85ea;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.powerpoint-link:hover {\n  color: #5dacee;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.bookmarkd-link {\n  color: #0FCA64;\n}\ndiv.experience-card[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a.bookmarkd-link:hover {\n  color: #096F37;\n}\ndiv.experience-card[_ngcontent-%COMP%]   app-skills-hotbar[_ngcontent-%COMP%] {\n  grid-column: 2;\n}\n@media all and (max-width: 1000px) {\n  div.experience-card[_ngcontent-%COMP%] {\n    grid-template-columns: minmax(0, 100%);\n    justify-items: center;\n  }\n  div.experience-card[_ngcontent-%COMP%]   div.image-container[_ngcontent-%COMP%] {\n    grid-row: 1;\n  }\n  div.experience-card[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%], div.experience-card[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%] {\n    text-align: center;\n  }\n  div.experience-card[_ngcontent-%COMP%]   app-skills-hotbar[_ngcontent-%COMP%] {\n    width: 100%;\n    grid-column: 1;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9leHBlcmllbmNlcy9leHBlcmllbmNlLWNhcmQvZXhwZXJpZW5jZS1jYXJkLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBQTtFQUNBLGdCQUFBO0VBQ0EsNENBQUE7RUFDQSwySEFBQTtFQUFBLG1HQUFBO0VBQ0EscUJBQUE7RUFDQSxpQkFBQTtFQUVBLGNBQUE7QUFBRjtBQUVFO0VBQ0UsYUFBQTtFQUNBLG1CQUFBO0VBQ0EsdUJBQUE7RUFDQSxjQUFBO0VBQ0EsYUFBQTtFQUVBLFlBQUE7RUFDQSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSxzQkFBQTtFQUNBLHlDQUFBO0FBREo7QUFHSTtFQUtFLG1CQUFBO0VBQ0EseUJBQUE7QUFMTjtBQUFNO0VBQ0UsWUFBQTtBQUVSO0FBS0k7RUFLRSxtQkFBQTtFQUNBLHlCQUFBO0FBUE47QUFFTTtFQUNFLFlBQUE7QUFBUjtBQU9JO0VBS0UsbUJBQUE7RUFDQSx5QkFBQTtBQVROO0FBSU07RUFDRSxZQUFBO0FBRlI7QUFTSTtFQUtFLG1CQUFBO0VBQ0EseUJBQUE7QUFYTjtBQU1NO0VBQ0UsWUFBQTtBQUpSO0FBV0k7RUFLRSxtQkFBQTtFQUNBLHlCQUFBO0FBYk47QUFRTTtFQUNFLFlBQUE7QUFOUjtBQWFJO0VBS0UsbUJBQUE7QUFmTjtBQVdNO0VBQ0UsWUFBQTtBQVRSO0FBaUJFO0VBQ0UsbUNBQUE7RUFDQSxlQUFBO0VBQ0EsbUJBQUE7RUFDQSxTQUFBO0VBQ0EsY0FBQTtBQWZKO0FBa0JFO0VBQ0UsbUNBQUE7RUFDQSxlQUFBO0VBQ0EsbUJBQUE7RUFDQSxTQUFBO0VBQ0EsY0FBQTtBQWhCSjtBQW1CRTtFQUNFLGlCQUFBO0VBQ0EsZUFBQTtFQUNBLFNBQUE7RUFDQSxxQ0FBQTtFQUNBLGNBQUE7QUFqQko7QUFvQkU7RUFDRSxTQUFBO0VBQ0EsZ0RBQUE7QUFsQko7QUFvQkk7RUFDRSxxQ0FBQTtFQUNBLG1CQUFBO0VBQ0EsZUFBQTtFQUNBLGNBQUE7QUFsQk47QUFvQk07RUFDRSxxQkFBQTtBQWxCUjtBQW9CUTtFQUNFLGVBQUE7QUFsQlY7QUFxQlE7RUFDRSxjQUFBO0FBbkJWO0FBcUJVO0VBQ0UsY0FBQTtBQW5CWjtBQXVCUTtFQUNFLGNBQUE7QUFyQlY7QUF1QlU7RUFDRSxjQUFBO0FBckJaO0FBeUJRO0VBQ0UsY0FBQTtBQXZCVjtBQXlCVTtFQUNFLGNBQUE7QUF2Qlo7QUE4QkU7RUFDRSxjQUFBO0FBNUJKO0FBZ0NBO0VBQ0U7SUFDRSxzQ0FBQTtJQUNBLHFCQUFBO0VBN0JGO0VBK0JFO0lBQ0UsV0FBQTtFQTdCSjtFQWdDRTtJQUNFLGtCQUFBO0VBOUJKO0VBaUNFO0lBQ0UsV0FBQTtJQUNBLGNBQUE7RUEvQko7QUFDRiIsImZpbGUiOiJzcmMvYXBwL2hvbWUvZXhwZXJpZW5jZXMvZXhwZXJpZW5jZS1jYXJkL2V4cGVyaWVuY2UtY2FyZC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImRpdi5leHBlcmllbmNlLWNhcmQge1xyXG4gIGRpc3BsYXk6IGdyaWQ7XHJcbiAgdGV4dC1hbGlnbjogbGVmdDtcclxuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDMwMHB4IG1pbm1heCgwLCAxMDAlKTtcclxuICBncmlkLXRlbXBsYXRlLXJvd3M6IHJlcGVhdCgzLCBtaW5tYXgoMCwgbWluLWNvbnRlbnQpKSBtaW5tYXgoMCwgbWF4LWNvbnRlbnQpIG1pbm1heCgwLCBtaW4tY29udGVudCk7XHJcbiAgZ3JpZC1jb2x1bW4tZ2FwOiAyNHB4O1xyXG4gIGdyaWQtcm93LWdhcDogNnB4O1xyXG5cclxuICBtYXJnaW46IDMwcHggMDtcclxuXHJcbiAgZGl2LmltYWdlLWNvbnRhaW5lciB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgZ3JpZC1jb2x1bW46IDE7XHJcbiAgICBncmlkLXJvdzogMSAvIDU7XHJcblxyXG4gICAgd2lkdGg6IDI4MHB4O1xyXG4gICAgaGVpZ2h0OiAyNjBweDtcclxuICAgIGJvcmRlci1yYWRpdXM6IDI0cHg7XHJcbiAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG4gICAgYm94LXNoYWRvdzogMCA0cHggNHB4IHJnYmEoIzAwMDAwMCwgMC4yNSk7XHJcblxyXG4gICAgJi5qcG1jaGFzZSB7XHJcbiAgICAgIGltZyB7XHJcbiAgICAgICAgd2lkdGg6IDI0MHB4O1xyXG4gICAgICB9XHJcblxyXG4gICAgICBiYWNrZ3JvdW5kOiAjZmZmZmZmO1xyXG4gICAgICBib3JkZXI6IDJweCBzb2xpZCAjMDA0NzdiO1xyXG4gICAgfVxyXG5cclxuICAgICYuc3R1ZGlvLXJlYWNoIHtcclxuICAgICAgaW1nIHtcclxuICAgICAgICB3aWR0aDogMjYwcHg7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIGJhY2tncm91bmQ6ICNmZmZmZmY7XHJcbiAgICAgIGJvcmRlcjogMnB4IHNvbGlkICM3NEMxRDk7XHJcbiAgICB9XHJcblxyXG4gICAgJi5ib29rbWFya2Qge1xyXG4gICAgICBpbWcge1xyXG4gICAgICAgIHdpZHRoOiAyNTBweDtcclxuICAgICAgfVxyXG5cclxuICAgICAgYmFja2dyb3VuZDogIzA5NkYzNztcclxuICAgICAgYm9yZGVyOiAycHggc29saWQgIzBGQ0E2NDtcclxuICAgIH1cclxuXHJcbiAgICAmLnVmIHtcclxuICAgICAgaW1nIHtcclxuICAgICAgICB3aWR0aDogMjAwcHg7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIGJhY2tncm91bmQ6ICNmZmZmZmY7XHJcbiAgICAgIGJvcmRlcjogMnB4IHNvbGlkICMwMDUyOUI7XHJcbiAgICB9XHJcblxyXG4gICAgJi5zdXJmbGFiIHtcclxuICAgICAgaW1nIHtcclxuICAgICAgICB3aWR0aDogMjAwcHg7XHJcbiAgICAgIH1cclxuXHJcbiAgICAgIGJhY2tncm91bmQ6ICNmZmZmZmY7XHJcbiAgICAgIGJvcmRlcjogMnB4IHNvbGlkICNkOGEyMGU7XHJcbiAgICB9XHJcblxyXG4gICAgJi5uby1pbWFnZS1hdmFpbGFibGUge1xyXG4gICAgICBpbWcge1xyXG4gICAgICAgIHdpZHRoOiAyMDBweDtcclxuICAgICAgfVxyXG5cclxuICAgICAgYmFja2dyb3VuZDogI2ZmZmZmZjtcclxuICAgICAgLy9ib3JkZXI6IDJweCBzb2xpZCAjMDA1MjlCO1xyXG4gICAgfVxyXG4gIH1cclxuXHJcbiAgaDEge1xyXG4gICAgZm9udC1mYW1pbHk6ICdBbWFyYW50aCcsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXNpemU6IDM0cHg7XHJcbiAgICBmb250LXdlaWdodDogbm9ybWFsO1xyXG4gICAgbWFyZ2luOiAwO1xyXG4gICAgY29sb3I6ICM4MkFERUU7XHJcbiAgfVxyXG5cclxuICBoMyB7XHJcbiAgICBmb250LWZhbWlseTogJ0FtYXJhbnRoJywgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtc2l6ZTogMjhweDtcclxuICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XHJcbiAgICBtYXJnaW46IDA7XHJcbiAgICBjb2xvcjogIzAwMDAwMDtcclxuICB9XHJcblxyXG4gIHN0cm9uZyB7XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgIGZvbnQtc2l6ZTogMjJweDtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIGZvbnQtZmFtaWx5OiAnQWR2ZW50IFBybycsIHNhbnMtc2VyaWY7XHJcbiAgICBjb2xvcjogIzAwMDAwMDtcclxuICB9XHJcblxyXG4gIHVsIHtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIGxpc3Qtc3R5bGU6IHVybCgnL2Fzc2V0cy9pY29ucy9hcnJvdy1yaWdodC5zdmcnKTtcclxuXHJcbiAgICA6Om5nLWRlZXAgbGkge1xyXG4gICAgICBmb250LWZhbWlseTogJ0FkdmVudCBQcm8nLCBzYW5zLXNlcmlmO1xyXG4gICAgICBmb250LXdlaWdodDogbm9ybWFsO1xyXG4gICAgICBmb250LXNpemU6IDIycHg7XHJcbiAgICAgIGNvbG9yOiAjMDAwMDAwO1xyXG5cclxuICAgICAgOjpuZy1kZWVwIGEge1xyXG4gICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuXHJcbiAgICAgICAgJjpob3ZlciB7XHJcbiAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICAmLmF5aHItbGluayB7XHJcbiAgICAgICAgICBjb2xvcjogI2RhMzgyMztcclxuXHJcbiAgICAgICAgICAmOmhvdmVyIHtcclxuICAgICAgICAgICAgY29sb3I6ICNGRjczNzM7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICAmLnBvd2VycG9pbnQtbGluayB7XHJcbiAgICAgICAgICBjb2xvcjogIzNlODVlYTtcclxuXHJcbiAgICAgICAgICAmOmhvdmVyIHtcclxuICAgICAgICAgICAgY29sb3I6ICM1ZGFjZWU7XHJcbiAgICAgICAgICB9XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICAmLmJvb2ttYXJrZC1saW5rIHtcclxuICAgICAgICAgIGNvbG9yOiAjMEZDQTY0O1xyXG5cclxuICAgICAgICAgICY6aG92ZXIge1xyXG4gICAgICAgICAgICBjb2xvcjogIzA5NkYzNztcclxuICAgICAgICAgIH1cclxuICAgICAgICB9XHJcbiAgICAgIH1cclxuICAgIH1cclxuICB9XHJcblxyXG4gIGFwcC1za2lsbHMtaG90YmFyIHtcclxuICAgIGdyaWQtY29sdW1uOiAyO1xyXG4gIH1cclxufVxyXG5cclxuQG1lZGlhIGFsbCBhbmQgKG1heC13aWR0aDogMTAwMHB4KSB7XHJcbiAgZGl2LmV4cGVyaWVuY2UtY2FyZCB7XHJcbiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IG1pbm1heCgwLCAxMDAlKTtcclxuICAgIGp1c3RpZnktaXRlbXM6IGNlbnRlcjtcclxuXHJcbiAgICBkaXYuaW1hZ2UtY29udGFpbmVyIHtcclxuICAgICAgZ3JpZC1yb3c6IDFcclxuICAgIH1cclxuXHJcbiAgICBoMSwgaDMge1xyXG4gICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICB9XHJcblxyXG4gICAgYXBwLXNraWxscy1ob3RiYXIge1xyXG4gICAgICB3aWR0aDogMTAwJTtcclxuICAgICAgZ3JpZC1jb2x1bW46IDE7XHJcbiAgICB9XHJcbiAgfVxyXG59XHJcbiJdfQ== */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experienceText", ctx.experience.text)("isCentered", !ctx.experience.image);
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgClass"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _experience_text_experience_text_component__WEBPACK_IMPORTED_MODULE_2__["ExperienceTextComponent"], _experience_image_experience_image_component__WEBPACK_IMPORTED_MODULE_3__["ExperienceImageComponent"]], styles: ["div.experience-card[_ngcontent-%COMP%] {\n  display: grid;\n  text-align: left;\n  margin: 30px 0;\n  grid-template-columns: minmax(0, 100%);\n  padding-bottom: 30px;\n  border-bottom: 1px solid #ebebeb;\n}\ndiv.experience-card.image-card[_ngcontent-%COMP%] {\n  grid-template-columns: 300px minmax(0, 100%);\n  grid-column-gap: 24px;\n}\ndiv.experience-card.is-last[_ngcontent-%COMP%] {\n  padding-bottom: 0px;\n  border-bottom: none;\n}\n@media all and (max-width: 1000px) {\n  div.experience-card.image-card[_ngcontent-%COMP%] {\n    grid-template-columns: minmax(0, 100%);\n    justify-items: center;\n    grid-row-gap: 18px;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9leHBlcmllbmNlcy9leHBlcmllbmNlLWNhcmQvZXhwZXJpZW5jZS1jYXJkLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBQTtFQUNBLGdCQUFBO0VBQ0EsY0FBQTtFQUVBLHNDQUFBO0VBRUEsb0JBQUE7RUFDQSxnQ0FBQTtBQURGO0FBR0U7RUFDRSw0Q0FBQTtFQUNBLHFCQUFBO0FBREo7QUFJRTtFQUNFLG1CQUFBO0VBQ0EsbUJBQUE7QUFGSjtBQU1BO0VBQ0U7SUFDRSxzQ0FBQTtJQUNBLHFCQUFBO0lBQ0Esa0JBQUE7RUFIRjtBQUNGIiwiZmlsZSI6InNyYy9hcHAvaG9tZS9leHBlcmllbmNlcy9leHBlcmllbmNlLWNhcmQvZXhwZXJpZW5jZS1jYXJkLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiZGl2LmV4cGVyaWVuY2UtY2FyZCB7XHJcbiAgZGlzcGxheTogZ3JpZDtcclxuICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG4gIG1hcmdpbjogMzBweCAwO1xyXG5cclxuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IG1pbm1heCgwLCAxMDAlKTtcclxuXHJcbiAgcGFkZGluZy1ib3R0b206IDMwcHg7XHJcbiAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNlYmViZWI7XHJcblxyXG4gICYuaW1hZ2UtY2FyZCB7XHJcbiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDMwMHB4IG1pbm1heCgwLCAxMDAlKTtcclxuICAgIGdyaWQtY29sdW1uLWdhcDogMjRweDtcclxuICB9XHJcblxyXG4gICYuaXMtbGFzdCB7XHJcbiAgICBwYWRkaW5nLWJvdHRvbTogMHB4O1xyXG4gICAgYm9yZGVyLWJvdHRvbTogbm9uZTtcclxuICB9XHJcbn1cclxuXHJcbkBtZWRpYSBhbGwgYW5kIChtYXgtd2lkdGg6IDEwMDBweCkge1xyXG4gIGRpdi5leHBlcmllbmNlLWNhcmQuaW1hZ2UtY2FyZCB7XHJcbiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IG1pbm1heCgwLCAxMDAlKTtcclxuICAgIGp1c3RpZnktaXRlbXM6IGNlbnRlcjtcclxuICAgIGdyaWQtcm93LWdhcDogMThweDtcclxuICB9XHJcbn1cclxuIl19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ExperienceCardComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -506,6 +497,131 @@ ExperienceCardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵ
                 styleUrls: ['./experience-card.component.scss']
             }]
     }], function () { return []; }, { experience: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], isLast: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }] }); })();
+
+
+/***/ }),
+
+/***/ "./src/app/home/experiences/experience-card/experience-image/experience-image.component.ts":
+/*!*************************************************************************************************!*\
+  !*** ./src/app/home/experiences/experience-card/experience-image/experience-image.component.ts ***!
+  \*************************************************************************************************/
+/*! exports provided: ExperienceImageComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ExperienceImageComponent", function() { return ExperienceImageComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+class ExperienceImageComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+ExperienceImageComponent.ɵfac = function ExperienceImageComponent_Factory(t) { return new (t || ExperienceImageComponent)(); };
+ExperienceImageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ExperienceImageComponent, selectors: [["app-experience-image"]], inputs: { experienceImage: "experienceImage" }, decls: 2, vars: 4, consts: [[1, "image-container"], [3, "src", "alt"]], template: function ExperienceImageComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassMap"](ctx.experienceImage.class);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", ctx.experienceImage.path, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"])("alt", ctx.experienceImage.alt);
+    } }, styles: ["div.image-container[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 280px;\n  height: 260px;\n  border-radius: 24px;\n  box-sizing: border-box;\n  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);\n}\ndiv.image-container.jpmchase[_ngcontent-%COMP%] {\n  background: #ffffff;\n  border: 2px solid #00477b;\n}\ndiv.image-container.jpmchase[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 240px;\n}\ndiv.image-container.studio-reach[_ngcontent-%COMP%] {\n  background: #ffffff;\n  border: 2px solid #74C1D9;\n}\ndiv.image-container.studio-reach[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 260px;\n}\ndiv.image-container.bookmarkd[_ngcontent-%COMP%] {\n  background: #096F37;\n  border: 2px solid #0FCA64;\n}\ndiv.image-container.bookmarkd[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 250px;\n}\ndiv.image-container.uf[_ngcontent-%COMP%] {\n  background: #ffffff;\n  border: 2px solid #00529B;\n}\ndiv.image-container.uf[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 200px;\n}\ndiv.image-container.surflab[_ngcontent-%COMP%] {\n  background: #ffffff;\n  border: 2px solid #d8a20e;\n}\ndiv.image-container.surflab[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 200px;\n}\ndiv.image-container.no-image-available[_ngcontent-%COMP%] {\n  background: #ffffff;\n}\ndiv.image-container.no-image-available[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 200px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9leHBlcmllbmNlcy9leHBlcmllbmNlLWNhcmQvZXhwZXJpZW5jZS1pbWFnZS9leHBlcmllbmNlLWltYWdlLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBQTtFQUNBLG1CQUFBO0VBQ0EsdUJBQUE7RUFFQSxZQUFBO0VBQ0EsYUFBQTtFQUNBLG1CQUFBO0VBQ0Esc0JBQUE7RUFDQSx5Q0FBQTtBQUFGO0FBRUU7RUFLRSxtQkFBQTtFQUNBLHlCQUFBO0FBSko7QUFESTtFQUNFLFlBQUE7QUFHTjtBQUlFO0VBS0UsbUJBQUE7RUFDQSx5QkFBQTtBQU5KO0FBQ0k7RUFDRSxZQUFBO0FBQ047QUFNRTtFQUtFLG1CQUFBO0VBQ0EseUJBQUE7QUFSSjtBQUdJO0VBQ0UsWUFBQTtBQUROO0FBUUU7RUFLRSxtQkFBQTtFQUNBLHlCQUFBO0FBVko7QUFLSTtFQUNFLFlBQUE7QUFITjtBQVVFO0VBS0UsbUJBQUE7RUFDQSx5QkFBQTtBQVpKO0FBT0k7RUFDRSxZQUFBO0FBTE47QUFZRTtFQUtFLG1CQUFBO0FBZEo7QUFVSTtFQUNFLFlBQUE7QUFSTiIsImZpbGUiOiJzcmMvYXBwL2hvbWUvZXhwZXJpZW5jZXMvZXhwZXJpZW5jZS1jYXJkL2V4cGVyaWVuY2UtaW1hZ2UvZXhwZXJpZW5jZS1pbWFnZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImRpdi5pbWFnZS1jb250YWluZXIge1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuXHJcbiAgd2lkdGg6IDI4MHB4O1xyXG4gIGhlaWdodDogMjYwcHg7XHJcbiAgYm9yZGVyLXJhZGl1czogMjRweDtcclxuICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG4gIGJveC1zaGFkb3c6IDAgNHB4IDRweCByZ2JhKCMwMDAwMDAsIDAuMjUpO1xyXG5cclxuICAmLmpwbWNoYXNlIHtcclxuICAgIGltZyB7XHJcbiAgICAgIHdpZHRoOiAyNDBweDtcclxuICAgIH1cclxuXHJcbiAgICBiYWNrZ3JvdW5kOiAjZmZmZmZmO1xyXG4gICAgYm9yZGVyOiAycHggc29saWQgIzAwNDc3YjtcclxuICB9XHJcblxyXG4gICYuc3R1ZGlvLXJlYWNoIHtcclxuICAgIGltZyB7XHJcbiAgICAgIHdpZHRoOiAyNjBweDtcclxuICAgIH1cclxuXHJcbiAgICBiYWNrZ3JvdW5kOiAjZmZmZmZmO1xyXG4gICAgYm9yZGVyOiAycHggc29saWQgIzc0QzFEOTtcclxuICB9XHJcblxyXG4gICYuYm9va21hcmtkIHtcclxuICAgIGltZyB7XHJcbiAgICAgIHdpZHRoOiAyNTBweDtcclxuICAgIH1cclxuXHJcbiAgICBiYWNrZ3JvdW5kOiAjMDk2RjM3O1xyXG4gICAgYm9yZGVyOiAycHggc29saWQgIzBGQ0E2NDtcclxuICB9XHJcblxyXG4gICYudWYge1xyXG4gICAgaW1nIHtcclxuICAgICAgd2lkdGg6IDIwMHB4O1xyXG4gICAgfVxyXG5cclxuICAgIGJhY2tncm91bmQ6ICNmZmZmZmY7XHJcbiAgICBib3JkZXI6IDJweCBzb2xpZCAjMDA1MjlCO1xyXG4gIH1cclxuXHJcbiAgJi5zdXJmbGFiIHtcclxuICAgIGltZyB7XHJcbiAgICAgIHdpZHRoOiAyMDBweDtcclxuICAgIH1cclxuXHJcbiAgICBiYWNrZ3JvdW5kOiAjZmZmZmZmO1xyXG4gICAgYm9yZGVyOiAycHggc29saWQgI2Q4YTIwZTtcclxuICB9XHJcblxyXG4gICYubm8taW1hZ2UtYXZhaWxhYmxlIHtcclxuICAgIGltZyB7XHJcbiAgICAgIHdpZHRoOiAyMDBweDtcclxuICAgIH1cclxuXHJcbiAgICBiYWNrZ3JvdW5kOiAjZmZmZmZmO1xyXG4gICAgLy9ib3JkZXI6IDJweCBzb2xpZCAjMDA1MjlCO1xyXG4gIH1cclxufSJdfQ== */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ExperienceImageComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-experience-image',
+                templateUrl: './experience-image.component.html',
+                styleUrls: ['./experience-image.component.scss']
+            }]
+    }], function () { return []; }, { experienceImage: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }] }); })();
+
+
+/***/ }),
+
+/***/ "./src/app/home/experiences/experience-card/experience-text/experience-text.component.ts":
+/*!***********************************************************************************************!*\
+  !*** ./src/app/home/experiences/experience-card/experience-text/experience-text.component.ts ***!
+  \***********************************************************************************************/
+/*! exports provided: ExperienceTextComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ExperienceTextComponent", function() { return ExperienceTextComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _shared_skills_hotbar_skills_hotbar_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../shared/skills-hotbar/skills-hotbar.component */ "./src/app/home/shared/skills-hotbar/skills-hotbar.component.ts");
+
+
+
+
+function ExperienceTextComponent_h3_3_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h3");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r0.experienceText.subheading);
+} }
+function ExperienceTextComponent_app_skills_hotbar_7_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-skills-hotbar", 3);
+} if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("skills", ctx_r1.experienceText.skills)("isLightMode", !ctx_r1.experienceText.isWork);
+} }
+class ExperienceTextComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+ExperienceTextComponent.ɵfac = function ExperienceTextComponent_Factory(t) { return new (t || ExperienceTextComponent)(); };
+ExperienceTextComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ExperienceTextComponent, selectors: [["app-experience-text"]], inputs: { experienceText: "experienceText", isCentered: "isCentered" }, decls: 8, vars: 9, consts: [[4, "ngIf"], [3, "innerHTML"], [3, "skills", "isLightMode", 4, "ngIf"], [3, "skills", "isLightMode"]], template: function ExperienceTextComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, ExperienceTextComponent_h3_3_Template, 2, 1, "h3", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "ul", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, ExperienceTextComponent_app_skills_hotbar_7_Template, 1, 2, "app-skills-hotbar", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("is-centered", ctx.isCentered);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("light-mode", !ctx.experienceText.isWork);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.experienceText.heading);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.experienceText.subheading);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.experienceText.duration);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("innerHTML", ctx.experienceText.description, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeHtml"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.experienceText.skills.length > 0);
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _shared_skills_hotbar_skills_hotbar_component__WEBPACK_IMPORTED_MODULE_2__["SkillsHotbarComponent"]], styles: ["div[_ngcontent-%COMP%] {\n  display: grid;\n  grid-template-columns: minmax(0, 100%);\n  grid-row-gap: 6px;\n}\ndiv[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-family: \"Amaranth\", sans-serif;\n  font-size: 34px;\n  font-weight: normal;\n  margin: 0;\n  color: #82ADEE;\n}\ndiv[_ngcontent-%COMP%]   h1.light-mode[_ngcontent-%COMP%] {\n  color: #41DC1A;\n}\ndiv[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%] {\n  font-family: \"Amaranth\", sans-serif;\n  font-size: 28px;\n  font-weight: normal;\n  margin: 0;\n  color: #000000;\n}\ndiv[_ngcontent-%COMP%]   strong[_ngcontent-%COMP%] {\n  font-weight: bold;\n  font-size: 22px;\n  margin: 0;\n  font-family: \"Advent Pro\", sans-serif;\n  color: #000000;\n}\ndiv[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%] {\n  margin: 0;\n  list-style: url(\"/assets/icons/arrow-right.svg\");\n}\ndiv[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li {\n  font-family: \"Advent Pro\", sans-serif;\n  font-weight: normal;\n  font-size: 22px;\n  color: #000000;\n}\ndiv[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a {\n  text-decoration: none;\n}\ndiv[_ngcontent-%COMP%]   ul[_ngcontent-%COMP%]     li   a:hover {\n  cursor: pointer;\n}\ndiv.is-centered[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%], div.is-centered[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%], div.is-centered[_ngcontent-%COMP%]   strong[_ngcontent-%COMP%] {\n  text-align: center;\n}\n@media all and (max-width: 1000px) {\n  h1[_ngcontent-%COMP%], h3[_ngcontent-%COMP%], strong[_ngcontent-%COMP%] {\n    text-align: center;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9leHBlcmllbmNlcy9leHBlcmllbmNlLWNhcmQvZXhwZXJpZW5jZS10ZXh0L2V4cGVyaWVuY2UtdGV4dC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGFBQUE7RUFDQSxzQ0FBQTtFQUNBLGlCQUFBO0FBQ0Y7QUFDRTtFQUNFLG1DQUFBO0VBQ0EsZUFBQTtFQUNBLG1CQUFBO0VBQ0EsU0FBQTtFQUNBLGNBQUE7QUFDSjtBQUNJO0VBQ0UsY0FBQTtBQUNOO0FBR0U7RUFDRSxtQ0FBQTtFQUNBLGVBQUE7RUFDQSxtQkFBQTtFQUNBLFNBQUE7RUFDQSxjQUFBO0FBREo7QUFJRTtFQUNFLGlCQUFBO0VBQ0EsZUFBQTtFQUNBLFNBQUE7RUFDQSxxQ0FBQTtFQUNBLGNBQUE7QUFGSjtBQUtFO0VBQ0UsU0FBQTtFQUNBLGdEQUFBO0FBSEo7QUFLSTtFQUNFLHFDQUFBO0VBQ0EsbUJBQUE7RUFDQSxlQUFBO0VBQ0EsY0FBQTtBQUhOO0FBS007RUFDRSxxQkFBQTtBQUhSO0FBS1E7RUFDRSxlQUFBO0FBSFY7QUFVSTtFQUNFLGtCQUFBO0FBUk47QUFhQTtFQUNFO0lBQ0Usa0JBQUE7RUFWRjtBQUNGIiwiZmlsZSI6InNyYy9hcHAvaG9tZS9leHBlcmllbmNlcy9leHBlcmllbmNlLWNhcmQvZXhwZXJpZW5jZS10ZXh0L2V4cGVyaWVuY2UtdGV4dC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbImRpdiB7XHJcbiAgZGlzcGxheTogZ3JpZDtcclxuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IG1pbm1heCgwLCAxMDAlKTtcclxuICBncmlkLXJvdy1nYXA6IDZweDtcclxuXHJcbiAgaDEge1xyXG4gICAgZm9udC1mYW1pbHk6ICdBbWFyYW50aCcsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXNpemU6IDM0cHg7XHJcbiAgICBmb250LXdlaWdodDogbm9ybWFsO1xyXG4gICAgbWFyZ2luOiAwO1xyXG4gICAgY29sb3I6ICM4MkFERUU7XHJcblxyXG4gICAgJi5saWdodC1tb2RlIHtcclxuICAgICAgY29sb3I6ICM0MURDMUE7XHJcbiAgICB9XHJcbiAgfVxyXG4gIFxyXG4gIGgzIHtcclxuICAgIGZvbnQtZmFtaWx5OiAnQW1hcmFudGgnLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC1zaXplOiAyOHB4O1xyXG4gICAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIGNvbG9yOiAjMDAwMDAwO1xyXG4gIH1cclxuICBcclxuICBzdHJvbmcge1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICBmb250LXNpemU6IDIycHg7XHJcbiAgICBtYXJnaW46IDA7XHJcbiAgICBmb250LWZhbWlseTogJ0FkdmVudCBQcm8nLCBzYW5zLXNlcmlmO1xyXG4gICAgY29sb3I6ICMwMDAwMDA7XHJcbiAgfVxyXG4gIFxyXG4gIHVsIHtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIGxpc3Qtc3R5bGU6IHVybCgnL2Fzc2V0cy9pY29ucy9hcnJvdy1yaWdodC5zdmcnKTtcclxuICBcclxuICAgIDo6bmctZGVlcCBsaSB7XHJcbiAgICAgIGZvbnQtZmFtaWx5OiAnQWR2ZW50IFBybycsIHNhbnMtc2VyaWY7XHJcbiAgICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XHJcbiAgICAgIGZvbnQtc2l6ZTogMjJweDtcclxuICAgICAgY29sb3I6ICMwMDAwMDA7XHJcbiAgXHJcbiAgICAgIDo6bmctZGVlcCBhIHtcclxuICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgXHJcbiAgICAgICAgJjpob3ZlciB7XHJcbiAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICAgICAgfVxyXG4gICAgICB9XHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICAmLmlzLWNlbnRlcmVkIHtcclxuICAgIGgxLCBoMywgc3Ryb25nIHtcclxuICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG4gIH1cclxufVxyXG5cclxuQG1lZGlhIGFsbCBhbmQgKG1heC13aWR0aDogMTAwMHB4KSB7XHJcbiAgaDEsIGgzLCBzdHJvbmcge1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIH1cclxufSJdfQ== */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ExperienceTextComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-experience-text',
+                templateUrl: './experience-text.component.html',
+                styleUrls: ['./experience-text.component.scss']
+            }]
+    }], function () { return []; }, { experienceText: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], isCentered: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }] }); })();
 
@@ -537,19 +653,25 @@ function ExperiencesComponent_app_experience_card_8_Template(rf, ctx) { if (rf &
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-experience-card", 6);
 } if (rf & 2) {
     const experience_r3 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experience", experience_r3);
+    const i_r4 = ctx.index;
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experience", experience_r3)("isLast", i_r4 === ctx_r0.softwareDevExperiences.length - 1);
 } }
 function ExperiencesComponent_app_experience_card_10_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-experience-card", 6);
 } if (rf & 2) {
-    const experience_r4 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experience", experience_r4);
+    const experience_r5 = ctx.$implicit;
+    const i_r6 = ctx.index;
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experience", experience_r5)("isLast", i_r6 === ctx_r1.graphicsExperiences.length - 1);
 } }
 function ExperiencesComponent_app_experience_card_12_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-experience-card", 6);
 } if (rf & 2) {
-    const experience_r5 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experience", experience_r5);
+    const experience_r7 = ctx.$implicit;
+    const i_r8 = ctx.index;
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experience", experience_r7)("isLast", i_r8 === ctx_r2.miscExperiences.length - 1);
 } }
 class ExperiencesComponent {
     constructor() {
@@ -562,7 +684,7 @@ class ExperiencesComponent {
     }
 }
 ExperiencesComponent.ɵfac = function ExperiencesComponent_Factory(t) { return new (t || ExperiencesComponent)(); };
-ExperiencesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ExperiencesComponent, selectors: [["app-experiences"]], decls: 13, vars: 3, consts: [[1, "experience-container"], ["mat-align-tabs", "center"], ["label", "Software Dev"], [3, "experience", 4, "ngFor", "ngForOf"], ["label", "Graphics"], ["label", "Misc."], [3, "experience"]], template: function ExperiencesComponent_Template(rf, ctx) { if (rf & 1) {
+ExperiencesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ExperiencesComponent, selectors: [["app-experiences"]], decls: 13, vars: 3, consts: [[1, "experience-container"], ["mat-align-tabs", "center"], ["label", "Software Dev"], [3, "experience", "isLast", 4, "ngFor", "ngForOf"], ["label", "Graphics"], ["label", "Misc."], [3, "experience", "isLast"]], template: function ExperiencesComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Portfolio");
@@ -573,13 +695,13 @@ ExperiencesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "mat-tab-group", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "mat-tab", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, ExperiencesComponent_app_experience_card_8_Template, 1, 1, "app-experience-card", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, ExperiencesComponent_app_experience_card_8_Template, 1, 2, "app-experience-card", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "mat-tab", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, ExperiencesComponent_app_experience_card_10_Template, 1, 1, "app-experience-card", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, ExperiencesComponent_app_experience_card_10_Template, 1, 2, "app-experience-card", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "mat-tab", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](12, ExperiencesComponent_app_experience_card_12_Template, 1, 1, "app-experience-card", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](12, ExperiencesComponent_app_experience_card_12_Template, 1, 2, "app-experience-card", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -624,16 +746,30 @@ const softwareDevExperiences = [
             alt: 'JPMorgan Chase & Co. Logo',
             class: 'jpmchase'
         },
-        company: 'JPMorgan Chase & Co.',
-        position: 'Software Engineer Program Intern',
-        duration: 'June 2021 - August 2021',
-        description: '<li>Deployed data visualization features to a web app to reduce the number of manual data inquiries\n' +
-            'directed towards operations team by internal (~1100/month) and external clients (~480/month)</li>' +
-            '<li>Developed a pipeline of ETL jobs on a cron scheduler to migrate several thousand daily data points\n' +
-            'across Splunk and SQL databases into an Elasticsearch instance</li>' +
-            '<li>Developed and documented an extensible package in collaboration with a full time developer to\n' +
-            'standardize and update team’s fragmented use of Elasticsearch</li>',
-        skills: ['TypeScript', 'Java', 'Angular', 'Spring Boot', 'Elasticsearch', 'OracleSQL', 'JUnit', 'Splunk', 'Confluence', 'Jira']
+        text: {
+            isWork: true,
+            heading: 'JPMorgan Chase & Co.',
+            subheading: 'Software Engineer Program Intern',
+            duration: 'June 2021 - August 2021',
+            description: '<li>Deployed data visualization features to a web app to reduce the number of manual data inquiries\n' +
+                'directed towards operations team by internal (~1100/month) and external clients (~480/month)</li>' +
+                '<li>Developed a pipeline of ETL jobs on a cron scheduler to migrate several thousand daily data points\n' +
+                'across Splunk and SQL databases into an Elasticsearch instance</li>' +
+                '<li>Developed and documented an extensible package in collaboration with a full time developer to\n' +
+                'standardize and update team’s fragmented use of Elasticsearch</li>',
+            skills: ['TypeScript', 'Java', 'Angular', 'Spring Boot', 'Elasticsearch', 'OracleSQL', 'JUnit', 'Splunk', 'Confluence', 'Jira']
+        }
+    },
+    {
+        text: {
+            isWork: false,
+            heading: 'Nutshell',
+            duration: 'March 2021 - April 2021',
+            description: '<li>Implemented a CLI capable of executing built-in (e.g. aliasing, setting environment variables) and external commands,\n' +
+                'piping commands together, and performing file I/O</li>' +
+                '<li>Integrates Catch tests to ensure app robustness. Applies OOP to manage complexity of different commands </li>',
+            skills: ['C++', 'Flex', 'Bison', 'Catch2', 'Make']
+        }
     },
     {
         image: {
@@ -641,14 +777,17 @@ const softwareDevExperiences = [
             alt: 'Studio Reach Logo',
             class: 'studio-reach'
         },
-        company: 'Studio Reach',
-        position: 'Software Developer Part-time',
-        duration: 'June 2020 - March 2021',
-        description: '<li>Developed features to modernize the UI/UX of a web MVP to appeal to users with the aim of increasing low traffic</li>' +
-            '<li>Implemented unit and automated e2e tests and debugged issues with CI/CD pipeline to ensure app robustness</li>' +
-            '<li>Utilized NgRx for managing state management for complex user logic. Implemented a tree-based questionnaire for guiding\n' +
-            'new users that relied on NgRx and LocalStorage to track user decisions and history</li>',
-        skills: ['TypeScript', 'Angular', 'Firebase', 'Firestore', 'GitLab CI/CD', 'Cypress', 'Jasmine', 'Jira']
+        text: {
+            isWork: true,
+            heading: 'Studio Reach',
+            subheading: 'Software Developer Part-time',
+            duration: 'June 2020 - March 2021',
+            description: '<li>Developed features to modernize the UI/UX of a web MVP to appeal to users with the aim of increasing low traffic</li>' +
+                '<li>Implemented unit and automated e2e tests and debugged issues with CI/CD pipeline to ensure app robustness</li>' +
+                '<li>Utilized NgRx for managing state management for complex user logic. Implemented a tree-based questionnaire for guiding\n' +
+                'new users that relied on NgRx and LocalStorage to track user decisions and history</li>',
+            skills: ['TypeScript', 'Angular', 'Firebase', 'Firestore', 'GitLab CI/CD', 'Cypress', 'Jasmine', 'Jira']
+        }
     },
     {
         image: {
@@ -656,15 +795,18 @@ const softwareDevExperiences = [
             alt: 'UF Logo',
             class: 'surflab'
         },
-        company: 'UF SurfLab',
-        position: 'Research Assistant (VascularVR)',
-        duration: 'October 2019 - Present',
-        description: '<li>Spearhead development of a VR platform over Unity for surgeons to efficiently convert MRI/CT scans to 3D simulations\n' +
-            'of body parts for surgery education</li>' +
-            '<li>Prototyped and implemented performant erasing tool for surgeons to capture relevant parts of scans</li>' +
-            '<li>Prototyped and developed 3D curve vessels and automatic smart fitting of the vessels to the voxel scans to facilitate\n' +
-            'partial automation</li>',
-        skills: ['C#', 'Python', 'C++', 'Unity', 'CMake', 'sklearn', 'Blender']
+        text: {
+            isWork: true,
+            heading: 'UF SurfLab',
+            subheading: 'Research Assistant (VascularVR)',
+            duration: 'October 2019 - Present',
+            description: '<li>Spearhead development of a VR platform over Unity for surgeons to efficiently convert MRI/CT scans to 3D simulations\n' +
+                'of body parts for surgery education</li>' +
+                '<li>Prototyped and implemented performant erasing tool for surgeons to capture relevant parts of scans</li>' +
+                '<li>Prototyped and developed 3D curve vessels and automatic smart fitting of the vessels to the voxel scans to facilitate\n' +
+                'partial automation</li>',
+            skills: ['C#', 'Python', 'C++', 'Unity', 'CMake', 'sklearn', 'Blender']
+        }
     },
     {
         image: {
@@ -672,15 +814,18 @@ const softwareDevExperiences = [
             alt: 'Bookmark\'d Logo',
             class: 'bookmarkd'
         },
-        company: 'BookMark\'d',
-        position: 'Software Developer Part-time',
-        duration: 'October 2019 - July 2020',
-        description: '<li>Implemented a web app MVP for college student ecommerce, including\n' +
-            'real-time chat stored in MongoDB, product search via Elasticsearch, and payment processing through Stripe</li>' +
-            '<li>Utilized AWS to run the app on an EC2 instance, added CI/CD pipeline using\n' +
-            'CodePipeline (Code Commit, Code Deploy), and set up site’s domain name & SSL certificate</li>',
-        skills: ['React', 'Node', 'Express', 'Elasticsearch', 'MongoDB', 'Passport.js', 'Stripe API', 'Confluence', 'AWS',
-            'EC2', 'CodePipeline', 'Route 53', 'AWS Certificate Manager']
+        text: {
+            isWork: true,
+            heading: 'BookMark\'d',
+            subheading: 'Software Developer Part-time',
+            duration: 'October 2019 - July 2020',
+            description: '<li>Implemented a web app MVP for college student ecommerce, including\n' +
+                'real-time chat stored in MongoDB, product search via Elasticsearch, and payment processing through Stripe</li>' +
+                '<li>Utilized AWS to run the app on an EC2 instance, added CI/CD pipeline using\n' +
+                'CodePipeline (Code Commit, Code Deploy), and set up site’s domain name & SSL certificate</li>',
+            skills: ['React', 'Node', 'Express', 'Elasticsearch', 'MongoDB', 'Passport.js', 'Stripe API', 'Confluence', 'AWS',
+                'EC2', 'CodePipeline', 'Route 53', 'AWS Certificate Manager']
+        }
     }
 ];
 const graphicsExperiences = [
@@ -690,14 +835,17 @@ const graphicsExperiences = [
             alt: 'UF Logo',
             class: 'surflab'
         },
-        company: 'UF SurfLab',
-        position: 'Research Assistant (AdaptNet)',
-        duration: 'November 2021 - Present',
-        description: '<li>Aids in implementing a remeshing algorithm that enables users to convert dense 3D meshes into\n' +
-            'a corresponding spline surface with fewer degrees of freedom for ease of modeling and manipulation</li>' +
-            '<li>Develops a Docker development environment such that the script can be used across different OS environments</li>' +
-            '<li>Researches adjusting the spline’s control points such that the surface  is fit as closely as possible to the target mesh</li>',
-        skills: ['Python', 'Docker', 'PyTorch', 'PyTorch3D', 'Git']
+        text: {
+            isWork: true,
+            heading: 'UF SurfLab',
+            subheading: 'Research Assistant (AdaptNet)',
+            duration: 'November 2021 - Present',
+            description: '<li>Aids in implementing a remeshing algorithm that enables users to convert dense 3D meshes into\n' +
+                'a corresponding spline surface with fewer degrees of freedom for ease of modeling and manipulation</li>' +
+                '<li>Develops a Docker development environment such that the script can be used across different OS environments</li>' +
+                '<li>Researches adjusting the spline’s control points such that the surface  is fit as closely as possible to the target mesh</li>',
+            skills: ['Python', 'Docker', 'PyTorch', 'PyTorch3D', 'Git']
+        }
     },
 ];
 const networksExperiences = [
@@ -707,14 +855,17 @@ const networksExperiences = [
             alt: 'UF Logo',
             class: 'surflab'
         },
-        company: 'UF SurfLab',
-        position: 'Research Assistant (AdaptNet)',
-        duration: 'November 2021 - Present',
-        description: '<li>Aids in implementing a remeshing algorithm that enables users to convert dense 3D meshes into\n' +
-            'a corresponding spline surface with fewer degrees of freedom for ease of modeling and manipulation</li>' +
-            '<li>Develops a Docker development environment such that the script can be used across different OS environments</li>' +
-            '<li>Researches adjusting the spline’s control points such that the surface  is fit as closely as possible to the target mesh</li>',
-        skills: ['Python', 'Docker', 'PyTorch', 'PyTorch3D', 'Git']
+        text: {
+            isWork: true,
+            heading: 'UF SurfLab',
+            subheading: 'Research Assistant (AdaptNet)',
+            duration: 'November 2021 - Present',
+            description: '<li>Aids in implementing a remeshing algorithm that enables users to convert dense 3D meshes into\n' +
+                'a corresponding spline surface with fewer degrees of freedom for ease of modeling and manipulation</li>' +
+                '<li>Develops a Docker development environment such that the script can be used across different OS environments</li>' +
+                '<li>Researches adjusting the spline’s control points such that the surface  is fit as closely as possible to the target mesh</li>',
+            skills: ['Python', 'Docker', 'PyTorch', 'PyTorch3D', 'Git']
+        }
     },
 ];
 const miscExperiences = [
@@ -724,17 +875,20 @@ const miscExperiences = [
             alt: 'UF Logo',
             class: 'uf'
         },
-        company: 'UF Computer & Information Science & Engineering',
-        position: 'Teaching Assistant',
-        duration: 'January 2020 - May 2022',
-        description: '<li><strong>Courses</strong>: "Data Science" (01/2022 - 05/2022), "Operating Systems" (08/2021 - 12/2021), "Discrete Structures" (01/2020 - 05/2021),\n' +
-            '"Computer Graphics" (01/2021 - 05/2021)</li>' +
-            '<li>Simplified and extended scaffold code for "Computer Graphics" projects, as coordinated with the professor, to improve student understanding of OpenGL\n' +
-            'and to integrate changes in requirements</li>' +
-            '<li>Prepare presentations and example problems for lecture reviews for “Discrete Structures" discussions\n' +
-            'for 20-30 students</li>' +
-            '<li>Developed script to automate tracking attendance for 300-400 students in Zoom discussions for “Discrete Structures”</li>',
-        skills: ['C++', 'CMake', 'OpenGL', 'Python', 'Jupyter Notebook', 'sklearn', 'Pandas', 'Canvas API']
+        text: {
+            isWork: true,
+            heading: 'UF Computer & Information Science & Engineering',
+            subheading: 'Teaching Assistant',
+            duration: 'January 2020 - May 2022',
+            description: '<li><strong>Courses</strong>: "Data Science" (01/2022 - 05/2022), "Operating Systems" (08/2021 - 12/2021), "Discrete Structures" (01/2020 - 05/2021),\n' +
+                '"Computer Graphics" (01/2021 - 05/2021)</li>' +
+                '<li>Simplified and extended scaffold code for "Computer Graphics" projects, as coordinated with the professor, to improve student understanding of OpenGL\n' +
+                'and to integrate changes in requirements</li>' +
+                '<li>Prepare presentations and example problems for lecture reviews for “Discrete Structures" discussions\n' +
+                'for 20-30 students</li>' +
+                '<li>Developed script to automate tracking attendance for 300-400 students in Zoom discussions for “Discrete Structures”</li>',
+            skills: ['C++', 'CMake', 'OpenGL', 'Python', 'Jupyter Notebook', 'sklearn', 'Pandas', 'Canvas API']
+        }
     },
 ];
 

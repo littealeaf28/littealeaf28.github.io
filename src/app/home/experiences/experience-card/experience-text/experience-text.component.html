@@ -1,0 +1,11 @@
+<div [class.is-centered]="isCentered">
+  <h1 [class.light-mode]="!experienceText.isWork">{{ experienceText.heading }}</h1>
+  <h3 *ngIf="experienceText.subheading">{{ experienceText.subheading }}</h3>
+  <strong>{{ experienceText.duration }}</strong>
+  <ul [innerHTML]="experienceText.description"></ul>
+  <app-skills-hotbar
+    *ngIf="experienceText.skills.length > 0"
+    [skills]="experienceText.skills"
+    [isLightMode]="!experienceText.isWork"
+  ></app-skills-hotbar>
+</div>
