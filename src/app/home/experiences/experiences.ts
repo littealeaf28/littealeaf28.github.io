@@ -1,5 +1,7 @@
 export interface Experience {
   image?: ExperienceImage;
+  video?: string,
+  gif?: string,
   text: ExperienceText;
 }
 
@@ -43,6 +45,7 @@ export const softwareDevExperiences: Experience[] = [
     text: {
       isWork: false,
       heading: 'Nutshell',
+      subheading: 'Command Line Interface',
       duration: 'March 2021 - April 2021',
       description: '<li>Implemented a CLI capable of executing built-in (e.g. aliasing, setting environment variables) and external commands,\n' +
         'piping commands together, and performing file I/O</li>' +
@@ -127,25 +130,51 @@ export const graphicsExperiences: Experience[] = [
       skills: ['Python', 'Docker', 'PyTorch', 'PyTorch3D', 'Git']
     }
   },
+  {
+    gif: 'beach-scene.gif',
+    text: {
+      isWork: false,
+      heading: 'Beach Scene',
+      duration: 'October 2021 - November 2021',
+      description: '<li>Models and renders different objects apart of an animated beach scene</li>' +
+      '<li>Implements PN triangles and PN quads in order to evaluate and render a textured raft and sail, respectively, by utilizing the tessellation control and evaluation shaders</li>',
+      skills: ['C++', 'OpenGL/GLSL', 'CMake', 'Visual Studio', 'Blender']
+    }
+  },
+  {
+    gif: 'trefoil.gif',
+    text: {
+      isWork: false,
+      heading: 'Trefoil Curve',
+      duration: 'September 2021',
+      description: '<li>Models and renders a trefoil curve with interactive control points</li>' +
+      '<li>Utilizes tessellation control and evaluation shaders in the OpenGL pipeline to evaluate the control points and render the smooth curve</li>',
+      skills: ['C++', 'OpenGL/GLSL', 'CMake', 'Visual Studio']
+    }
+  },
+  {
+    video: 'astro-donut-carrot-nyan.mp4',
+    text: {
+      isWork: false,
+      heading: 'Astro Donut Carrot Nyan Adventures',
+      duration: 'July 2019',
+      description: '<li>Played around with modelling, texturing, and the particle system in Blender to create a fun, short animation</li>',
+      skills: ['Blender']
+    }
+  },
 ];
 
 export const networksExperiences: Experience[] = [
   {
-    image: {
-      path: 'assets/logos/surflab_logo.gif',
-      alt: 'UF Logo',
-      class: 'surflab'
-    },
     text: {
-      isWork: true,
-      heading: 'UF SurfLab',
-      subheading: 'Research Assistant (AdaptNet)',
-      duration: 'November 2021 - Present',
-      description: '<li>Aids in implementing a remeshing algorithm that enables users to convert dense 3D meshes into\n' +
-        'a corresponding spline surface with fewer degrees of freedom for ease of modeling and manipulation</li>' +
-        '<li>Develops a Docker development environment such that the script can be used across different OS environments</li>' +
-        '<li>Researches adjusting the spline’s control points such that the surface  is fit as closely as possible to the target mesh</li>',
-      skills: ['Python', 'Docker', 'PyTorch', 'PyTorch3D', 'Git']
+      isWork: false,
+      heading: 'Peer to Peer File Sharing',
+      subheading: 'Mock BitTorrent',
+      duration: 'October 2021 - November 2021',
+      description: '<li>Implement a protocol to distribute a file across network of computers (peers) similar to BitTorrent using TCP sockets</li>' +
+        '<li>Employed multithreading to facilitate a peer’s simultaneous connection with neighbors while maintaining synchronized access over shared\n' +
+        'resources. Develops and designs the messages for peers to synchronize using OOP</li>',
+      skills: ['Java', 'Socket Programming', 'Git']
     }
   },
 ];

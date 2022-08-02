@@ -1,8 +1,21 @@
 <div
   class="experience-card"
-  [ngClass]="{'image-card': experience.image}"
+  [class.display-card]="experience.video || experience.gif"
+  [class.image-card]="experience.image"
   [class.is-last]="isLast"
 >
+  <img
+    *ngIf="experience.gif"
+    src="assets/{{experience.gif}}"
+  />
+  <video
+    controls
+    *ngIf="experience.video"
+  >
+    <source
+      src="assets/{{experience.video}}"
+      type="video/mp4">
+  </video>
   <app-experience-image
     *ngIf="experience.image"
     [experienceImage]="experience.image"

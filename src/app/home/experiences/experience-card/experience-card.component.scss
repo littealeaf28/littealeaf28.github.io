@@ -8,6 +8,23 @@ div.experience-card {
   padding-bottom: 30px;
   border-bottom: 1px solid #ebebeb;
 
+  &.display-card {
+    grid-row-gap: 16px;
+    justify-items: center;
+
+    video {
+      border-radius: 16px;
+      width: 98%;
+      max-width: 750px;
+    }
+
+    img {
+      border-radius: 16px;
+      max-height: 500px;
+      max-width: 98%;
+    }
+  }
+
   &.image-card {
     grid-template-columns: 300px minmax(0, 100%);
     grid-column-gap: 24px;

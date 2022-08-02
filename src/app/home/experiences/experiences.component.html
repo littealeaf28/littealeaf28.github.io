@@ -3,7 +3,7 @@
   <h3>What I've been up to...</h3>
   <div class="experience-container">
     <mat-tab-group mat-align-tabs="center">
-      <mat-tab label="Software Dev">
+      <mat-tab label="App Dev">
         <app-experience-card
           *ngFor="let experience of softwareDevExperiences; let i = index"
           [experience]="experience"
@@ -17,12 +17,12 @@
           [isLast]="i === graphicsExperiences.length - 1">
         </app-experience-card>
       </mat-tab>
-      <!-- <mat-tab label="Networks + Distributed Systems">
+      <mat-tab label="Networks">
         <app-experience-card
           *ngFor="let experience of networksExperiences"
           [experience]="experience">
         </app-experience-card>
-      </mat-tab> -->
+      </mat-tab>
       <mat-tab label="Misc.">
         <app-experience-card
           *ngFor="let experience of miscExperiences; let i = index"

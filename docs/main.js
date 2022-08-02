@@ -463,32 +463,51 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function ExperienceCardComponent_app_experience_image_1_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-experience-image", 3);
+function ExperienceCardComponent_img_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "img", 5);
 } if (rf & 2) {
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experienceImage", ctx_r0.experience.image);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "assets/", ctx_r0.experience.gif, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
 } }
-const _c0 = function (a0) { return { "image-card": a0 }; };
+function ExperienceCardComponent_video_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "video", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "source", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate1"]("src", "assets/", ctx_r1.experience.video, "", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+} }
+function ExperienceCardComponent_app_experience_image_3_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-experience-image", 8);
+} if (rf & 2) {
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experienceImage", ctx_r2.experience.image);
+} }
 class ExperienceCardComponent {
     constructor() { }
     ngOnInit() {
     }
 }
 ExperienceCardComponent.ɵfac = function ExperienceCardComponent_Factory(t) { return new (t || ExperienceCardComponent)(); };
-ExperienceCardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ExperienceCardComponent, selectors: [["app-experience-card"]], inputs: { experience: "experience", isLast: "isLast" }, decls: 3, vars: 8, consts: [[1, "experience-card", 3, "ngClass"], [3, "experienceImage", 4, "ngIf"], [3, "experienceText", "isCentered"], [3, "experienceImage"]], template: function ExperienceCardComponent_Template(rf, ctx) { if (rf & 1) {
+ExperienceCardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ExperienceCardComponent, selectors: [["app-experience-card"]], inputs: { experience: "experience", isLast: "isLast" }, decls: 5, vars: 11, consts: [[1, "experience-card"], [3, "src", 4, "ngIf"], ["controls", "", 4, "ngIf"], [3, "experienceImage", 4, "ngIf"], [3, "experienceText", "isCentered"], [3, "src"], ["controls", ""], ["type", "video/mp4", 3, "src"], [3, "experienceImage"]], template: function ExperienceCardComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ExperienceCardComponent_app_experience_image_1_Template, 1, 1, "app-experience-image", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "app-experience-text", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ExperienceCardComponent_img_1_Template, 1, 1, "img", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ExperienceCardComponent_video_2_Template, 2, 1, "video", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, ExperienceCardComponent_app_experience_image_3_Template, 1, 1, "app-experience-image", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "app-experience-text", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("is-last", ctx.isLast);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](6, _c0, ctx.experience.image));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("display-card", ctx.experience.video || ctx.experience.gif)("image-card", ctx.experience.image)("is-last", ctx.isLast);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.experience.gif);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.experience.video);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.experience.image);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experienceText", ctx.experience.text)("isCentered", !ctx.experience.image);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgClass"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _experience_text_experience_text_component__WEBPACK_IMPORTED_MODULE_2__["ExperienceTextComponent"], _experience_image_experience_image_component__WEBPACK_IMPORTED_MODULE_3__["ExperienceImageComponent"]], styles: ["div.experience-card[_ngcontent-%COMP%] {\n  display: grid;\n  text-align: left;\n  margin: 30px 0;\n  grid-template-columns: minmax(0, 100%);\n  padding-bottom: 30px;\n  border-bottom: 1px solid #ebebeb;\n}\ndiv.experience-card.image-card[_ngcontent-%COMP%] {\n  grid-template-columns: 300px minmax(0, 100%);\n  grid-column-gap: 24px;\n}\ndiv.experience-card.is-last[_ngcontent-%COMP%] {\n  padding-bottom: 0px;\n  border-bottom: none;\n}\n@media all and (max-width: 1000px) {\n  div.experience-card.image-card[_ngcontent-%COMP%] {\n    grid-template-columns: minmax(0, 100%);\n    justify-items: center;\n    grid-row-gap: 18px;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9leHBlcmllbmNlcy9leHBlcmllbmNlLWNhcmQvZXhwZXJpZW5jZS1jYXJkLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBQTtFQUNBLGdCQUFBO0VBQ0EsY0FBQTtFQUVBLHNDQUFBO0VBRUEsb0JBQUE7RUFDQSxnQ0FBQTtBQURGO0FBR0U7RUFDRSw0Q0FBQTtFQUNBLHFCQUFBO0FBREo7QUFJRTtFQUNFLG1CQUFBO0VBQ0EsbUJBQUE7QUFGSjtBQU1BO0VBQ0U7SUFDRSxzQ0FBQTtJQUNBLHFCQUFBO0lBQ0Esa0JBQUE7RUFIRjtBQUNGIiwiZmlsZSI6InNyYy9hcHAvaG9tZS9leHBlcmllbmNlcy9leHBlcmllbmNlLWNhcmQvZXhwZXJpZW5jZS1jYXJkLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiZGl2LmV4cGVyaWVuY2UtY2FyZCB7XHJcbiAgZGlzcGxheTogZ3JpZDtcclxuICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG4gIG1hcmdpbjogMzBweCAwO1xyXG5cclxuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IG1pbm1heCgwLCAxMDAlKTtcclxuXHJcbiAgcGFkZGluZy1ib3R0b206IDMwcHg7XHJcbiAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNlYmViZWI7XHJcblxyXG4gICYuaW1hZ2UtY2FyZCB7XHJcbiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDMwMHB4IG1pbm1heCgwLCAxMDAlKTtcclxuICAgIGdyaWQtY29sdW1uLWdhcDogMjRweDtcclxuICB9XHJcblxyXG4gICYuaXMtbGFzdCB7XHJcbiAgICBwYWRkaW5nLWJvdHRvbTogMHB4O1xyXG4gICAgYm9yZGVyLWJvdHRvbTogbm9uZTtcclxuICB9XHJcbn1cclxuXHJcbkBtZWRpYSBhbGwgYW5kIChtYXgtd2lkdGg6IDEwMDBweCkge1xyXG4gIGRpdi5leHBlcmllbmNlLWNhcmQuaW1hZ2UtY2FyZCB7XHJcbiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IG1pbm1heCgwLCAxMDAlKTtcclxuICAgIGp1c3RpZnktaXRlbXM6IGNlbnRlcjtcclxuICAgIGdyaWQtcm93LWdhcDogMThweDtcclxuICB9XHJcbn1cclxuIl19 */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"], _experience_text_experience_text_component__WEBPACK_IMPORTED_MODULE_2__["ExperienceTextComponent"], _experience_image_experience_image_component__WEBPACK_IMPORTED_MODULE_3__["ExperienceImageComponent"]], styles: ["div.experience-card[_ngcontent-%COMP%] {\n  display: grid;\n  text-align: left;\n  margin: 30px 0;\n  grid-template-columns: minmax(0, 100%);\n  padding-bottom: 30px;\n  border-bottom: 1px solid #ebebeb;\n}\ndiv.experience-card.display-card[_ngcontent-%COMP%] {\n  grid-row-gap: 16px;\n  justify-items: center;\n}\ndiv.experience-card.display-card[_ngcontent-%COMP%]   video[_ngcontent-%COMP%] {\n  border-radius: 16px;\n  width: 98%;\n  max-width: 750px;\n}\ndiv.experience-card.display-card[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  border-radius: 16px;\n  max-height: 500px;\n  max-width: 98%;\n}\ndiv.experience-card.image-card[_ngcontent-%COMP%] {\n  grid-template-columns: 300px minmax(0, 100%);\n  grid-column-gap: 24px;\n}\ndiv.experience-card.is-last[_ngcontent-%COMP%] {\n  padding-bottom: 0px;\n  border-bottom: none;\n}\n@media all and (max-width: 1000px) {\n  div.experience-card.image-card[_ngcontent-%COMP%] {\n    grid-template-columns: minmax(0, 100%);\n    justify-items: center;\n    grid-row-gap: 18px;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9leHBlcmllbmNlcy9leHBlcmllbmNlLWNhcmQvZXhwZXJpZW5jZS1jYXJkLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsYUFBQTtFQUNBLGdCQUFBO0VBQ0EsY0FBQTtFQUVBLHNDQUFBO0VBRUEsb0JBQUE7RUFDQSxnQ0FBQTtBQURGO0FBR0U7RUFDRSxrQkFBQTtFQUNBLHFCQUFBO0FBREo7QUFHSTtFQUNFLG1CQUFBO0VBQ0EsVUFBQTtFQUNBLGdCQUFBO0FBRE47QUFJSTtFQUNFLG1CQUFBO0VBQ0EsaUJBQUE7RUFDQSxjQUFBO0FBRk47QUFNRTtFQUNFLDRDQUFBO0VBQ0EscUJBQUE7QUFKSjtBQU9FO0VBQ0UsbUJBQUE7RUFDQSxtQkFBQTtBQUxKO0FBU0E7RUFDRTtJQUNFLHNDQUFBO0lBQ0EscUJBQUE7SUFDQSxrQkFBQTtFQU5GO0FBQ0YiLCJmaWxlIjoic3JjL2FwcC9ob21lL2V4cGVyaWVuY2VzL2V4cGVyaWVuY2UtY2FyZC9leHBlcmllbmNlLWNhcmQuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJkaXYuZXhwZXJpZW5jZS1jYXJkIHtcclxuICBkaXNwbGF5OiBncmlkO1xyXG4gIHRleHQtYWxpZ246IGxlZnQ7XHJcbiAgbWFyZ2luOiAzMHB4IDA7XHJcblxyXG4gIGdyaWQtdGVtcGxhdGUtY29sdW1uczogbWlubWF4KDAsIDEwMCUpO1xyXG5cclxuICBwYWRkaW5nLWJvdHRvbTogMzBweDtcclxuICBib3JkZXItYm90dG9tOiAxcHggc29saWQgI2ViZWJlYjtcclxuXHJcbiAgJi5kaXNwbGF5LWNhcmQge1xyXG4gICAgZ3JpZC1yb3ctZ2FwOiAxNnB4O1xyXG4gICAganVzdGlmeS1pdGVtczogY2VudGVyO1xyXG5cclxuICAgIHZpZGVvIHtcclxuICAgICAgYm9yZGVyLXJhZGl1czogMTZweDtcclxuICAgICAgd2lkdGg6IDk4JTtcclxuICAgICAgbWF4LXdpZHRoOiA3NTBweDtcclxuICAgIH1cclxuXHJcbiAgICBpbWcge1xyXG4gICAgICBib3JkZXItcmFkaXVzOiAxNnB4O1xyXG4gICAgICBtYXgtaGVpZ2h0OiA1MDBweDtcclxuICAgICAgbWF4LXdpZHRoOiA5OCU7XHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICAmLmltYWdlLWNhcmQge1xyXG4gICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAzMDBweCBtaW5tYXgoMCwgMTAwJSk7XHJcbiAgICBncmlkLWNvbHVtbi1nYXA6IDI0cHg7XHJcbiAgfVxyXG5cclxuICAmLmlzLWxhc3Qge1xyXG4gICAgcGFkZGluZy1ib3R0b206IDBweDtcclxuICAgIGJvcmRlci1ib3R0b206IG5vbmU7XHJcbiAgfVxyXG59XHJcblxyXG5AbWVkaWEgYWxsIGFuZCAobWF4LXdpZHRoOiAxMDAwcHgpIHtcclxuICBkaXYuZXhwZXJpZW5jZS1jYXJkLmltYWdlLWNhcmQge1xyXG4gICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiBtaW5tYXgoMCwgMTAwJSk7XHJcbiAgICBqdXN0aWZ5LWl0ZW1zOiBjZW50ZXI7XHJcbiAgICBncmlkLXJvdy1nYXA6IDE4cHg7XHJcbiAgfVxyXG59XHJcbiJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](ExperienceCardComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -650,28 +669,34 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function ExperiencesComponent_app_experience_card_8_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-experience-card", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-experience-card", 8);
 } if (rf & 2) {
-    const experience_r3 = ctx.$implicit;
-    const i_r4 = ctx.index;
+    const experience_r4 = ctx.$implicit;
+    const i_r5 = ctx.index;
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experience", experience_r3)("isLast", i_r4 === ctx_r0.softwareDevExperiences.length - 1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experience", experience_r4)("isLast", i_r5 === ctx_r0.softwareDevExperiences.length - 1);
 } }
 function ExperiencesComponent_app_experience_card_10_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-experience-card", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-experience-card", 8);
 } if (rf & 2) {
-    const experience_r5 = ctx.$implicit;
-    const i_r6 = ctx.index;
+    const experience_r6 = ctx.$implicit;
+    const i_r7 = ctx.index;
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experience", experience_r5)("isLast", i_r6 === ctx_r1.graphicsExperiences.length - 1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experience", experience_r6)("isLast", i_r7 === ctx_r1.graphicsExperiences.length - 1);
 } }
 function ExperiencesComponent_app_experience_card_12_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-experience-card", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-experience-card", 9);
 } if (rf & 2) {
-    const experience_r7 = ctx.$implicit;
-    const i_r8 = ctx.index;
-    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experience", experience_r7)("isLast", i_r8 === ctx_r2.miscExperiences.length - 1);
+    const experience_r8 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experience", experience_r8);
+} }
+function ExperiencesComponent_app_experience_card_14_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-experience-card", 8);
+} if (rf & 2) {
+    const experience_r9 = ctx.$implicit;
+    const i_r10 = ctx.index;
+    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("experience", experience_r9)("isLast", i_r10 === ctx_r3.miscExperiences.length - 1);
 } }
 class ExperiencesComponent {
     constructor() {
@@ -684,7 +709,7 @@ class ExperiencesComponent {
     }
 }
 ExperiencesComponent.ɵfac = function ExperiencesComponent_Factory(t) { return new (t || ExperiencesComponent)(); };
-ExperiencesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ExperiencesComponent, selectors: [["app-experiences"]], decls: 13, vars: 3, consts: [[1, "experience-container"], ["mat-align-tabs", "center"], ["label", "Software Dev"], [3, "experience", "isLast", 4, "ngFor", "ngForOf"], ["label", "Graphics"], ["label", "Misc."], [3, "experience", "isLast"]], template: function ExperiencesComponent_Template(rf, ctx) { if (rf & 1) {
+ExperiencesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ExperiencesComponent, selectors: [["app-experiences"]], decls: 15, vars: 4, consts: [[1, "experience-container"], ["mat-align-tabs", "center"], ["label", "App Dev"], [3, "experience", "isLast", 4, "ngFor", "ngForOf"], ["label", "Graphics"], ["label", "Networks"], [3, "experience", 4, "ngFor", "ngForOf"], ["label", "Misc."], [3, "experience", "isLast"], [3, "experience"]], template: function ExperiencesComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Portfolio");
@@ -701,7 +726,10 @@ ExperiencesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, ExperiencesComponent_app_experience_card_10_Template, 1, 2, "app-experience-card", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "mat-tab", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](12, ExperiencesComponent_app_experience_card_12_Template, 1, 2, "app-experience-card", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](12, ExperiencesComponent_app_experience_card_12_Template, 1, 1, "app-experience-card", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "mat-tab", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, ExperiencesComponent_app_experience_card_14_Template, 1, 2, "app-experience-card", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -711,6 +739,8 @@ ExperiencesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.softwareDevExperiences);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.graphicsExperiences);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.networksExperiences);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.miscExperiences);
     } }, directives: [_angular_material_tabs__WEBPACK_IMPORTED_MODULE_2__["MatTabGroup"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_2__["MatTab"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], _experience_card_experience_card_component__WEBPACK_IMPORTED_MODULE_4__["ExperienceCardComponent"]], styles: ["section[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {\n  font-family: \"Amaranth\", sans-serif;\n  font-size: 38px;\n  font-weight: normal;\n  margin: 16px 0 2px 0;\n}\nsection[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%] {\n  font-family: \"Advent Pro\", sans-serif;\n  font-weight: normal;\n  font-size: 24px;\n  margin: auto;\n  color: #82ADEE;\n}\nsection[_ngcontent-%COMP%]   div.experience-container[_ngcontent-%COMP%] {\n  max-width: 80%;\n  margin: 6px auto;\n}\nsection[_ngcontent-%COMP%]   div.experience-container[_ngcontent-%COMP%]     .mat-ink-bar {\n  background-color: #82ADEE;\n}\nsection[_ngcontent-%COMP%]   div.experience-container[_ngcontent-%COMP%]     div.mat-tab-label-content {\n  font-family: \"Amaranth\", sans-serif;\n  font-size: 20px;\n  font-weight: bold;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9leHBlcmllbmNlcy9leHBlcmllbmNlcy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDRTtFQUNFLG1DQUFBO0VBQ0EsZUFBQTtFQUNBLG1CQUFBO0VBQ0Esb0JBQUE7QUFBSjtBQUdFO0VBQ0UscUNBQUE7RUFDQSxtQkFBQTtFQUNBLGVBQUE7RUFDQSxZQUFBO0VBQ0EsY0FBQTtBQURKO0FBSUU7RUFDRSxjQUFBO0VBQ0EsZ0JBQUE7QUFGSjtBQUlJO0VBQ0UseUJBQUE7QUFGTjtBQUtJO0VBQ0UsbUNBQUE7RUFDQSxlQUFBO0VBQ0EsaUJBQUE7QUFITiIsImZpbGUiOiJzcmMvYXBwL2hvbWUvZXhwZXJpZW5jZXMvZXhwZXJpZW5jZXMuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJzZWN0aW9uIHtcclxuICBoMSB7XHJcbiAgICBmb250LWZhbWlseTogJ0FtYXJhbnRoJywgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtc2l6ZTogMzhweDtcclxuICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7XHJcbiAgICBtYXJnaW46IDE2cHggMCAycHggMDtcclxuICB9XHJcblxyXG4gIGgzIHtcclxuICAgIGZvbnQtZmFtaWx5OiAnQWR2ZW50IFBybycsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXdlaWdodDogbm9ybWFsO1xyXG4gICAgZm9udC1zaXplOiAyNHB4O1xyXG4gICAgbWFyZ2luOiBhdXRvO1xyXG4gICAgY29sb3I6ICM4MkFERUU7XHJcbiAgfVxyXG5cclxuICBkaXYuZXhwZXJpZW5jZS1jb250YWluZXIge1xyXG4gICAgbWF4LXdpZHRoOiA4MCU7XHJcbiAgICBtYXJnaW46IDZweCBhdXRvO1xyXG5cclxuICAgIDo6bmctZGVlcCAubWF0LWluay1iYXIge1xyXG4gICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjODJBREVFO1xyXG4gICAgfVxyXG5cclxuICAgIDo6bmctZGVlcCBkaXYubWF0LXRhYi1sYWJlbC1jb250ZW50IHtcclxuICAgICAgZm9udC1mYW1pbHk6ICdBbWFyYW50aCcsIHNhbnMtc2VyaWY7XHJcbiAgICAgIGZvbnQtc2l6ZTogMjBweDtcclxuICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICB9XHJcbiAgfVxyXG59XHJcbiJdfQ== */"] });
@@ -764,6 +794,7 @@ const softwareDevExperiences = [
         text: {
             isWork: false,
             heading: 'Nutshell',
+            subheading: 'Command Line Interface',
             duration: 'March 2021 - April 2021',
             description: '<li>Implemented a CLI capable of executing built-in (e.g. aliasing, setting environment variables) and external commands,\n' +
                 'piping commands together, and performing file I/O</li>' +
@@ -847,24 +878,50 @@ const graphicsExperiences = [
             skills: ['Python', 'Docker', 'PyTorch', 'PyTorch3D', 'Git']
         }
     },
+    {
+        gif: 'beach-scene.gif',
+        text: {
+            isWork: false,
+            heading: 'Beach Scene',
+            duration: 'October 2021 - November 2021',
+            description: '<li>Models and renders different objects apart of an animated beach scene</li>' +
+                '<li>Implements PN triangles and PN quads in order to evaluate and render a textured raft and sail, respectively, by utilizing the tessellation control and evaluation shaders</li>',
+            skills: ['C++', 'OpenGL/GLSL', 'CMake', 'Visual Studio', 'Blender']
+        }
+    },
+    {
+        gif: 'trefoil.gif',
+        text: {
+            isWork: false,
+            heading: 'Trefoil Curve',
+            duration: 'September 2021',
+            description: '<li>Models and renders a trefoil curve with interactive control points</li>' +
+                '<li>Utilizes tessellation control and evaluation shaders in the OpenGL pipeline to evaluate the control points and render the smooth curve</li>',
+            skills: ['C++', 'OpenGL/GLSL', 'CMake', 'Visual Studio']
+        }
+    },
+    {
+        video: 'astro-donut-carrot-nyan.mp4',
+        text: {
+            isWork: false,
+            heading: 'Astro Donut Carrot Nyan Adventures',
+            duration: 'July 2019',
+            description: '<li>Played around with modelling, texturing, and the particle system in Blender to create a fun, short animation</li>',
+            skills: ['Blender']
+        }
+    },
 ];
 const networksExperiences = [
     {
-        image: {
-            path: 'assets/logos/surflab_logo.gif',
-            alt: 'UF Logo',
-            class: 'surflab'
-        },
         text: {
-            isWork: true,
-            heading: 'UF SurfLab',
-            subheading: 'Research Assistant (AdaptNet)',
-            duration: 'November 2021 - Present',
-            description: '<li>Aids in implementing a remeshing algorithm that enables users to convert dense 3D meshes into\n' +
-                'a corresponding spline surface with fewer degrees of freedom for ease of modeling and manipulation</li>' +
-                '<li>Develops a Docker development environment such that the script can be used across different OS environments</li>' +
-                '<li>Researches adjusting the spline’s control points such that the surface  is fit as closely as possible to the target mesh</li>',
-            skills: ['Python', 'Docker', 'PyTorch', 'PyTorch3D', 'Git']
+            isWork: false,
+            heading: 'Peer to Peer File Sharing',
+            subheading: 'Mock BitTorrent',
+            duration: 'October 2021 - November 2021',
+            description: '<li>Implement a protocol to distribute a file across network of computers (peers) similar to BitTorrent using TCP sockets</li>' +
+                '<li>Employed multithreading to facilitate a peer’s simultaneous connection with neighbors while maintaining synchronized access over shared\n' +
+                'resources. Develops and designs the messages for peers to synchronize using OOP</li>',
+            skills: ['Java', 'Socket Programming', 'Git']
         }
     },
 ];
